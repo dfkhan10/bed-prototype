@@ -1,0 +1,24 @@
+{
+  "time": "2026-11-16T13:05:23.707488+08:00",
+  "board_serial": "24238313635351910130",
+  "port": "/dev/cu.usbmodem1101",
+  "command": [
+    "arduino-cli",
+    "upload",
+    "--fqbn",
+    "arduino:avr:uno",
+    "--port",
+    "/dev/cu.usbmodem1101",
+    "--input-dir",
+    "/Users/ivanyalov/Desktop/bed-prototype/.cache/2026-11-16_firmata",
+    "--verify",
+    "--verbose"
+  ],
+  "returncode": 0,
+  "operator_setup": "Adapter and pumps disconnected; UNO and shield on USB, explicitly confirmed in current chat.",
+  "source": "build/2026-11-15_firmata/libraries/Firmata/examples/StandardFirmata/StandardFirmata.ino",
+  "hex_sha256": "78085a703776b87603bb9f4cb26945c50a9441c4e781f50efcb0ed1d834aabcc",
+  "log": ".arduino/evidence/hardware/2026-11-16_StandardFirmata-upload.log",
+  "upload_verified": true,
+  "physical_pump_test": false
+}

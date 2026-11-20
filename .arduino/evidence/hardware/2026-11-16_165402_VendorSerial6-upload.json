@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-11-16T16:54:02.615609+08:00",
+  "sketch": "/Users/ivanyalov/Desktop/bed-prototype/build/2026-11-16_vendor_serial/VendorSerial6/VendorSerial6.ino",
+  "port": "/dev/cu.usbmodem1101",
+  "fqbn": "arduino:avr:uno",
+  "serial": "24238313635351910130",
+  "exit_code": 0,
+  "verify": true,
+  "src_sha256": "cd6044fd5174becb4d424f07d29803ff4cbf82f47fc27395a510971c9f0e3195",
+  "hex": "/Users/ivanyalov/Desktop/bed-prototype/.arduino/evidence/build/2026-11-16_VendorSerial6-uploaded.hex",
+  "hex_sha256": "1ac6edba3063589aad2ecabd28876b20b2749cb3ce67fca4a6f4138cbdb6822c",
+  "flash_reported_bytes": 5530
+}

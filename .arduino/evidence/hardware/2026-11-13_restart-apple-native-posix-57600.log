@@ -1,0 +1,11 @@
+native POSIX port=/dev/cu.usbserial-10 baud=57600 actual_ispeed=57600 actual_ospeed=57600 cflag=cb00 iflag=1 memory_writes=false
+  327.307 ms TX 30 20
+TIMEOUT received=0 expected=2
+  713.177 ms TX 30 20
+  716.537 ms RX 14 10
+  716.559 ms TX 75 20
+TIMEOUT received=0 expected=5
+No valid signature after synchronization
+PORT_CLOSED
+
+EXIT 2

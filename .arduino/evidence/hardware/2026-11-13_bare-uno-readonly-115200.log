@@ -1,0 +1,14 @@
+Avrdude version 8.0-arduino.1
+Copyright see https://github.com/avrdudes/avrdude/blob/main/AUTHORS
+
+System wide configuration file is /Users/ivanyalov/Library/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/etc/avrdude.conf
+
+Using port            : /dev/cu.usbserial-10
+Using programmer      : arduino
+Setting baud rate     : 115200
+Error: programmer is not responding
+Warning: attempt 1 of 10: not in sync: resp=0x00
+Error: programmer is not responding
+Warning: attempt 2 of 10: not in sync: resp=0x00
+
+HOST_TIMEOUT_15_SECONDS

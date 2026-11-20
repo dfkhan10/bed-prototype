@@ -1,0 +1,3 @@
+{"time": "2026-11-15T17:00:12.023+08:00", "event": "start", "target": "B1/D3", "operator_authorization": "User explicitly requested longer test after unclear 500 ms observation", "on_ms_requested": 3000, "setup_instruction": "Open ports, no balloon or tubing; operator feels air without blocking ports", "physical_stop": "unverified; operator can remove both adapter and USB", "protocol": "Firmata servo 544/2400 us, 0 proposed OFF, 180 proposed ON"}
+{"time": "2026-11-15T17:01:17.045+08:00", "event": "startup_frames", "frames": []}
+{"time": "2026-11-15T17:01:17.047+08:00", "event": "query_firmware", "hex": "f079f7"}

@@ -1,0 +1,377 @@
+{
+  "schema": "bed.grouped.v1",
+  "units": "mm",
+  "design_status": "CAD prototype; hardware envelopes and physical fit unverified",
+  "grid": {
+    "columns": 4,
+    "rows": 3,
+    "pitch": 84,
+    "border": 4,
+    "row_1": "nearest service",
+    "groups": [
+      [
+        1,
+        2,
+        1,
+        2
+      ],
+      [
+        2,
+        1,
+        2,
+        1
+      ],
+      [
+        1,
+        2,
+        1,
+        2
+      ]
+    ]
+  },
+  "cell": {
+    "active_width": 56,
+    "active_corner_r": 6,
+    "weld_land": 4,
+    "dry_flange": 8,
+    "cup_width": 80,
+    "cup_floor": 3,
+    "support_z": 38,
+    "clamp_gap": 0.35,
+    "film_ply": 0.2,
+    "ring_thickness": 4,
+    "ring_opening": 66,
+    "cap_width": 82,
+    "cap_thickness": 4,
+    "stroke": 25,
+    "lower_cap_underside_z": 44,
+    "clamp_screw_xy": 36,
+    "cup_screw_xy": [
+      32,
+      34
+    ],
+    "clamp_boss_d": 8,
+    "cup_boss_d": 10,
+    "cup_boss_bottom_z": 28,
+    "lower_stop_x": 25,
+    "lower_stop_y": 36,
+    "lower_stop_size": [
+      6,
+      5
+    ],
+    "port_clearance_d": 14,
+    "weld_port_flange_d": 20,
+    "cap_corner_r": 0.8,
+    "film_edge_radius": 0.3
+  },
+  "guide": {
+    "post_d": 4,
+    "bore_d": 4.8,
+    "spacing_half": 36,
+    "post_length": 36,
+    "sleeve_od": 8,
+    "shoulder_z": 33,
+    "washer_od": 8,
+    "washer_t": 1,
+    "stop_screw_length": 6,
+    "cap_pilot_depth": 7
+  },
+  "housing": {
+    "base_t": 4,
+    "wall_t": 3,
+    "frame_top_z": 28,
+    "outer_top_z": 73,
+    "joint_gap": 0.25,
+    "column_od": 12,
+    "column_tool_d": 6.4,
+    "column_grip": 3,
+    "panel_inset": 8,
+    "panel_boss_d": 9,
+    "panel_boss_h": 10,
+    "split_x": 0,
+    "field_split_y": [
+      88,
+      172
+    ],
+    "service_depth": 172,
+    "service_cover_t": 4,
+    "cover_inset": 10,
+    "cover_boss_d": 10,
+    "cover_boss_h": 8,
+    "cover_grip": 3,
+    "cover_support_t": 4,
+    "cover_outer_axis": 157,
+    "cover_inner_axis": 30,
+    "cover_rear_inset": 6,
+    "cover_front_inset": 10,
+    "column_web_t": 3.4,
+    "cover_front_inner_axis": 48
+  },
+  "fasteners": {
+    "primary": "M2.5",
+    "clearance_d": 2.8,
+    "pilot_d": 2.1,
+    "pilot_status": "trial for thread-forming screw; coupon required",
+    "head_d": 5.5,
+    "head_h": 2,
+    "clamp_length": 10,
+    "clamp_pilot_depth": 8.7,
+    "cup_length": 10,
+    "cup_pilot_depth": 8,
+    "panel_length": 10,
+    "cover_length": 10,
+    "splice_length": 10,
+    "pump_length": 8,
+    "clip_length": 6,
+    "splice_plate": [
+      18,
+      26,
+      3
+    ],
+    "splice_holes": [
+      4,
+      7
+    ],
+    "splice_inset": 26,
+    "splice_pad_d": 9,
+    "splice_pad_top_z": 16,
+    "splice_inner_inset": 62,
+    "service_splice_z": 38,
+    "service_splice_y": [
+      -140,
+      -6
+    ]
+  },
+  "tubes": {
+    "id": 4,
+    "od": 6,
+    "minimum_bend_radius_assumed": 12,
+    "bend_status": "routing assumption; verify selected tubing",
+    "group_x": {
+      "1": -20,
+      "2": 20
+    },
+    "group_z": {
+      "1": 10,
+      "2": 20
+    },
+    "clip_offset_y": 16,
+    "clip_bore": 6.8,
+    "clip_outer_d": 10.8,
+    "clip_mouth": 5.2,
+    "clip_foot": [
+      20,
+      10,
+      5
+    ],
+    "clip_screw_half": 9,
+    "passage_width": 14,
+    "passage_height": 12,
+    "cross_body": 10,
+    "cross_port_length": 8,
+    "fitting_stem_od": 8,
+    "port_barb_od": 4.2,
+    "port_insertion": 6,
+    "clip_inner_extent": 6,
+    "clip_outer_extent": 14,
+    "clip_mount_y": 0,
+    "group_lane_sign": {
+      "1": 1,
+      "2": -1
+    },
+    "clip_body_length": 8,
+    "group_clip_offset": {
+      "1": -11,
+      "2": 16
+    },
+    "service_front_passage_width": 18
+  },
+  "service": {
+    "pump_centres_x": [
+      -120,
+      -26
+    ],
+    "pump_centres_y": [
+      -139,
+      -103.3333333,
+      -67.6666667,
+      -32
+    ],
+    "pump_bank_by_column": [
+      "pressure",
+      "extraction"
+    ],
+    "pump_reference_length": 68,
+    "pump_reference_diameter": 24.4,
+    "pump_axis_z": 23.2,
+    "pump_reserved_length": 90,
+    "pump_reserved_width": 33,
+    "pump_reserved_height": 38,
+    "pump_source": "https://techtonics.in/product/370-micro-dc-air-pump-6vdc/",
+    "pump_curve_verified": false,
+    "pump_count_required": null,
+    "pump_capacity": 8,
+    "cradle_plate": [
+      78,
+      32,
+      3
+    ],
+    "cradle_plate_z": 8,
+    "cradle_mount_xy": [
+      32,
+      10
+    ],
+    "cradle_saddle_x": 20,
+    "cradle_saddle_t": 6,
+    "cradle_bore_d": 27,
+    "cradle_support_d": 34,
+    "isolation_t": 1,
+    "pump_feet_z": 5,
+    "pump_foot_d": 8,
+    "strap_slot": [
+      4,
+      2
+    ],
+    "valve_centres": [
+      [
+        60,
+        -47
+      ],
+      [
+        120,
+        -47
+      ],
+      [
+        60,
+        -82
+      ],
+      [
+        120,
+        -82
+      ]
+    ],
+    "valve_ids": [
+      "G1_FILL",
+      "G1_EXTRACT",
+      "G2_FILL",
+      "G2_EXTRACT"
+    ],
+    "valve_envelope": [
+      12,
+      22,
+      30
+    ],
+    "valve_z": 9,
+    "valve_keepout": [
+      34,
+      30,
+      44
+    ],
+    "valve_mount_plate": [
+      136,
+      65,
+      3
+    ],
+    "valve_mount_centre": [
+      99,
+      -65.5
+    ],
+    "valve_mount_z": 6,
+    "valve_slot_length": 16,
+    "board_centre": [
+      99,
+      -134
+    ],
+    "board_tray": [
+      136,
+      68,
+      3
+    ],
+    "board_tray_levels": [
+      6,
+      35
+    ],
+    "board_reference": [
+      90,
+      45,
+      2
+    ],
+    "board_connector_envelope": [
+      120,
+      60,
+      18
+    ],
+    "board_mount_half": [
+      58,
+      24
+    ],
+    "board_slot_length": 16,
+    "power_entry_centre": [
+      99,
+      -172,
+      22
+    ],
+    "power_entry_d": 12,
+    "bus_y": -20,
+    "pressure_bus_z": 53,
+    "suction_bus_z": 60,
+    "bus_od": 6,
+    "service_front_hose_y": -1.5,
+    "group_drop_x": 36,
+    "hose_over_valve_clearance": 2,
+    "lower_tray_leg_half": [
+      52,
+      28
+    ],
+    "upper_tray_leg_half": [
+      56,
+      24
+    ],
+    "cradle_tool_notches": [
+      [
+        -37,
+        -15
+      ],
+      [
+        -4,
+        -15
+      ],
+      [
+        -4,
+        19
+      ]
+    ],
+    "valve_port_z": 33,
+    "fill_header_offset": 4,
+    "group1_field_drop_y": 30,
+    "header_fitting_body": 8,
+    "group2_lateral_shift_y": -18
+  },
+  "print": {
+    "max_envelope": 252,
+    "material": "not selected; verify thread-forming and clip fit with coupon"
+  },
+  "validation": {
+    "clearance_sample_mm": 1,
+    "interference_volume_tolerance_mm3": 0.01,
+    "minimum_nominal_tube_clearance_mm": 0.5,
+    "driver_shaft_d": 4
+  },
+  "exploded": {
+    "cap_lift": 115,
+    "ring_lift": 78,
+    "cup_lift": 40,
+    "panel_drop": 45,
+    "cover_lift": 100,
+    "hardware_drop": 10
+  },
+  "physical_checks_open": [
+    "pump/valve/board dimensions and port orientation",
+    "hose OD and minimum bend radius",
+    "TPU weld/port sealing and usable stroke",
+    "M2.5 pilot and clamp-compression coupon",
+    "guide sliding and stop retention",
+    "installed pressure/vacuum flow and pump count",
+    "slicer/support and load checks"
+  ]
+}

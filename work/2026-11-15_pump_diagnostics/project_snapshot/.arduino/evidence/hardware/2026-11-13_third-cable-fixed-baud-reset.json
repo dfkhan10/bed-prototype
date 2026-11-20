@@ -1,0 +1,13 @@
+{
+  "port": "/dev/cu.wchusbserial10",
+  "baud": 57600,
+  "mode": "operator_reset_fixed_baud",
+  "operator_reset_observed_by_host": false,
+  "window_seconds": 60,
+  "memory_writes": false,
+  "observations": [],
+  "elapsed_s": 60.027,
+  "operator_report": "Ivan replied: pressed RESET as requested.",
+  "operator_reset_reported": true,
+  "exact_button_timestamp_verified": false
+}

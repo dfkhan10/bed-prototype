@@ -1,0 +1,31 @@
+item,quantity,status
+Ref_Clamp_M2p5x10,48,reference only; exact purchased component/material unverified
+Ref_StopWasher,24,reference only; exact purchased component/material unverified
+Ref_Stop_M2p5x6,24,reference only; exact purchased component/material unverified
+Ref_Splice_M2p5x10,68,reference only; exact purchased component/material unverified
+Ref_Panel_M2p5x10,32,reference only; exact purchased component/material unverified
+Ref_Cover_M2p5x10,8,reference only; exact purchased component/material unverified
+Ref_CupJoint_M2p5x10,48,reference only; exact purchased component/material unverified
+Ref_Pump_pressure,4,capacity reservation; installed pump count unverified
+Ref_PumpMount_M2p5x8,32,reference only; exact purchased component/material unverified
+Ref_Pump_extraction,4,capacity reservation; installed pump count unverified
+Ref_ControllerCarrier,1,reference only; exact purchased component/material unverified
+Ref_TrayStack_M2p5x10,4,reference only; exact purchased component/material unverified
+Ref_SixChannelPowerDriver,1,reference only; exact purchased component/material unverified
+Ref_Valve_G1_FILL,1,reference only; exact purchased component/material unverified
+Ref_Valve_G1_EXTRACT,1,reference only; exact purchased component/material unverified
+Ref_Valve_G2_FILL,1,reference only; exact purchased component/material unverified
+Ref_Valve_G2_EXTRACT,1,reference only; exact purchased component/material unverified
+Ref_Clip_M2p5x6,6,reference only; exact purchased component/material unverified
+Ref_IsolationWasher,32,reference only; exact purchased component/material unverified
+Ref_TrayPanel_M2p5x6,8,reference only; exact purchased component/material unverified
+Supported weld-compatible bladder ports,12,nominal 6 mm insertion stem / 20 mm weld flange; actual fitting unverified
+Cable ties / reusable retaining straps,16,two per pump cradle; select actual strap
+TPU welded cell,12,not FDM printed; pattern is a coupon starting point
+TPU gusset dry-flange reinforcement ring,12,second dry ply; remove central 64 mm opening; coupon first
+4-way cross fittings,6,generic 4 mm ID tubing connections; verify exact purchased envelope
+End plugs,2,one per group trunk
+Tee fittings,10,2 group tees + 8 distribution branch tees; exact fittings unverified
+Elbow fittings,8,header/valve connections; exact fittings unverified
+Valve retaining straps,4,one per provisional valve body
+Controller/driver spacers and retainers,8,match actual board; slotted trays are adjustable

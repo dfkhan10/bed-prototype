@@ -1,0 +1,69 @@
+COMMAND ["/Users/ivanyalov/Library/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/avrdude", "-C", "/Users/ivanyalov/Library/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/etc/avrdude.conf", "-p", "m328p", "-c", "urclock", "-P", "/dev/cu.wchusbserial10", "-b", "57600", "-n", "-D", "-x", "strict", "-x", "delay=500", "-v", "-v", "-v", "-v"]
+$ /Users/ivanyalov/Library/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/avrdude -C /Users/ivanyalov/Library/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/etc/avrdude.conf -p m328p -c urclock -P /dev/cu.wchusbserial10 -b 57600 -n -D -x strict -x delay=500 -v -v -v -v
+Avrdude version 8.0-arduino.1
+Copyright see https://github.com/avrdudes/avrdude/blob/main/AUTHORS
+
+System wide configuration file is /Users/ivanyalov/Library/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/etc/avrdude.conf
+User configuration file /Users/ivanyalov/.avrduderc does not exist
+
+Libreadline is used; avrdude -t -c urclock should work interactively
+Strict set
+Delay=500 set
+Using port            : /dev/cu.wchusbserial10
+Using programmer      : urclock
+Setting baud rate     : 57600
+ 784 ms: enter urclock_getsync()
+Ser_send: 0 [30]   [20]
+Ser_recv: . [14] . [10]
+Ser_send: 0 [30]   [20]
+Ser_recv: . [14] . [10]
+ 839 ms: all good, ready to rock
+AVR part              : ATmega328P
+Programming modes     : SPM, ISP, HVPP, debugWIRE
+
+Memory      Size  Pg size
+-------------------------
+eeprom      1024        4
+flash      32768      128
+signature      3        1
+
+Variants         Package  F max   T range         V range       
+----------------------------------------------------------------
+ATmega328P       N/A      20 MHz  [-40 C,   N/A]  [1.8 V, 5.5 V]
+ATmega328P-15MZ  MLF32    20 MHz  [-40 C,  85 C]  [1.8 V, 5.5 V]
+ATmega328P-AN    TQFP32   20 MHz  [-40 C, 105 C]  [1.8 V, 5.5 V]
+ATmega328P-ANR   TQFP32   20 MHz  [-40 C, 105 C]  [1.8 V, 5.5 V]
+ATmega328P-AU    TQFP32   20 MHz  [-40 C,  85 C]  [1.8 V, 5.5 V]
+ATmega328P-AUR   TQFP32   20 MHz  [-40 C,  85 C]  [1.8 V, 5.5 V]
+ATmega328P-MMH   MLF28    20 MHz  [-40 C,  85 C]  [1.8 V, 5.5 V]
+ATmega328P-MMHR  MLF28    20 MHz  [-40 C,  85 C]  [1.8 V, 5.5 V]
+ATmega328P-MN    QFN32    20 MHz  [-40 C, 105 C]  [1.8 V, 5.5 V]
+ATmega328P-MNR   MLF32    20 MHz  [-40 C, 105 C]  [1.8 V, 5.5 V]
+ATmega328P-MU    MLF32    20 MHz  [-40 C,  85 C]  [1.8 V, 5.5 V]
+ATmega328P-MUR   MLF32    20 MHz  [-40 C,  85 C]  [1.8 V, 5.5 V]
+ATmega328P-PN    PDIP28   20 MHz  [-40 C, 105 C]  [1.8 V, 5.5 V]
+ATmega328P-PU    PDIP28   20 MHz  [-40 C,  85 C]  [1.8 V, 5.5 V]
+
+Programmer type       : Urclock
+Description           : Urboot bootloaders using urprotocol
+Protocol              : STK500v1 skeleton
+Ser_send: P [50]   [20]
+Ser_recv: . [14]
+Ser_recv: . [10]
+
+AVR device initialized and ready to accept instructions
+Avr_signature(urclock, m328p)
+Reading | 
+Avr_read_mem(urclock, m328p, signature, NULL)
+Ser_send: u [75]   [20]
+Ser_recv(): programmer is not responding
+Warning urclock_recv() urclock.c 1916: programmer is not responding
+-------------------------------------------------- | 0% 0.51s
+Error avr_signature() avr.c 1220: unable to read signature data for part ATmega328P (rc = -1)
+Error main() main.c 1645: unable to read signature data (rc = -1)
+use -F to override this check
+Ser_send: Q [51]   [20]
+Ser_recv(): programmer is not responding
+Warning urclock_recv() urclock.c 1916: programmer is not responding
+
+Avrdude done.  Thank you.

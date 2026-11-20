@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-15",
+  "timezone": "Asia/Hong_Kong",
+  "source": "inputs/2026-11-15_wnhv_huxi/source.json",
+  "fqbn": "arduino:avr:uno",
+  "arduino_cli": "1.5.1",
+  "avr_core": "1.8.8",
+  "servo_library": "1.3.0",
+  "proof_stage": "build only; not uploaded or physically tested",
+  "selected_demo": "qiuqiu4zu",
+  "sketches": {
+    "qiqiu": {
+      "source": "build/2026-11-15_wnhv_huxi/qiqiu/qiqiu.ino",
+      "sha256": "1aba2d84927ff3899e92cb775670b713b35b00b8b79b1b090456addff701dfd8",
+      "hex": ".cache/2026-11-15_wnhv_huxi/qiqiu/qiqiu.ino.hex",
+      "hex_sha256": "78e851ddcd22887548bf4bf405630a67849d55fe12e790ab0c25fb9de4d7298c",
+      "program_bytes": 2190,
+      "static_ram_bytes": 56,
+      "modified_from_seller": false
+    },
+    "qiuqiu4zu": {
+      "source": "build/2026-11-15_wnhv_huxi/qiuqiu4zu/qiuqiu4zu.ino",
+      "sha256": "cccd56309839298b27dafd0ca85ace7a720bcc4ad088011d1973b042f569c013",
+      "hex": ".cache/2026-11-15_wnhv_huxi/qiuqiu4zu/qiuqiu4zu.ino.hex",
+      "hex_sha256": "b8cfb5ad2bd2014fb4f72cf878c674c9bb4d7bd025cbf40ae69adef0d65e7c6c",
+      "program_bytes": 2696,
+      "static_ram_bytes": 83,
+      "modified_from_seller": false
+    },
+    "SixPumps": {
+      "source": "build/2026-11-15_wnhv_huxi/SixPumps/SixPumps.ino",
+      "sha256": "c95e4007ab804ee482f170375e37be70337eb21fc71643aee3efb41204d88174",
+      "hex": ".cache/2026-11-15_wnhv_huxi/SixPumps/SixPumps.ino.hex",
+      "hex_sha256": "45d286a4137845d297a3929b7643f0bef5814b814b0a54ffb3282e48cb4b87e0",
+      "program_bytes": 2126,
+      "static_ram_bytes": 71,
+      "modified_from_seller": true,
+      "timing": "All six ON 8000ms, all six OFF 8000ms, three cycles; final OFF until reset.",
+      "pin_map": {
+        "A1": 4,
+        "A2": 5,
+        "B1": 3,
+        "A3": 7,
+        "A4": 8,
+        "B2": 6
+      },
+      "host_logic_check": "PASS: exact source executed with Servo/delay fakes; all six states/pins checked in each phase, total 48000ms, final 0, no loop repetition. Does not prove physical operation.",
+      "uploaded": true,
+      "upload_evidence": ".arduino/evidence/hardware/2026-11-15_SixPumps-upload.json"
+    }
+  },
+  "baseline": {
+    "name": "qiuqiu4zu",
+    "hex_retained": ".arduino/evidence/build/2026-11-15_wnhv-multigroup-baseline.hex",
+    "user_decision": "Keep unmodified seller demo as project baseline.",
+    "physical_observation": "User reports B2 operated without external adapter; USB can power a connected pump. Separate stop observation not obtained."
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "time": "2026-11-16T13:51:23.698883+08:00",
+  "proof_stage": "source audit and compilation only; no new board access or upload",
+  "current_installed_firmware_basis": ".arduino/evidence/hardware/2026-11-16_SixPumpTest-upload.json",
+  "operator_latest_result": "Again only one pump worked; identity of that pump and separate stop observation not specified in this message.",
+  "current_vendor_archives_match_2026_11_15": true,
+  "vendor_sources": {
+    "single": "https://www.wnhv.com/zl/huxi/arduino.zip",
+    "multi": "https://www.wnhv.com/huxi/qiuqiu4zu.zip",
+    "mindplus": "https://www.wnhv.com/zl/huxi/mind.zip",
+    "wiring_image": "https://www.wnhv.com/huxi/1.jpg"
+  },
+  "vendor_library": "Arduino Servo.h; no Firmata in either supplied .ino file",
+  "mindplus_project": "Upload/C++ page selected; arduino and steer extensions, 8/9/10 Servo blocks, 0/180, 8-second phases and three repeats",
+  "single_pins": {
+    "inflate": 8,
+    "valve": 9,
+    "deflate": 10
+  },
+  "multi_groups": [
+    {
+      "inflate": 2,
+      "valve": 3,
+      "deflate": 4
+    },
+    {
+      "inflate": 5,
+      "valve": 6,
+      "deflate": 7
+    },
+    {
+      "inflate": 8,
+      "valve": 9,
+      "deflate": 10
+    },
+    {
+      "inflate": 11,
+      "valve": 12,
+      "deflate": 13
+    }
+  ],
+  "settings": "Pins/attach, 0 or 180 writes, delay(8000), repeat count 3; all editable in one .ino.",
+  "power_requirement_verbatim_from_multigroup_source": "多组代码 最大可以插4组。并且需要控制板上下独立供电。请注意：上面扩展板有跳线帽一定要拔掉，否则大电流回流主板烧毁主板。扩展板独立供电要求5v 大于10a电源",
+  "power_requirement_scope": "Source comment calls for independent upper/lower supply, removing a jumper, 5V >10A; web page recommends 5V10A for four groups. Exact jumper on retained shield photograph not identified; no topology or failure cause proven.",
+  "source": "build/2026-11-15_wnhv_huxi/qiuqiu4zu/qiuqiu4zu.ino",
+  "source_sha256": "cccd56309839298b27dafd0ca85ace7a720bcc4ad088011d1973b042f569c013",
+  "unmodified_source_matches_vendor_zip": true,
+  "compile": {
+    "fqbn": "arduino:avr:uno",
+    "core": "1.8.8",
+    "Servo": "1.3.0",
+    "flash_bytes": 2696,
+    "static_ram_bytes": 83,
+    "hex_sha256": "b8cfb5ad2bd2014fb4f72cf878c674c9bb4d7bd025cbf40ae69adef0d65e7c6c"
+  },
+  "new_upload_performed": false
+}

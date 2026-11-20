@@ -1,0 +1,24 @@
+{
+  "port": "/dev/cu.wchusbserial10",
+  "baud": 57600,
+  "mode": "stk500_device_configuration_then_signature",
+  "memory_writes": false,
+  "configuration_scope": "volatile programmer parameters only, not MCU fuses",
+  "frames": [
+    {
+      "query": "set_device_m328p_volatile",
+      "tx_hex": "428600000101010103ffffffff008004000000800020",
+      "rx_hex": "1410"
+    },
+    {
+      "query": "enter_programming_mode",
+      "tx_hex": "5020",
+      "rx_hex": "1410"
+    },
+    {
+      "query": "read_signature",
+      "tx_hex": "7520",
+      "rx_hex": ""
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "time": "2026-11-15T17:44:39.238905+08:00",
+  "status": "uploaded with verification; live status replied; pump operation not demonstrated",
+  "fqbn": "arduino:avr:uno",
+  "core": "arduino:avr@1.8.8",
+  "cli": "1.5.1",
+  "Servo": "1.3.0",
+  "Firmata": "2.5.9 plus local diagnostic SysEx 0x0e",
+  "flash_bytes": 14620,
+  "static_ram_bytes": 1136,
+  "board_serial": "24238313635351910130",
+  "automatic_probe_at_boot": false,
+  "scope": "PIND D3 digital pad readback, not inline-driver telemetry",
+  "pulse": "explicit keyed request only, candidate 0 / 180 / 0; 500ms device-timed ON; one probe per boot; no physical-OFF guarantee",
+  "sha256": {
+    "DiagnosticFirmata/DiagnosticFirmata.ino": "b66cc876bc0f7828e66f37bae785f6e3799d62b3cc296e77df1f415db85efb33",
+    "DiagnosticFirmata/BedDiagnostics.h": "0ef1a49f643a70cf59bbb1851ea93637279b335820fa68990b0f1ca7f3b3802a",
+    "diagnostic-compiled/DiagnosticFirmata.ino.hex": "74f9bc2c8763b22c59e89f2adbf4da9b136f79123ca45f1185c574a4c0607f73",
+    "diagnostic_probe.py": "4f2dca5194daef467a03c3b66b59d6f8fd7b05db5ed734078a6a8c44bc95190d",
+    "simulate_uploaded_hex.cjs": "efe728d8038065122d9abc226dea800308a65a1a325c35cb605fc78bcfd48255"
+  },
+  "rollback": ".arduino/evidence/build/2026-11-15_StandardFirmata-uploaded.hex",
+  "physical_gate": "External load adapter disconnected; USB retained, before upload; reconnection and powered run remain operator-led.",
+  "upload_evidence": ".arduino/evidence/hardware/2026-11-15_DiagnosticFirmata-upload_174546.json",
+  "live_status_evidence": ".arduino/evidence/hardware/2026-11-15_DiagnosticFirmata_174612.json"
+}

@@ -1,0 +1,28 @@
+native POSIX port=/dev/cu.wchusbserial10 baud=19200 actual_ispeed=19200 actual_ospeed=19200 cflag=cb00 iflag=1 memory_writes=false
+  331.236 ms TX 30 20
+TIMEOUT received=0 expected=2
+  720.223 ms TX 30 20
+TIMEOUT received=0 expected=2
+ 1106.787 ms TX 30 20
+TIMEOUT received=0 expected=2
+ 1491.561 ms TX 30 20
+TIMEOUT received=0 expected=2
+ 1879.413 ms TX 30 20
+TIMEOUT received=0 expected=2
+ 2270.442 ms TX 30 20
+TIMEOUT received=0 expected=2
+ 2660.202 ms TX 30 20
+TIMEOUT received=0 expected=2
+ 3047.015 ms TX 30 20
+TIMEOUT received=0 expected=2
+ 3436.602 ms TX 30 20
+TIMEOUT received=0 expected=2
+ 3818.150 ms TX 30 20
+TIMEOUT received=0 expected=2
+ 4210.208 ms TX 30 20
+TIMEOUT received=0 expected=2
+ 4601.781 ms TX 30 20
+TIMEOUT received=0 expected=2
+PORT_CLOSED
+
+EXIT 2

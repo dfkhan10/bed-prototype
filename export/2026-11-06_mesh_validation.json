@@ -1,0 +1,57 @@
+{
+  "status": "pass",
+  "print_parts": [
+    {
+      "name": "BedFrame_CellDeck",
+      "bbox_mm": [
+        192.0,
+        252.0,
+        36.0
+      ],
+      "watertight": true,
+      "connected_solids": 1,
+      "triangles": 11580
+    },
+    {
+      "name": "BedFrame_ServiceDeck",
+      "bbox_mm": [
+        208.0,
+        136.0,
+        36.0
+      ],
+      "watertight": true,
+      "connected_solids": 1,
+      "triangles": 9704
+    },
+    {
+      "name": "BedFrame_ElectronicsBay",
+      "bbox_mm": [
+        208.0,
+        136.0,
+        52.0
+      ],
+      "watertight": true,
+      "connected_solids": 1,
+      "triangles": 9552
+    },
+    {
+      "name": "BedFrame_BottomPanel",
+      "bbox_mm": [
+        208.0,
+        136.0,
+        4.0
+      ],
+      "watertight": true,
+      "connected_solids": 1,
+      "triangles": 6700
+    }
+  ],
+  "coaxial_cell_service_pairs": 4,
+  "coaxial_rim_pairs": 8,
+  "coaxial_panel_pairs": 8,
+  "through_floor_ports": 12,
+  "frame_interferences": 0,
+  "feature_issues": 0,
+  "hardware_fit": "pending physical measurement",
+  "pump_count": null
+}

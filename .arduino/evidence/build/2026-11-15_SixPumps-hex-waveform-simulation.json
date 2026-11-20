@@ -1,0 +1,311 @@
+{
+  "proof_stage": "OFFLINE AVR SIMULATION ONLY; power, physical clock, wiring, driver and motor response not modeled",
+  "clock_hz": 16000000,
+  "simulator": "avr8js@0.21.1",
+  "hex_sha256": "45d286a4137845d297a3929b7643f0bef5814b814b0a54ffb3282e48cb4b87e0",
+  "simulated_seconds": 49,
+  "wall_ms": 15936,
+  "channels": {
+    "3": {
+      "name": "B1",
+      "state": "off",
+      "transitions": [
+        {
+          "state": "on",
+          "startSeconds": 0.0353175625
+        },
+        {
+          "state": "off",
+          "startSeconds": 8.0152470625
+        },
+        {
+          "state": "on",
+          "startSeconds": 16.020200125
+        },
+        {
+          "state": "off",
+          "startSeconds": 24.0177346875
+        },
+        {
+          "state": "on",
+          "startSeconds": 32.0226955625
+        },
+        {
+          "state": "off",
+          "startSeconds": 40.003949375
+        }
+      ],
+      "on": {
+        "count": 1198,
+        "minWidthUs": 2399.4375,
+        "maxWidthUs": 2405.5
+      },
+      "off": {
+        "count": 1250,
+        "minWidthUs": 543.4375,
+        "maxWidthUs": 548.75
+      },
+      "minPeriodUs": 16289.8125,
+      "maxPeriodUs": 23716.5625,
+      "phaseDurationsSeconds": [
+        7.9799295,
+        8.004953062499998,
+        7.9975345625,
+        8.004960874999998,
+        7.9812538125
+      ],
+      "pass": true
+    },
+    "4": {
+      "name": "A1",
+      "state": "off",
+      "transitions": [
+        {
+          "state": "on",
+          "startSeconds": 0.0529018125
+        },
+        {
+          "state": "off",
+          "startSeconds": 8.014141125
+        },
+        {
+          "state": "on",
+          "startSeconds": 16.0153815
+        },
+        {
+          "state": "off",
+          "startSeconds": 24.0166283125
+        },
+        {
+          "state": "on",
+          "startSeconds": 32.0178778125
+        },
+        {
+          "state": "off",
+          "startSeconds": 40.0191333125
+        }
+      ],
+      "on": {
+        "count": 1198,
+        "minWidthUs": 2399.4375,
+        "maxWidthUs": 2405.1875
+      },
+      "off": {
+        "count": 1249,
+        "minWidthUs": 543.4375,
+        "maxWidthUs": 549.1875
+      },
+      "minPeriodUs": 20002.8125,
+      "maxPeriodUs": 20008.875,
+      "phaseDurationsSeconds": [
+        7.9612393125,
+        8.001240375,
+        8.0012468125,
+        8.001249499999997,
+        8.001255500000006
+      ],
+      "pass": true
+    },
+    "5": {
+      "name": "A2",
+      "state": "off",
+      "transitions": [
+        {
+          "state": "on",
+          "startSeconds": 0.0329085
+        },
+        {
+          "state": "off",
+          "startSeconds": 8.014694
+        },
+        {
+          "state": "on",
+          "startSeconds": 16.0177905625
+        },
+        {
+          "state": "off",
+          "startSeconds": 24.0171811875
+        },
+        {
+          "state": "on",
+          "startSeconds": 32.020286625
+        },
+        {
+          "state": "off",
+          "startSeconds": 40.019686
+        }
+      ],
+      "on": {
+        "count": 1199,
+        "minWidthUs": 2399.4375,
+        "maxWidthUs": 2400.875
+      },
+      "off": {
+        "count": 1249,
+        "minWidthUs": 543.4375,
+        "maxWidthUs": 549.3125
+      },
+      "minPeriodUs": 18146.1875,
+      "maxPeriodUs": 22402.125,
+      "phaseDurationsSeconds": [
+        7.981785500000001,
+        8.0030965625,
+        7.999390625,
+        8.003105437499997,
+        7.999399375000003
+      ],
+      "pass": true
+    },
+    "6": {
+      "name": "B2",
+      "state": "off",
+      "transitions": [
+        {
+          "state": "on",
+          "startSeconds": 0.04254225
+        },
+        {
+          "state": "off",
+          "startSeconds": 8.00246925
+        },
+        {
+          "state": "on",
+          "startSeconds": 16.027425375
+        },
+        {
+          "state": "off",
+          "startSeconds": 24.0049565
+        },
+        {
+          "state": "on",
+          "startSeconds": 32.02992025
+        },
+        {
+          "state": "off",
+          "startSeconds": 40.0056071875
+        }
+      ],
+      "on": {
+        "count": 1196,
+        "minWidthUs": 2399.4375,
+        "maxWidthUs": 2404.1875
+      },
+      "off": {
+        "count": 1252,
+        "minWidthUs": 543.4375,
+        "maxWidthUs": 546.25
+      },
+      "minPeriodUs": 14434.5,
+      "maxPeriodUs": 29285.125,
+      "phaseDurationsSeconds": [
+        7.959927,
+        8.024956125,
+        7.977531124999999,
+        8.024963750000005,
+        7.975686937499994
+      ],
+      "pass": true
+    },
+    "7": {
+      "name": "A3",
+      "state": "off",
+      "transitions": [
+        {
+          "state": "on",
+          "startSeconds": 0.0377256875
+        },
+        {
+          "state": "off",
+          "startSeconds": 8.0013646875
+        },
+        {
+          "state": "on",
+          "startSeconds": 16.0226081875
+        },
+        {
+          "state": "off",
+          "startSeconds": 24.0038516875
+        },
+        {
+          "state": "on",
+          "startSeconds": 32.0251036875
+        },
+        {
+          "state": "off",
+          "startSeconds": 40.004502
+        }
+      ],
+      "on": {
+        "count": 1196,
+        "minWidthUs": 2399.4375,
+        "maxWidthUs": 2404.8125
+      },
+      "off": {
+        "count": 1252,
+        "minWidthUs": 543.4375,
+        "maxWidthUs": 549.3125
+      },
+      "minPeriodUs": 14434.5,
+      "maxPeriodUs": 25572.375,
+      "phaseDurationsSeconds": [
+        7.963639000000001,
+        8.0212435,
+        7.981243499999998,
+        8.021252,
+        7.9793983125000025
+      ],
+      "pass": true
+    },
+    "8": {
+      "name": "A4",
+      "state": "off",
+      "transitions": [
+        {
+          "state": "on",
+          "startSeconds": 0.040133625
+        },
+        {
+          "state": "off",
+          "startSeconds": 8.001916625
+        },
+        {
+          "state": "on",
+          "startSeconds": 16.0250161875
+        },
+        {
+          "state": "off",
+          "startSeconds": 24.004403625
+        },
+        {
+          "state": "on",
+          "startSeconds": 32.0275116875
+        },
+        {
+          "state": "off",
+          "startSeconds": 40.005054125
+        }
+      ],
+      "on": {
+        "count": 1196,
+        "minWidthUs": 2399.4375,
+        "maxWidthUs": 2405.375
+      },
+      "off": {
+        "count": 1252,
+        "minWidthUs": 543.4375,
+        "maxWidthUs": 548.9375
+      },
+      "minPeriodUs": 14434.5,
+      "maxPeriodUs": 27428.5625,
+      "phaseDurationsSeconds": [
+        7.961783,
+        8.0230995625,
+        7.979387437499998,
+        8.023108062500004,
+        7.977542437499999
+      ],
+      "pass": true
+    }
+  },
+  "pass": true
+}

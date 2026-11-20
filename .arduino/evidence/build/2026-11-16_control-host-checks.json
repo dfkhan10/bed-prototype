@@ -1,0 +1,27 @@
+{
+  "time": "2026-11-16T13:09:23.289563+08:00",
+  "proof_stage": "offline host integration and protocol serialization; no physical actuator test",
+  "source": "build/2026-11-16_control.py",
+  "source_sha256": "e04a6fb422b0271ff2f17ea9b89b79aa5c2d6d93b5aa894499271b4addc99b5e",
+  "checks_passed": 18,
+  "checks": [
+    "21-second plan expands into three inflate and three deflate devices",
+    "reject duration nan",
+    "reject duration inf",
+    "reject duration 0",
+    "reject duration -1",
+    "reject duration 3601",
+    "reject duration True",
+    "reject opposing pumps on the same group",
+    "reject unknown target",
+    "reject duplicate pin before opening USB",
+    "single-device and valve steps supported",
+    "execution uses 21 host seconds; no overlapping directions; no valve configuration; final OFF",
+    "544/2400us Servo config and 0/180 Firmata packets match vendor commands",
+    "cleanup attempts remaining OFF writes after one write failure",
+    "preview and unprepared run never open USB",
+    "invalid scenario does not prevent stop mode",
+    "cleanup failure produces a failing exit status",
+    "after cleanup refactor: stop, cleanup failure, run block and preview exit codes verified; Python warning removed"
+  ]
+}

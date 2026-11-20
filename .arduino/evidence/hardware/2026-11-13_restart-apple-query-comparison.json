@@ -1,0 +1,69 @@
+{
+  "port": "/dev/cu.usbserial-10",
+  "driver": "AppleUSBCHCOM",
+  "baud": 57600,
+  "memory_writes": false,
+  "mode": "same_queries_as_wch",
+  "cases": [
+    {
+      "case": "healthy_then_signature",
+      "frames": [
+        {
+          "query": "hardware",
+          "tx_hex": "418020",
+          "rx_hex": "140210"
+        },
+        {
+          "query": "minor",
+          "tx_hex": "418220",
+          "rx_hex": "140510"
+        },
+        {
+          "query": "parameter98",
+          "tx_hex": "419820",
+          "rx_hex": "140310"
+        },
+        {
+          "query": "sign_on",
+          "tx_hex": "3120",
+          "rx_hex": "144156522049530510"
+        },
+        {
+          "query": "hardware_again",
+          "tx_hex": "418020",
+          "rx_hex": "140210"
+        },
+        {
+          "query": "signature",
+          "tx_hex": "7520",
+          "rx_hex": ""
+        },
+        {
+          "query": "hardware_after",
+          "tx_hex": "418020",
+          "rx_hex": ""
+        }
+      ]
+    },
+    {
+      "case": "major",
+      "frames": [
+        {
+          "query": "hardware",
+          "tx_hex": "418020",
+          "rx_hex": "140210"
+        },
+        {
+          "query": "major",
+          "tx_hex": "418120",
+          "rx_hex": ""
+        },
+        {
+          "query": "hardware_after",
+          "tx_hex": "418020",
+          "rx_hex": ""
+        }
+      ]
+    }
+  ]
+}

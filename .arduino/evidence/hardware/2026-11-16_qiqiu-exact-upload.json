@@ -1,0 +1,17 @@
+{
+  "ts": "2026-11-16T10:37:47.149808+00:00",
+  "sketch": "/Users/ivanyalov/Desktop/bed-prototype/build/2026-11-16_vendor_qiqiu/qiqiu/qiqiu.ino",
+  "source": "inputs/2026-11-15_wnhv_huxi/arduino.zip -> qiqiu.ino EXACT unmodified",
+  "sha256_ino": "1aba2d84927ff3899e92cb775670b713b35b00b8b79b1b090456addff701dfd8",
+  "sha256_hex": "78e851ddcd22887548bf4bf405630a67849d55fe12e790ab0c25fb9de4d7298c",
+  "fqbn": "arduino:avr:uno",
+  "port": "/dev/cu.usbmodem1101",
+  "pins": {
+    "inflate": 8,
+    "valve": 9,
+    "deflate": 10
+  },
+  "auto_run": true,
+  "behavior": "setup: 3 cycles of inflate+valve 8s then deflate 8s then all OFF; empty loop",
+  "note": "User demanded exact vendor file, no serial gate / no substitute tests. Upload triggers immediate auto cycle."
+}

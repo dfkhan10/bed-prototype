@@ -1,0 +1,38 @@
+{
+  "port": "/dev/cu.wchusbserial10",
+  "mode": "source_derived_uart_rate_check",
+  "basis": "16 MHz ATmegaBOOT normal speed divisor 17 and double-speed divisor 35",
+  "memory_writes": false,
+  "cases": [
+    {
+      "baud": 58823,
+      "frames": [
+        {
+          "query": "hardware",
+          "tx_hex": "418020",
+          "rx_hex": "140210"
+        },
+        {
+          "query": "signature",
+          "tx_hex": "7520",
+          "rx_hex": ""
+        }
+      ]
+    },
+    {
+      "baud": 57143,
+      "frames": [
+        {
+          "query": "hardware",
+          "tx_hex": "418020",
+          "rx_hex": "140210"
+        },
+        {
+          "query": "signature",
+          "tx_hex": "7520",
+          "rx_hex": ""
+        }
+      ]
+    }
+  ]
+}

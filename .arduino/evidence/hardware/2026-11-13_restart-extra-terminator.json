@@ -1,0 +1,58 @@
+{
+  "port": "/dev/cu.wchusbserial10",
+  "baud": 57600,
+  "memory_writes": false,
+  "mode": "check_waiting_for_extra_terminator",
+  "cases": [
+    {
+      "name": "software_major",
+      "frames": [
+        {
+          "name": "normal_query",
+          "tx_hex": "418120",
+          "rx_hex": ""
+        },
+        {
+          "name": "extra_eop",
+          "tx_hex": "20",
+          "rx_hex": ""
+        },
+        {
+          "name": "second_extra_eop",
+          "tx_hex": "20",
+          "rx_hex": ""
+        },
+        {
+          "name": "hardware_control_after",
+          "tx_hex": "418020",
+          "rx_hex": ""
+        }
+      ]
+    },
+    {
+      "name": "signature",
+      "frames": [
+        {
+          "name": "normal_query",
+          "tx_hex": "7520",
+          "rx_hex": ""
+        },
+        {
+          "name": "extra_eop",
+          "tx_hex": "20",
+          "rx_hex": ""
+        },
+        {
+          "name": "second_extra_eop",
+          "tx_hex": "20",
+          "rx_hex": ""
+        },
+        {
+          "name": "hardware_control_after",
+          "tx_hex": "418020",
+          "rx_hex": ""
+        }
+      ]
+    }
+  ]
+}

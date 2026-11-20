@@ -1,0 +1,23 @@
+{
+  "port": "/dev/cu.wchusbserial10",
+  "baud": 57600,
+  "mode": "readonly_flash_header",
+  "memory_writes": false,
+  "frames": [
+    {
+      "query": "hardware_control",
+      "tx_hex": "418020",
+      "rx_hex": "140210"
+    },
+    {
+      "query": "load_read_address_zero",
+      "tx_hex": "55000020",
+      "rx_hex": "1410"
+    },
+    {
+      "query": "read_flash_16_bytes",
+      "tx_hex": "7400104620",
+      "rx_hex": "14"
+    }
+  ]
+}

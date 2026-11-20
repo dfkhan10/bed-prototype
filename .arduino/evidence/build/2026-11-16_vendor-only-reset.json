@@ -1,0 +1,45 @@
+{
+  "time": "2026-11-16T13:58:19.707723+08:00",
+  "scope": "User explicitly requested removing our settings and using only vendor source. Reversible archive; no deletion, no board access.",
+  "archive": "_old/2026-11-16_custom_arduino_software",
+  "moved": [
+    {
+      "from": "build/2026-11-13_arduino",
+      "to": "_old/2026-11-16_custom_arduino_software/build/2026-11-13_arduino"
+    },
+    {
+      "from": "build/2026-11-15_firmata",
+      "to": "_old/2026-11-16_custom_arduino_software/build/2026-11-15_firmata"
+    },
+    {
+      "from": "build/2026-11-15_pump",
+      "to": "_old/2026-11-16_custom_arduino_software/build/2026-11-15_pump"
+    },
+    {
+      "from": "build/2026-11-15_shield",
+      "to": "_old/2026-11-16_custom_arduino_software/build/2026-11-15_shield"
+    },
+    {
+      "from": "build/2026-11-15_wnhv_huxi",
+      "to": "_old/2026-11-16_custom_arduino_software/build/2026-11-15_wnhv_huxi"
+    },
+    {
+      "from": "build/2026-11-16_autostart",
+      "to": "_old/2026-11-16_custom_arduino_software/build/2026-11-16_autostart"
+    },
+    {
+      "from": "build/2026-11-16_control.py",
+      "to": "_old/2026-11-16_custom_arduino_software/build/2026-11-16_control.py"
+    },
+    {
+      "from": "build/__pycache__",
+      "to": "_old/2026-11-16_custom_arduino_software/build/__pycache__"
+    }
+  ],
+  "active_source": "build/2026-11-16_vendor/qiuqiu4zu/qiuqiu4zu.ino",
+  "active_source_sha256": "cccd56309839298b27dafd0ca85ace7a720bcc4ad088011d1973b042f569c013",
+  "source_zip": "inputs/2026-11-15_wnhv_huxi/qiuqiu4zu.zip",
+  "vendor_source_unmodified": true,
+  "device_firmware_changed": false,
+  "currently_installed": "SixPumpTest remains until authorized bare-board upload can be executed; installed image does not change when source files move."
+}

@@ -1,0 +1,88 @@
+{
+  "port": "/dev/cu.wchusbserial10",
+  "baud": 57600,
+  "mode": "readonly_command_isolation",
+  "memory_writes": false,
+  "cases": [
+    {
+      "name": "software_minor",
+      "frames": [
+        {
+          "name": "hardware_control",
+          "tx_hex": "418020",
+          "rx_hex": "140210"
+        },
+        {
+          "name": "software_minor",
+          "tx_hex": "418220",
+          "rx_hex": "140510"
+        },
+        {
+          "name": "hardware_after",
+          "tx_hex": "418020",
+          "rx_hex": "140210"
+        }
+      ]
+    },
+    {
+      "name": "parameter_98",
+      "frames": [
+        {
+          "name": "hardware_control",
+          "tx_hex": "418020",
+          "rx_hex": "140210"
+        },
+        {
+          "name": "parameter_98",
+          "tx_hex": "419820",
+          "rx_hex": "140310"
+        },
+        {
+          "name": "hardware_after",
+          "tx_hex": "418020",
+          "rx_hex": "140210"
+        }
+      ]
+    },
+    {
+      "name": "sign_on",
+      "frames": [
+        {
+          "name": "hardware_control",
+          "tx_hex": "418020",
+          "rx_hex": "140210"
+        },
+        {
+          "name": "sign_on",
+          "tx_hex": "3120",
+          "rx_hex": "144156522049535010"
+        },
+        {
+          "name": "hardware_after",
+          "tx_hex": "418020",
+          "rx_hex": "140210"
+        }
+      ]
+    },
+    {
+      "name": "oscillator_read",
+      "frames": [
+        {
+          "name": "hardware_control",
+          "tx_hex": "418020",
+          "rx_hex": "140210"
+        },
+        {
+          "name": "oscillator_read",
+          "tx_hex": "7620",
+          "rx_hex": "140010"
+        },
+        {
+          "name": "hardware_after",
+          "tx_hex": "418020",
+          "rx_hex": "140210"
+        }
+      ]
+    }
+  ]
+}

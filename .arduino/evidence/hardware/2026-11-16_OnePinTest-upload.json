@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-11-16T17:11:20+08:00",
+  "sketch": "/Users/ivanyalov/Desktop/bed-prototype/build/2026-11-16_one_pin/OnePinTest/OnePinTest.ino",
+  "port": "/dev/cu.usbmodem1101",
+  "serial": "24238313635351910130",
+  "exit_code": 1,
+  "verify": false,
+  "uploaded": false,
+  "error": "Resource busy: Cursor PID holds /dev/cu.usbmodem1101",
+  "flash_bytes_compiled": 8302,
+  "src_sha256": "2cdc9b0af00ec5336e92caaae2ac2f5cf36f69e0b06e0d29334ed4a52449dda6"
+}

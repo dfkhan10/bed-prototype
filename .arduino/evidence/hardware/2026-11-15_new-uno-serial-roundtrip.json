@@ -1,0 +1,36 @@
+{
+  "timestamp": "2026-11-15T13:39:30.428473+08:00",
+  "port": "/dev/cu.usbmodem1201",
+  "baud": 115200,
+  "board_usb_serial": "24238313635351910130",
+  "signature": "1e950f",
+  "fqbn": "arduino:avr:uno",
+  "core": "arduino:avr 1.8.8",
+  "cli": "1.5.1",
+  "pyserial": "3.5",
+  "image_sha256": "69433459b023b23e23e2e8e654cb203477d12409be515a2fade96dbd354298e6",
+  "transactions": [
+    {
+      "sent": "HELP",
+      "received": "Commands: INFO STATUS HELP. No actuator control.\r\n",
+      "pass": true
+    },
+    {
+      "sent": "INFO",
+      "received": "BED_USB_DIAGNOSTICS 2026-11-13 v1\r\nbuild_target=arduino:avr:uno; F_CPU=16000000\r\nactuator_commands=disabled; wiring_identity=unverified\r\nmode=INPUT; pullups=disabled; high_impedance_is_not_verified_OFF\r\nD3 proposed_role=pump_1 input_level=0\r\nD5 proposed_role=pump_2 input_level=0\r\nD6 proposed_role=valve_1 input_level=0\r\nInput levels do not identify connected loads or prove wiring.\r\n",
+      "pass": true
+    },
+    {
+      "sent": "MAC_TEST_1511",
+      "received": "ERROR unsupported_command; actuator_commands=disabled\r\n",
+      "pass": true
+    },
+    {
+      "sent": "STATUS",
+      "received": "BED_USB_DIAGNOSTICS 2026-11-13 v1\r\nbuild_target=arduino:avr:uno; F_CPU=16000000\r\nactuator_commands=disabled; wiring_identity=unverified\r\nmode=INPUT; pullups=disabled; high_impedance_is_not_verified_OFF\r\nD3 proposed_role=pump_1 input_level=0\r\nD5 proposed_role=pump_2 input_level=0\r\nD6 proposed_role=valve_1 input_level=0\r\nInput levels do not identify connected loads or prove wiring.\r\n",
+      "pass": true
+    }
+  ],
+  "startup": "BED_USB_DIAGNOSTICS 2026-11-13 v1\r\nbuild_target=arduino:avr:uno; F_CPU=16000000\r\nactuator_commands=disabled; wiring_identity=unverified\r\nmode=INPUT; pullups=disabled; high_impedance_is_not_verified_OFF\r\nD3 proposed_role=pump_1 input_level=0\r\nD5 proposed_role=pump_2 input_level=0\r\nD6 proposed_role=valve_1 input_level=0\r\nInput levels do not identify connected loads or prove wiring.\r\n",
+  "pass": true
+}

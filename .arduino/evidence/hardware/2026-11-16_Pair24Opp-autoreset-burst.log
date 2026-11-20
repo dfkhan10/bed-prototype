@@ -1,0 +1,7 @@
+Setting number of retry attempts to 1
+Error: programmer is not responding
+Warning: attempt 1 of 1: not in sync: resp=0x00
+Error: unable to open port /dev/cu.usbmodem1101 for programmer arduino
+
+Avrdude done.  Thank you.
+Setting number of retry attempts to 1

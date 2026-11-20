@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-11-15T13:40:18.013888+08:00",
+  "fqbn": "arduino:avr:uno",
+  "cli": "1.5.1",
+  "core": "arduino:avr 1.8.8",
+  "source": "build/2026-11-13_arduino/BedUsbDiagnostics/BedUsbDiagnostics.ino",
+  "source_sha256": "ca824a3333c21f6491891c68f9c1d760c4e101bf45d04e7cea18381728f242ec",
+  "image": ".arduino/evidence/build/2026-11-15_new-uno-BedUsbDiagnostics.hex",
+  "image_sha256": "69433459b023b23e23e2e8e654cb203477d12409be515a2fade96dbd354298e6",
+  "flash_bytes": 2932,
+  "static_ram_bytes": 262,
+  "build_pass": true,
+  "upload_verified": true,
+  "serial_test": "hardware/2026-11-15_new-uno-serial-roundtrip.json"
+}

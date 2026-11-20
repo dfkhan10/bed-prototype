@@ -1,0 +1,12 @@
+{
+  "autodeskProduct": "Fusion",
+  "type": "script",
+  "author": "Bed prototype",
+  "description": {
+    "": "Build and export the local grouped pneumatic prototype"
+  },
+  "supportedOS": "mac",
+  "version": "1.0.0",
+  "runOnStartup": false,
+  "editEnabled": true
+}

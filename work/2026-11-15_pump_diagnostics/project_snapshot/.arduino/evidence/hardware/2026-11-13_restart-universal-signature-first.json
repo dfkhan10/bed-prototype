@@ -1,0 +1,13 @@
+{
+  "port": "/dev/cu.wchusbserial10",
+  "baud": 57600,
+  "mode": "universal_signature_first_after_fresh_reset",
+  "memory_writes": false,
+  "frames": [
+    {
+      "signature_index": 0,
+      "tx_hex": "563000000020",
+      "rx_hex": ""
+    }
+  ]
+}

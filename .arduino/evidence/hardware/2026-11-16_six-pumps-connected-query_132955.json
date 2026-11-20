@@ -1,0 +1,14 @@
+{
+  "time": "2026-11-16T13:29:55.233769+08:00",
+  "proof_stage": "live UNO firmware and pin-state queries, without pin configuration or actuator writes",
+  "board_serial": "24238313635351910130",
+  "source": "build/2026-11-16_control.py",
+  "source_sha256": "e04a6fb422b0271ff2f17ea9b89b79aa5c2d6d93b5aa894499271b4addc99b5e",
+  "operator_setup": "User confirms all six pumps connected according to agreed map and orientation; USB connected for query; adapter not yet connected according to stated sequence. Physical wiring accepted as operator-confirmed, not independently detected.",
+  "returncode": 0,
+  "stdout": "UNO 24238313635351910130, /dev/cu.usbmodem1101: StandardFirmata.ino, 2.5\nD3: inflate_1, mode=1, stored=0\nD4: inflate_2, mode=1, stored=0\nD5: inflate_3, mode=1, stored=0\nD6: deflate_1, mode=1, stored=0\nD7: deflate_2, mode=1, stored=0\nD8: deflate_3, mode=1, stored=0\nD10: valve_1, mode=1, stored=0\nD11: valve_2, mode=1, stored=0\nD12: valve_3, mode=1, stored=0\n\u042d\u0442\u043e \u0441\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u0435 UNO, \u043d\u0435 \u043e\u0431\u0440\u0430\u0442\u043d\u0430\u044f \u0441\u0432\u044f\u0437\u044c \u043e\u0442 \u043d\u0430\u0441\u043e\u0441\u0430 \u0438\u043b\u0438 \u043a\u043b\u0430\u043f\u0430\u043d\u0430. \u041a\u043e\u043c\u0430\u043d\u0434 \u0432\u044b\u0445\u043e\u0434\u0430\u043c \u043d\u0435 \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e.\n",
+  "stderr": "",
+  "pump_detection": "not available through these signal-only electronic switches",
+  "physical_operation": "not tested",
+  "serial_closed": true
+}

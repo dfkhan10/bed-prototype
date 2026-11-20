@@ -1,0 +1,33 @@
+{
+  "time": "2026-11-16T13:45:23.929980+08:00",
+  "board_serial": "24238313635351910130",
+  "port": "/dev/cu.usbmodem1101",
+  "command": [
+    "arduino-cli",
+    "upload",
+    "--fqbn",
+    "arduino:avr:uno",
+    "--port",
+    "/dev/cu.usbmodem1101",
+    "--input-dir",
+    "/Users/ivanyalov/Desktop/bed-prototype/.cache/2026-11-16_autostart",
+    "--verify",
+    "--verbose"
+  ],
+  "returncode": 0,
+  "operator_setup": "Current explicit confirmation: shield removed with pump wiring retained; bare lower UNO on USB, adapter disconnected.",
+  "autostart_authorization": "User explicitly requests all six pumps start when adapter is connected, without USB or a button, for a basic operation check.",
+  "sketch": "build/2026-11-16_autostart/SixPumpTest/SixPumpTest.ino",
+  "core": "arduino:avr@1.8.8",
+  "Servo": "1.3.0",
+  "flash_bytes": 2182,
+  "static_ram_bytes": 76,
+  "hex_sha256": "51b3ba481b10a3b5ebc3866efbd19a019c38538827a6c745bde9a109aceeb1b3",
+  "log": ".arduino/evidence/hardware/2026-11-16_SixPumpTest-upload.log",
+  "upload_verified": true,
+  "physical_pump_test": false,
+  "sequence": "After every power-up/reset: OFF initialization 2s, six pins D3-D8 ON=180 for 3s, OFF=0 indefinitely; valves untouched.",
+  "post_upload_serial_opened": false,
+  "rollback_hex": ".arduino/evidence/build/2026-11-16_StandardFirmata-before-autostart.hex",
+  "hex": ".arduino/evidence/build/2026-11-16_SixPumpTest-uploaded.hex"
+}

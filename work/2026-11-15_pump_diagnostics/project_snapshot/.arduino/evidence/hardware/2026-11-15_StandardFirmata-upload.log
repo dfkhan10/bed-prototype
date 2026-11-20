@@ -1,0 +1,2 @@
+COMMAND: arduino-cli upload --fqbn arduino:avr:uno --port /dev/cu.usbmodem1201 --input-dir build/2026-11-15_firmata/compiled --verify
+New upload port: /dev/cu.usbmodem1201 (serial)

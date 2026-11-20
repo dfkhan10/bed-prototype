@@ -1,0 +1,15 @@
+dimension,value_mm_or_ratio
+width,344
+field_length,260
+service_length,172
+length,432
+height,73
+cap_gap,2
+cap_edge_border,5.0
+active_width,56
+cap_width,82
+stroke,25
+active_area_per_cell_mm2,3105.0973355292326
+cap_area_per_cell_mm2,6723.450619298297
+cap_coverage_of_field,0.9020729811223118
+active_coverage_of_field,0.4166051881300401

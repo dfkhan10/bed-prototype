@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-15",
+  "board_serial": "24238313635351910130",
+  "port": "/dev/cu.usbmodem1201",
+  "sketch": "BedBenchTest",
+  "upload_verified": true,
+  "actuator_commands_sent": false,
+  "tests": [
+    {
+      "command": "STATUS",
+      "response": "BED_BENCH_TEST 2026-11-13 candidate1\r\npin=-1 armed=0 running=0\r\nprotocol=servo; proposed_OFF=0; proposed_ON=180\r\nendpoints_us=544,2400; switch_identity_and_OFF=unverified\r\n"
+    }
+  ],
+  "startup": "BED_BENCH_TEST 2026-11-13 candidate1\r\npin=-1 armed=0 running=0\r\nprotocol=servo; proposed_OFF=0; proposed_ON=180\r\nendpoints_us=544,2400; switch_identity_and_OFF=unverified\r\n",
+  "status_pass": true,
+  "hex_sha256": "9e9d58b8c5cfa4c18732c7dd2023c22bd6e3751e06ddea09f3d4b47f55cd6fb6"
+}

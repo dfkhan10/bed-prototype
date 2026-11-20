@@ -1,0 +1,5 @@
+Reading flash memory ...
+Reading | ################################################## | 100% 3.15s
+Writing 32768 bytes to output file 2026-11-15_pre-wnhv-multigroup-flash.hex
+
+Avrdude done.  Thank you.

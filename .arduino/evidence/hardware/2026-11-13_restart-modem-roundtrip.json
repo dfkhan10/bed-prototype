@@ -1,0 +1,42 @@
+{
+  "port": "/dev/cu.wchusbserial10",
+  "operation": "DTR/RTS ioctl state round trip, no UART bytes",
+  "memory_writes": false,
+  "observations": [
+    {
+      "requested_dtr": false,
+      "requested_rts": false,
+      "reported_bits": 0,
+      "reported_dtr": false,
+      "reported_rts": false
+    },
+    {
+      "requested_dtr": true,
+      "requested_rts": false,
+      "reported_bits": 2,
+      "reported_dtr": true,
+      "reported_rts": false
+    },
+    {
+      "requested_dtr": false,
+      "requested_rts": false,
+      "reported_bits": 0,
+      "reported_dtr": false,
+      "reported_rts": false
+    },
+    {
+      "requested_dtr": false,
+      "requested_rts": true,
+      "reported_bits": 4,
+      "reported_dtr": false,
+      "reported_rts": true
+    },
+    {
+      "requested_dtr": false,
+      "requested_rts": false,
+      "reported_bits": 0,
+      "reported_dtr": false,
+      "reported_rts": false
+    }
+  ]
+}

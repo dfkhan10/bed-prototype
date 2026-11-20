@@ -1,0 +1,1 @@
+CAD prototype, millimetres. Print coupon/stl first (4 parts). Full-assembly quantities are in print_BOM.csv. Read instructions/ASSEMBLY.md. TPU is welded film, not an FDM print. Hardware, material, slicing, pressure and load tests remain open. Eight pumps are a packaging reservation, not the established operating count.

@@ -1,0 +1,11 @@
+{
+  "ts": "2026-11-16T11:11:01.109144+00:00",
+  "sketch": "/Users/ivanyalov/Desktop/bed-prototype/build/2026-11-16_vendor_3zu/qiuqiu3zu/qiuqiu3zu.ino",
+  "pin_map": "2-3-4, 6-7-8, 10-11-12; skip 5 and 9",
+  "sha256_ino": "83a5682abe446a0c7a430a42f4411c37b7e335396519df996cdbf5b7ddf8accb",
+  "sha256_hex": "a00c97053449932a5143db09807cf3a135cdbac9caa589f5610056b653a4dd92",
+  "fqbn": "arduino:avr:uno",
+  "port": "/dev/cu.usbmodem1101",
+  "auto_run": true,
+  "board_to_board_gnd": "leave out"
+}

@@ -1,0 +1,967 @@
+{
+  "units": "mm",
+  "parts": [
+    {
+      "name": "Print_CellCup",
+      "quantity": 12,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        80.0,
+        80.0,
+        10.0
+      ],
+      "cad_bbox_mm": [
+        80.0,
+        80.0,
+        10.000000000000007
+      ],
+      "print_orientation": "flat top/film face on bed",
+      "optional": false
+    },
+    {
+      "name": "Print_ClampRing",
+      "quantity": 12,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        80.0,
+        80.0,
+        5.650001525878906
+      ],
+      "cad_bbox_mm": [
+        80.0,
+        80.0,
+        5.649999999999999
+      ],
+      "print_orientation": "normalized CAD orientation; inspect supports",
+      "optional": false
+    },
+    {
+      "name": "Print_MovingCap_G1",
+      "quantity": 6,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        82.0,
+        82.0,
+        40.0
+      ],
+      "cad_bbox_mm": [
+        82.0,
+        82.0,
+        40.0
+      ],
+      "print_orientation": "flat top/film face on bed",
+      "optional": true
+    },
+    {
+      "name": "Print_MovingCap_G2",
+      "quantity": 6,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        82.0,
+        82.0,
+        40.0
+      ],
+      "cad_bbox_mm": [
+        82.0,
+        82.0,
+        40.0
+      ],
+      "print_orientation": "flat top/film face on bed",
+      "optional": true
+    },
+    {
+      "name": "Print_Splice_1",
+      "quantity": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        18.0,
+        26.0,
+        3.0
+      ],
+      "cad_bbox_mm": [
+        18.0,
+        26.0,
+        3.000000000000001
+      ],
+      "print_orientation": "normalized CAD orientation; inspect supports",
+      "optional": false
+    },
+    {
+      "name": "Print_Splice_2",
+      "quantity": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        18.0,
+        26.0,
+        3.0
+      ],
+      "cad_bbox_mm": [
+        18.0,
+        26.0,
+        3.000000000000001
+      ],
+      "print_orientation": "normalized CAD orientation; inspect supports",
+      "optional": false
+    },
+    {
+      "name": "Print_Splice_3",
+      "quantity": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        18.0,
+        26.0,
+        3.0
+      ],
+      "cad_bbox_mm": [
+        18.0,
+        26.0,
+        3.000000000000001
+      ],
+      "print_orientation": "normalized CAD orientation; inspect supports",
+      "optional": false
+    },
+    {
+      "name": "Print_Splice_4",
+      "quantity": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        18.0,
+        26.0,
+        3.0
+      ],
+      "cad_bbox_mm": [
+        18.0,
+        26.0,
+        3.000000000000001
+      ],
+      "print_orientation": "normalized CAD orientation; inspect supports",
+      "optional": false
+    },
+    {
+      "name": "Print_Splice_5",
+      "quantity": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        18.0,
+        26.0,
+        3.0
+      ],
+      "cad_bbox_mm": [
+        18.0,
+        26.0,
+        3.000000000000001
+      ],
+      "print_orientation": "normalized CAD orientation; inspect supports",
+      "optional": false
+    },
+    {
+      "name": "Print_Splice_6",
+      "quantity": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        18.0,
+        26.0,
+        3.0
+      ],
+      "cad_bbox_mm": [
+        18.0,
+        26.0,
+        3.000000000000001
+      ],
+      "print_orientation": "normalized CAD orientation; inspect supports",
+      "optional": false
+    },
+    {
+      "name": "Print_Splice_7",
+      "quantity": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        18.0,
+        26.0,
+        3.0
+      ],
+      "cad_bbox_mm": [
+        18.0,
+        26.0,
+        3.000000000000001
+      ],
+      "print_orientation": "normalized CAD orientation; inspect supports",
+      "optional": false
+    },
+    {
+      "name": "Print_Splice_8",
+      "quantity": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        18.0,
+        26.0,
+        3.0
+      ],
+      "cad_bbox_mm": [
+        18.0,
+        26.0,
+        3.000000000000001
+      ],
+      "print_orientation": "normalized CAD orientation; inspect supports",
+      "optional": false
+    },
+    {
+      "name": "Print_Splice_9",
+      "quantity": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        18.0,
+        26.0,
+        3.0
+      ],
+      "cad_bbox_mm": [
+        18.0,
+        26.0,
+        3.000000000000001
+      ],
+      "print_orientation": "normalized CAD orientation; inspect supports",
+      "optional": false
+    },
+    {
+      "name": "Print_Splice_10",
+      "quantity": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        18.0,
+        26.0,
+        3.0
+      ],
+      "cad_bbox_mm": [
+        18.0,
+        26.0,
+        3.000000000000001
+      ],
+      "print_orientation": "normalized CAD orientation; inspect supports",
+      "optional": false
+    },
+    {
+      "name": "Print_Splice_11",
+      "quantity": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        18.0,
+        26.0,
+        3.0
+      ],
+      "cad_bbox_mm": [
+        18.0,
+        26.0,
+        3.000000000000001
+      ],
+      "print_orientation": "normalized CAD orientation; inspect supports",
+      "optional": false
+    },
+    {
+      "name": "Print_Splice_12",
+      "quantity": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        18.0,
+        26.0,
+        3.0
+      ],
+      "cad_bbox_mm": [
+        18.0,
+        26.0,
+        3.000000000000001
+      ],
+      "print_orientation": "normalized CAD orientation; inspect supports",
+      "optional": false
+    },
+    {
+      "name": "Print_Splice_13",
+      "quantity": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        26.0,
+        18.0,
+        3.0
+      ],
+      "cad_bbox_mm": [
+        26.0,
+        18.0,
+        3.000000000000007
+      ],
+      "print_orientation": "normalized CAD orientation; inspect supports",
+      "optional": false
+    },
+    {
+      "name": "Print_Splice_14",
+      "quantity": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        26.0,
+        18.0,
+        3.0
+      ],
+      "cad_bbox_mm": [
+        26.0,
+        18.0,
+        3.000000000000007
+      ],
+      "print_orientation": "normalized CAD orientation; inspect supports",
+      "optional": false
+    },
+    {
+      "name": "Print_Splice_15",
+      "quantity": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        26.0,
+        18.0,
+        3.0
+      ],
+      "cad_bbox_mm": [
+        26.0,
+        18.0,
+        3.000000000000001
+      ],
+      "print_orientation": "normalized CAD orientation; inspect supports",
+      "optional": false
+    },
+    {
+      "name": "Print_Splice_16",
+      "quantity": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        26.0,
+        18.0,
+        3.0
+      ],
+      "cad_bbox_mm": [
+        26.0,
+        18.0,
+        3.000000000000001
+      ],
+      "print_orientation": "normalized CAD orientation; inspect supports",
+      "optional": false
+    },
+    {
+      "name": "Print_Splice_17",
+      "quantity": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        26.0,
+        18.0,
+        3.0
+      ],
+      "cad_bbox_mm": [
+        26.0,
+        17.99999999999997,
+        3.000000000000001
+      ],
+      "print_orientation": "normalized CAD orientation; inspect supports",
+      "optional": false
+    },
+    {
+      "name": "Print_ServiceCover_1",
+      "quantity": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        168.625,
+        168.625,
+        4.0
+      ],
+      "cad_bbox_mm": [
+        168.625,
+        168.625,
+        4.0
+      ],
+      "print_orientation": "flat underside on bed; head recesses face up",
+      "optional": false
+    },
+    {
+      "name": "Print_LowerFrame_1_1",
+      "quantity": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        171.875,
+        171.875,
+        69.0
+      ],
+      "cad_bbox_mm": [
+        171.875,
+        171.875,
+        69.0
+      ],
+      "print_orientation": "normalized CAD orientation; inspect supports",
+      "optional": false
+    },
+    {
+      "name": "Print_BottomPanel_1_1",
+      "quantity": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        171.875,
+        171.875,
+        4.0
+      ],
+      "cad_bbox_mm": [
+        171.875,
+        171.875,
+        4.0
+      ],
+      "print_orientation": "normalized CAD orientation; inspect supports",
+      "optional": false
+    },
+    {
+      "name": "Print_ServiceCover_2",
+      "quantity": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        168.625,
+        168.625,
+        4.0
+      ],
+      "cad_bbox_mm": [
+        168.625,
+        168.625,
+        4.0
+      ],
+      "print_orientation": "flat underside on bed; head recesses face up",
+      "optional": false
+    },
+    {
+      "name": "Print_LowerFrame_2_1",
+      "quantity": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        171.875,
+        171.875,
+        69.0
+      ],
+      "cad_bbox_mm": [
+        171.875,
+        171.875,
+        69.0
+      ],
+      "print_orientation": "normalized CAD orientation; inspect supports",
+      "optional": false
+    },
+    {
+      "name": "Print_BottomPanel_2_1",
+      "quantity": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        171.875,
+        171.875,
+        4.0
+      ],
+      "cad_bbox_mm": [
+        171.875,
+        171.875,
+        4.0
+      ],
+      "print_orientation": "normalized CAD orientation; inspect supports",
+      "optional": false
+    },
+    {
+      "name": "Print_LowerFrame_1_2",
+      "quantity": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        171.875,
+        87.75,
+        69.0
+      ],
+      "cad_bbox_mm": [
+        171.875,
+        87.75000000000001,
+        69.0
+      ],
+      "print_orientation": "normalized CAD orientation; inspect supports",
+      "optional": false
+    },
+    {
+      "name": "Print_BottomPanel_1_2",
+      "quantity": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        171.875,
+        87.75,
+        4.0
+      ],
+      "cad_bbox_mm": [
+        171.875,
+        87.75000000000001,
+        4.0
+      ],
+      "print_orientation": "normalized CAD orientation; inspect supports",
+      "optional": false
+    },
+    {
+      "name": "Print_LowerFrame_2_2",
+      "quantity": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        171.875,
+        87.75,
+        69.0
+      ],
+      "cad_bbox_mm": [
+        171.875,
+        87.75000000000001,
+        69.0
+      ],
+      "print_orientation": "normalized CAD orientation; inspect supports",
+      "optional": false
+    },
+    {
+      "name": "Print_BottomPanel_2_2",
+      "quantity": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        171.875,
+        87.75,
+        4.0
+      ],
+      "cad_bbox_mm": [
+        171.875,
+        87.75000000000001,
+        4.0
+      ],
+      "print_orientation": "normalized CAD orientation; inspect supports",
+      "optional": false
+    },
+    {
+      "name": "Print_LowerFrame_1_3",
+      "quantity": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        171.875,
+        83.75,
+        69.0
+      ],
+      "cad_bbox_mm": [
+        171.875,
+        83.75,
+        69.0
+      ],
+      "print_orientation": "normalized CAD orientation; inspect supports",
+      "optional": false
+    },
+    {
+      "name": "Print_BottomPanel_1_3",
+      "quantity": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        171.875,
+        83.75,
+        4.0
+      ],
+      "cad_bbox_mm": [
+        171.875,
+        83.75,
+        4.0
+      ],
+      "print_orientation": "normalized CAD orientation; inspect supports",
+      "optional": false
+    },
+    {
+      "name": "Print_LowerFrame_2_3",
+      "quantity": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        171.875,
+        83.75,
+        69.0
+      ],
+      "cad_bbox_mm": [
+        171.875,
+        83.75,
+        69.0
+      ],
+      "print_orientation": "normalized CAD orientation; inspect supports",
+      "optional": false
+    },
+    {
+      "name": "Print_BottomPanel_2_3",
+      "quantity": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        171.875,
+        83.75,
+        4.0
+      ],
+      "cad_bbox_mm": [
+        171.875,
+        83.75,
+        4.0
+      ],
+      "print_orientation": "normalized CAD orientation; inspect supports",
+      "optional": false
+    },
+    {
+      "name": "Print_LowerFrame_1_4",
+      "quantity": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        171.875,
+        87.875,
+        69.0
+      ],
+      "cad_bbox_mm": [
+        171.875,
+        87.875,
+        69.0
+      ],
+      "print_orientation": "normalized CAD orientation; inspect supports",
+      "optional": false
+    },
+    {
+      "name": "Print_BottomPanel_1_4",
+      "quantity": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        171.875,
+        87.875,
+        4.0
+      ],
+      "cad_bbox_mm": [
+        171.875,
+        87.875,
+        4.0
+      ],
+      "print_orientation": "normalized CAD orientation; inspect supports",
+      "optional": false
+    },
+    {
+      "name": "Print_LowerFrame_2_4",
+      "quantity": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        171.875,
+        87.875,
+        69.0
+      ],
+      "cad_bbox_mm": [
+        171.875,
+        87.875,
+        69.0
+      ],
+      "print_orientation": "normalized CAD orientation; inspect supports",
+      "optional": false
+    },
+    {
+      "name": "Print_BottomPanel_2_4",
+      "quantity": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        171.875,
+        87.875,
+        4.0
+      ],
+      "cad_bbox_mm": [
+        171.875,
+        87.875,
+        4.0
+      ],
+      "print_orientation": "normalized CAD orientation; inspect supports",
+      "optional": false
+    },
+    {
+      "name": "Print_PumpCradle",
+      "quantity": 8,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        78.0,
+        32.0,
+        18.200000762939453
+      ],
+      "cad_bbox_mm": [
+        78.0,
+        32.0,
+        18.200000000000003
+      ],
+      "print_orientation": "normalized CAD orientation; inspect supports",
+      "optional": false
+    },
+    {
+      "name": "Print_ElectronicsTray_1",
+      "quantity": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        136.0,
+        68.0,
+        5.0
+      ],
+      "cad_bbox_mm": [
+        136.0,
+        68.0,
+        5.0
+      ],
+      "print_orientation": "flat top/film face on bed",
+      "optional": false
+    },
+    {
+      "name": "Print_ElectronicsTray_2",
+      "quantity": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        136.0,
+        68.0,
+        29.0
+      ],
+      "cad_bbox_mm": [
+        136.0,
+        68.0,
+        29.0
+      ],
+      "print_orientation": "flat top/film face on bed",
+      "optional": false
+    },
+    {
+      "name": "Print_ValveCarrier",
+      "quantity": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        136.0,
+        65.0,
+        5.0
+      ],
+      "cad_bbox_mm": [
+        136.0,
+        65.0,
+        5.0
+      ],
+      "print_orientation": "normalized CAD orientation; inspect supports",
+      "optional": false
+    },
+    {
+      "name": "Print_TubeClip_G1_R1",
+      "quantity": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        20.0,
+        10.0,
+        10.732863426208496
+      ],
+      "cad_bbox_mm": [
+        20.0,
+        10.0,
+        10.732863826479692
+      ],
+      "print_orientation": "normalized CAD orientation; inspect supports",
+      "optional": false
+    },
+    {
+      "name": "Print_TubeClip_G1_R2",
+      "quantity": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        20.0,
+        10.0,
+        10.732863426208496
+      ],
+      "cad_bbox_mm": [
+        20.0,
+        10.0,
+        10.732863826479692
+      ],
+      "print_orientation": "normalized CAD orientation; inspect supports",
+      "optional": false
+    },
+    {
+      "name": "Print_TubeClip_G1_R3",
+      "quantity": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        20.0,
+        10.0,
+        10.732863426208496
+      ],
+      "cad_bbox_mm": [
+        20.0,
+        10.0,
+        10.732863826479692
+      ],
+      "print_orientation": "normalized CAD orientation; inspect supports",
+      "optional": false
+    },
+    {
+      "name": "Print_TubeClip_G2_R1",
+      "quantity": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        20.0,
+        10.0,
+        20.732864379882812
+      ],
+      "cad_bbox_mm": [
+        20.0,
+        10.0,
+        20.732863826479694
+      ],
+      "print_orientation": "normalized CAD orientation; inspect supports",
+      "optional": false
+    },
+    {
+      "name": "Print_TubeClip_G2_R2",
+      "quantity": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        20.0,
+        10.0,
+        20.732864379882812
+      ],
+      "cad_bbox_mm": [
+        20.0,
+        10.0,
+        20.732863826479694
+      ],
+      "print_orientation": "normalized CAD orientation; inspect supports",
+      "optional": false
+    },
+    {
+      "name": "Print_TubeClip_G2_R3",
+      "quantity": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_solids": 1,
+      "bbox_mm": [
+        20.0,
+        10.0,
+        20.732864379882812
+      ],
+      "cad_bbox_mm": [
+        20.0,
+        10.0,
+        20.732863826479694
+      ],
+      "print_orientation": "normalized CAD orientation; inspect supports",
+      "optional": false
+    }
+  ],
+  "errors": [],
+  "cad_check_counts": {
+    "interferences": 0,
+    "motion_interferences": 0,
+    "tube_interferences": 0,
+    "rigid_reference_interferences": 0,
+    "driver_access_interferences": 0,
+    "screw_head_interferences": 0,
+    "tube_network_interferences": 0,
+    "tube_hardware_interferences": 0,
+    "spare_route_interferences": 0,
+    "feature_issues": 0
+  },
+  "incremental_checks": {},
+  "assembly_bbox_mm": [
+    [
+      -172.0,
+      -172.0,
+      0.0
+    ],
+    [
+      172.0,
+      260.0,
+      73.0
+    ]
+  ],
+  "assembly_extents_mm": [
+    344.0,
+    432.0,
+    73.0
+  ]
+}

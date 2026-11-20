@@ -1,0 +1,15 @@
+{
+  "retrieved_at": "2026-11-15T10:21:41.873832+00:00",
+  "sources": {
+    "huxi.html": "https://www.wnhv.com/zl/huxi/",
+    "multi-group.html": "https://www.wnhv.com/huxi/huxi.html",
+    "arduino.zip": "https://www.wnhv.com/zl/huxi/arduino.zip",
+    "qiuqiu4zu.zip": "https://www.wnhv.com/huxi/qiuqiu4zu.zip"
+  },
+  "sha256": {
+    "arduino.zip": "cd90dca55074c40bf9d5f9e7d6db86bebb88507ff7ea0e07afd4a1aeb400dc68",
+    "multi-group.html": "bfa5ee892d169769059916a8bcbe0ec3ccd58241c4ff5bcf46d19f915b372756",
+    "qiuqiu4zu.zip": "4af4891182d1fe520e5cf4cd245c45dce2dbea0c39448933166e6ed57ead9d86",
+    "huxi.html": "dbcdb2db0609df5935d2af831055e85c01a3ce05a26d6050bf1fd1fd3fc2a903"
+  }
+}

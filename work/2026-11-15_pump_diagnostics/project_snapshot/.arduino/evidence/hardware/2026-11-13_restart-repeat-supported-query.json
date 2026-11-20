@@ -1,0 +1,50 @@
+{
+  "port": "/dev/cu.wchusbserial10",
+  "baud": 57600,
+  "mode": "repeat_supported_query_and_recover_after_version",
+  "memory_writes": false,
+  "events": [
+    {
+      "query": "hardware_1",
+      "t_ms": 979.59,
+      "tx_hex": "418020",
+      "rx_hex": "140210",
+      "duration_ms": 2.16
+    },
+    {
+      "query": "hardware_2",
+      "t_ms": 981.888,
+      "tx_hex": "418020",
+      "rx_hex": "140210",
+      "duration_ms": 2.187
+    },
+    {
+      "query": "hardware_3",
+      "t_ms": 984.189,
+      "tx_hex": "418020",
+      "rx_hex": "140210",
+      "duration_ms": 3.184
+    },
+    {
+      "query": "software",
+      "t_ms": 987.445,
+      "tx_hex": "418120",
+      "rx_hex": "",
+      "duration_ms": 457.08
+    },
+    {
+      "query": "hardware_after_software",
+      "t_ms": 1444.688,
+      "tx_hex": "418020",
+      "rx_hex": "",
+      "duration_ms": 455.725
+    },
+    {
+      "query": "sync_after",
+      "t_ms": 1900.528,
+      "tx_hex": "3020",
+      "rx_hex": "",
+      "duration_ms": 476.235
+    }
+  ]
+}

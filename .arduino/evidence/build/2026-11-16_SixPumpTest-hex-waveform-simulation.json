@@ -1,0 +1,215 @@
+{
+  "proof_stage": "OFFLINE AVR SIMULATION ONLY; power, physical clock, wiring, driver and motor response not modeled",
+  "clock_hz": 16000000,
+  "simulator": "avr8js@0.21.1",
+  "hex_sha256": "51b3ba481b10a3b5ebc3866efbd19a019c38538827a6c745bde9a109aceeb1b3",
+  "simulated_seconds": 8,
+  "wall_ms": 4059,
+  "channels": {
+    "3": {
+      "name": "inflate_1",
+      "state": "off",
+      "transitions": [
+        {
+          "state": "off",
+          "startSeconds": 0.0529123125
+        },
+        {
+          "state": "on",
+          "startSeconds": 2.0132113125
+        },
+        {
+          "state": "off",
+          "startSeconds": 5.01367425
+        }
+      ],
+      "on": {
+        "count": 150,
+        "minWidthUs": 2399.4375,
+        "maxWidthUs": 2404.6875
+      },
+      "off": {
+        "count": 248,
+        "minWidthUs": 543.4375,
+        "maxWidthUs": 544.4375
+      },
+      "minPeriodUs": 20002.8125,
+      "maxPeriodUs": 20008.1875,
+      "phaseDurationsSeconds": [
+        3.0004629375
+      ],
+      "pass": true
+    },
+    "4": {
+      "name": "inflate_2",
+      "state": "off",
+      "transitions": [
+        {
+          "state": "off",
+          "startSeconds": 0.0329180625
+        },
+        {
+          "state": "on",
+          "startSeconds": 2.015619625
+        },
+        {
+          "state": "off",
+          "startSeconds": 5.0142261875
+        }
+      ],
+      "on": {
+        "count": 150,
+        "minWidthUs": 2399.5,
+        "maxWidthUs": 2400.125
+      },
+      "off": {
+        "count": 249,
+        "minWidthUs": 543.4375,
+        "maxWidthUs": 547.0625
+      },
+      "minPeriodUs": 18146.9375,
+      "maxPeriodUs": 21859.0625,
+      "phaseDurationsSeconds": [
+        2.9986065625000005
+      ],
+      "pass": true
+    },
+    "5": {
+      "name": "inflate_3",
+      "state": "off",
+      "transitions": [
+        {
+          "state": "off",
+          "startSeconds": 0.0334711875
+        },
+        {
+          "state": "on",
+          "startSeconds": 2.018028375
+        },
+        {
+          "state": "off",
+          "startSeconds": 5.0147789375
+        }
+      ],
+      "on": {
+        "count": 150,
+        "minWidthUs": 2399.5,
+        "maxWidthUs": 2400.1875
+      },
+      "off": {
+        "count": 249,
+        "minWidthUs": 543.5,
+        "maxWidthUs": 544.375
+      },
+      "minPeriodUs": 16290.5625,
+      "maxPeriodUs": 23715,
+      "phaseDurationsSeconds": [
+        2.9967505625
+      ],
+      "pass": true
+    },
+    "6": {
+      "name": "deflate_1",
+      "state": "off",
+      "transitions": [
+        {
+          "state": "off",
+          "startSeconds": 0.034024
+        },
+        {
+          "state": "on",
+          "startSeconds": 2.020437
+        },
+        {
+          "state": "off",
+          "startSeconds": 5.0008970625
+        }
+      ],
+      "on": {
+        "count": 149,
+        "minWidthUs": 2399.4375,
+        "maxWidthUs": 2402.875
+      },
+      "off": {
+        "count": 250,
+        "minWidthUs": 543.4375,
+        "maxWidthUs": 547.1875
+      },
+      "minPeriodUs": 14435,
+      "maxPeriodUs": 25571,
+      "phaseDurationsSeconds": [
+        2.9804600625
+      ],
+      "pass": true
+    },
+    "7": {
+      "name": "deflate_2",
+      "state": "off",
+      "transitions": [
+        {
+          "state": "off",
+          "startSeconds": 0.0345761875
+        },
+        {
+          "state": "on",
+          "startSeconds": 2.022845125
+        },
+        {
+          "state": "off",
+          "startSeconds": 5.00144925
+        }
+      ],
+      "on": {
+        "count": 149,
+        "minWidthUs": 2399.4375,
+        "maxWidthUs": 2400.0625
+      },
+      "off": {
+        "count": 250,
+        "minWidthUs": 543.4375,
+        "maxWidthUs": 549.25
+      },
+      "minPeriodUs": 14435.3125,
+      "maxPeriodUs": 27426.9375,
+      "phaseDurationsSeconds": [
+        2.9786041250000004
+      ],
+      "pass": true
+    },
+    "8": {
+      "name": "deflate_3",
+      "state": "off",
+      "transitions": [
+        {
+          "state": "off",
+          "startSeconds": 0.0351281875
+        },
+        {
+          "state": "on",
+          "startSeconds": 2.025253
+        },
+        {
+          "state": "off",
+          "startSeconds": 5.002001625
+        }
+      ],
+      "on": {
+        "count": 149,
+        "minWidthUs": 2399.4375,
+        "maxWidthUs": 2400.1875
+      },
+      "off": {
+        "count": 250,
+        "minWidthUs": 543.4375,
+        "maxWidthUs": 544.375
+      },
+      "minPeriodUs": 14434.875,
+      "maxPeriodUs": 29283,
+      "phaseDurationsSeconds": [
+        2.976748625
+      ],
+      "pass": true
+    }
+  },
+  "pass": true
+}

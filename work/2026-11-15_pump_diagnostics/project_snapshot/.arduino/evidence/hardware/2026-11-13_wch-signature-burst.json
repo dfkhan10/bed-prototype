@@ -1,0 +1,16 @@
+[
+  {
+    "port": "/dev/cu.wchusbserial110",
+    "baud": 57600,
+    "query_hex": "30207520563000000020563000010020563000020020",
+    "received_hex": "",
+    "valid_atmega328p_signature": false
+  },
+  {
+    "port": "/dev/cu.wchusbserial110",
+    "baud": 115200,
+    "query_hex": "30207520563000000020563000010020563000020020",
+    "received_hex": "",
+    "valid_atmega328p_signature": false
+  }
+]

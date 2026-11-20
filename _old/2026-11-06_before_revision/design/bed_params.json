@@ -1,0 +1,65 @@
+{
+  "_comment": "Single source of truth — edit here, then rebuild Fusion + export STL",
+  "grid_n_x": 3,
+  "grid_n_y": 4,
+  "cell_pitch": 60,
+  "well_open": 58,
+  "cell_seat_depth": 8,
+  "cell_floor_t": 2,
+  "wall_t": 3,
+  "flange_seat": 64,
+  "deck_top_t": 4,
+  "cavity_h": 32,
+  "deck_rim": 8,
+  "corner_r": 6,
+
+  "e_bay_x": 200,
+  "e_bay_y": 128,
+  "e_bay_cavity_h": 52,
+  "e_bay_rim_h": 8,
+  "e_bay_tray_t": 4,
+  "panel_t": 4,
+
+  "pump_axis_l": 68,
+  "pump_head_d": 31,
+  "pump_count": 8,
+  "pump_cols": 4,
+  "pump_rows": 2,
+  "pump_col_pitch": 36,
+  "pump_row_pitch": 38,
+
+  "valve_l": 22,
+  "valve_w": 12,
+  "valve_h": 30,
+  "valve_cols": 4,
+
+  "tube_od": 6,
+  "port_d": 6.5,
+  "channel_w": 10,
+  "channel_depth": 8,
+  "stem_pocket_h": 12,
+
+  "fasteners": {
+    "_comment": "Small screws (шурупы M2.5), not bolt+nut. Heat-set insert or thread-forming into boss.",
+    "primary": "M2.5",
+    "screw_length_mm": 10,
+    "clearance_d": 2.7,
+    "pilot_d": 2.1,
+    "boss_od": 5.5,
+    "boss_h": 6,
+    "head_clearance_d": 5,
+    "perimeter_pitch": 28,
+    "perimeter_inset": 10,
+    "joint_screw_count": 4
+  },
+
+  "boss_d": 8,
+  "m3_hole_d": 3.2,
+  "dowel_d": 5,
+  "dowel_depth": 10,
+  "lap_m3_d": 3.4,
+
+  "arduino_l": 69,
+  "arduino_w": 54,
+  "arduino_standoff_h": 6
+}

@@ -1,0 +1,21 @@
+{
+  "time": "2026-11-15T17:45:46.437239+08:00",
+  "command": [
+    "arduino-cli",
+    "upload",
+    "--fqbn",
+    "arduino:avr:uno",
+    "--port",
+    "/dev/cu.usbmodem1201",
+    "--input-dir",
+    "/Users/ivanyalov/Desktop/bed-prototype/build/2026-11-15_firmata/diagnostic-compiled",
+    "--verify"
+  ],
+  "board_serial": "24238313635351910130",
+  "operator_power_state": "User explicitly reports external adapter disconnected; USB retained",
+  "returncode": 0,
+  "stdout": "New upload port: /dev/cu.usbmodem1201 (serial)\n",
+  "stderr": "",
+  "hex_sha256": "74f9bc2c8763b22c59e89f2adbf4da9b136f79123ca45f1185c574a4c0607f73",
+  "actuator_command_sent": false
+}

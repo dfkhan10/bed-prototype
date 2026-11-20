@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-11-15T13:46:54.461881+08:00",
+  "setup": "Operator reports shield fitted; previous USB-only setup retained, no loads or external adapter instructed.",
+  "port": "/dev/cu.usbmodem1201",
+  "usb_serial": "24238313635351910130",
+  "baud": 115200,
+  "firmware": "BedUsbDiagnostics 2026-11-13 v1",
+  "transactions": [
+    {
+      "sent": "HELP",
+      "received": "Commands: INFO STATUS HELP. No actuator control.\r\n",
+      "pass": true
+    },
+    {
+      "sent": "INFO",
+      "received": "BED_USB_DIAGNOSTICS 2026-11-13 v1\r\nbuild_target=arduino:avr:uno; F_CPU=16000000\r\nactuator_commands=disabled; wiring_identity=unverified\r\nmode=INPUT; pullups=disabled; high_impedance_is_not_verified_OFF\r\nD3 proposed_role=pump_1 input_level=0\r\nD5 proposed_role=pump_2 input_level=0\r\nD6 proposed_role=valve_1 input_level=0\r\nInput levels do not identify connected loads or prove wiring.\r\n",
+      "pass": true
+    },
+    {
+      "sent": "SHIELD_TEST",
+      "received": "ERROR unsupported_command; actuator_commands=disabled\r\n",
+      "pass": true
+    }
+  ],
+  "startup": "BED_USB_DIAGNOSTICS 2026-11-13 v1\r\nbuild_target=arduino:avr:uno; F_CPU=16000000\r\nactuator_commands=disabled; wiring_identity=unverified\r\nmode=INPUT; pullups=disabled; high_impedance_is_not_verified_OFF\r\nD3 proposed_role=pump_1 input_level=0\r\nD5 proposed_role=pump_2 input_level=0\r\nD6 proposed_role=valve_1 input_level=0\r\nInput levels do not identify connected loads or prove wiring.\r\n",
+  "pass": true
+}

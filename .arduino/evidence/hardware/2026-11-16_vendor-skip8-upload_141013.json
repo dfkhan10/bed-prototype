@@ -1,0 +1,53 @@
+{
+  "time": "2026-11-16T14:10:13.002884+08:00",
+  "board_serial": "24238313635351910130",
+  "port": "/dev/cu.usbmodem1101",
+  "operator_setup_basis": "Most recent explicit operator confirmation in this same exchange: shield removed, adapter disconnected, bare UNO USB only; no subsequent reconnection reported.",
+  "authorized_change": "User requests skipping D8 and mapping group 3 to D9/D10/D11. Group 4 removed to avoid D11 conflict.",
+  "source": "build/2026-11-16_vendor/qiuqiu4zu/qiuqiu4zu.ino",
+  "source_sha256": "505df2c9f420f11e9a6f9e57ca5c9d8c7ad4a0a6bcd5d3b50a496cf9bf087106",
+  "source_vendor_unmodified": false,
+  "vendor_algorithm_unchanged": true,
+  "pin_groups": [
+    [
+      2,
+      3,
+      4
+    ],
+    [
+      5,
+      6,
+      7
+    ],
+    [
+      9,
+      10,
+      11
+    ]
+  ],
+  "unused_pins": [
+    8,
+    12,
+    13
+  ],
+  "hex_sha256": "28c7de2c4967304bafe1dbbb953d9c14c995d0d07906ad0a2226cfbd6dce19ef",
+  "flash_bytes": 2528,
+  "static_ram_bytes": 74,
+  "command": [
+    "arduino-cli",
+    "upload",
+    "--fqbn",
+    "arduino:avr:uno",
+    "--port",
+    "/dev/cu.usbmodem1101",
+    "--input-dir",
+    "/Users/ivanyalov/Desktop/bed-prototype/.cache/2026-11-16_vendor_skip8",
+    "--verify",
+    "--verbose"
+  ],
+  "returncode": 0,
+  "upload_verified": true,
+  "post_upload_serial_opened": false,
+  "physical_operation": "not tested",
+  "host_check": "Compiled source execution: nine unique pins, no D8/12/13 access, three original 8s+8s cycles, final command 0, no repetition in loop."
+}

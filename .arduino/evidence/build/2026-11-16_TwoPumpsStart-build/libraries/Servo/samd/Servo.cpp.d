@@ -1,0 +1,2 @@
+/Users/ivanyalov/Desktop/bed-prototype/.arduino/evidence/build/2026-11-16_TwoPumpsStart-build/libraries/Servo/samd/Servo.cpp.o: \
+ /Users/ivanyalov/Documents/Arduino/libraries/Servo/src/samd/Servo.cpp

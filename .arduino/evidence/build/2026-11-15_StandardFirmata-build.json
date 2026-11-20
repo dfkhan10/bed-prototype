@@ -1,0 +1,18 @@
+{
+  "time": "2026-11-15T07:42:24.532600+00:00",
+  "firmata_library_version": "2.5.9",
+  "upstream_commit": "c285135275c4dd4f0d0bbf82da3c5844a29eaf07",
+  "source_unmodified": true,
+  "sketch": "build/2026-11-15_firmata/libraries/Firmata/examples/StandardFirmata/StandardFirmata.ino",
+  "fqbn": "arduino:avr:uno",
+  "core": "arduino:avr@1.8.8",
+  "Servo": "1.3.0",
+  "flash_bytes": 13184,
+  "static_ram_bytes": 1125,
+  "board_serial": "24238313635351910130",
+  "port": "/dev/cu.usbmodem1201",
+  "upload_verified": true,
+  "hex_sha256": "78085a703776b87603bb9f4cb26945c50a9441c4e781f50efcb0ed1d834aabcc",
+  "rollback_hex": ".arduino/evidence/build/2026-11-15_BedBenchTest-uploaded.hex",
+  "operator_setup_basis": "Latest attached photo: no plugs in shield rows, shield barrel empty; user requests firmware replacement."
+}

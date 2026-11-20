@@ -1,0 +1,16 @@
+Avrdude version 8.0-arduino.1
+Copyright see https://github.com/avrdudes/avrdude/blob/main/AUTHORS
+
+System wide configuration file is /Users/ivanyalov/Library/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/etc/avrdude.conf
+
+Using port            : /dev/cu.wchusbserial110
+Using programmer      : arduino
+Setting baud rate     : 57600
+AVR part              : ATmega328P
+Programming modes     : SPM, ISP, HVPP, debugWIRE
+Programmer type       : Arduino
+Description           : Arduino bootloader using STK500 v1 protocol
+Error: programmer is not responding
+Error: programmer is not responding
+
+HOST_TIMEOUT_15_SECONDS

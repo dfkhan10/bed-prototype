@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-15",
+  "board_serial": "24238313635351910130",
+  "port": "/dev/cu.usbmodem1201",
+  "operator_setup": "shield fitted; all peripherals and external supply unplugged; USB only; no jumper",
+  "fqbn": "arduino:avr:uno",
+  "core": "1.8.8",
+  "upload_verify_exit_code": 0,
+  "tests": [
+    {
+      "command": "HELP",
+      "response": "SHIELD_LOOPBACK 2026-11-15; BASELINE TEST HELP\r\n"
+    },
+    {
+      "command": "BASELINE",
+      "response": "BASELINE D3=1 D4=1\r\n"
+    },
+    {
+      "command": "TEST",
+      "response": "D3->D4 mismatches=10/20\r\nD4->D3 mismatches=10/20\r\nTOTAL mismatches=20/40; pins_released=1\r\n"
+    }
+  ],
+  "startup": "SHIELD_LOOPBACK 2026-11-15; ready; inputs_only\r\n",
+  "expected_baseline": "BASELINE D3=1 D4=1",
+  "expected_open": "D3->D4 mismatches=10/20; D4->D3 mismatches=10/20; TOTAL mismatches=20/40",
+  "baseline_pass": true,
+  "open_control_pass": true,
+  "hex_sha256": "0d0281f2ef6cc6605ccb717302f36fbce9dd4a86ca4e178b40a394ddd442f6c0"
+}

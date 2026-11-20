@@ -1,0 +1,3 @@
+{"time": "2026-11-15T17:05:38.969648+08:00", "event": "start", "port": "/dev/cu.usbmodem1201", "board_serial": "24238313635351910130", "baud": 57600, "requested_on_ms": 3000, "target": "B1/D3", "log": "/Users/ivanyalov/Desktop/bed-prototype/.arduino/evidence/hardware/2026-11-15_B1-D3-bounded-test_170538.jsonl", "physical_observation": "pending operator", "initial_attach": "StandardFirmata Servo attach may briefly emit its default 1500 us pulse"}
+{"time": "2026-11-15T17:05:38.969835+08:00", "event": "serial_open_start"}
+{"time": "2026-11-15T17:05:56.975185+08:00", "event": "preflight_timeout", "seconds": 18, "actuator_commands_sent": false}

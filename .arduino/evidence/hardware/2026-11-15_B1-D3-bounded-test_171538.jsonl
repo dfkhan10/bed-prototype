@@ -1,0 +1,92 @@
+{"time": "2026-11-15T17:15:38.957179+08:00", "event": "start", "port": "/dev/cu.usbmodem1201", "board_serial": "24238313635351910130", "baud": 57600, "requested_on_ms": 3000, "target": "B1/D3", "log": "/Users/ivanyalov/Desktop/bed-prototype/.arduino/evidence/hardware/2026-11-15_B1-D3-bounded-test_171538.jsonl", "physical_observation": "pending operator", "initial_attach": "StandardFirmata Servo attach may briefly emit its default 1500 us pulse"}
+{"time": "2026-11-15T17:15:38.957371+08:00", "event": "serial_open_start"}
+{"time": "2026-11-15T17:15:38.967429+08:00", "event": "serial_open_complete"}
+{"time": "2026-11-15T17:15:42.642919+08:00", "event": "rx", "hex": "f90205"}
+{"time": "2026-11-15T17:15:42.645749+08:00", "event": "rx", "hex": "f0790205530074006100"}
+{"time": "2026-11-15T17:15:42.646085+08:00", "event": "rx", "hex": "6e0064006100720064"}
+{"time": "2026-11-15T17:15:42.648087+08:00", "event": "rx", "hex": "0046"}
+{"time": "2026-11-15T17:15:42.648305+08:00", "event": "rx", "hex": "00690072006d0061007400"}
+{"time": "2026-11-15T17:15:42.648589+08:00", "event": "rx", "hex": "6100"}
+{"time": "2026-11-15T17:15:42.648745+08:00", "event": "rx", "hex": "2e"}
+{"time": "2026-11-15T17:15:42.650135+08:00", "event": "rx", "hex": "00"}
+{"time": "2026-11-15T17:15:42.650319+08:00", "event": "rx", "hex": "69006e006f00f7"}
+{"time": "2026-11-15T17:15:44.975456+08:00", "event": "query", "hex": "f079f7", "written": 3}
+{"time": "2026-11-15T17:15:44.976534+08:00", "event": "rx", "hex": "f079"}
+{"time": "2026-11-15T17:15:44.976903+08:00", "event": "rx", "hex": "0205"}
+{"time": "2026-11-15T17:15:44.977339+08:00", "event": "rx", "hex": "5300"}
+{"time": "2026-11-15T17:15:44.978058+08:00", "event": "rx", "hex": "74006100"}
+{"time": "2026-11-15T17:15:44.978822+08:00", "event": "rx", "hex": "6e00640061"}
+{"time": "2026-11-15T17:15:44.979602+08:00", "event": "rx", "hex": "007200"}
+{"time": "2026-11-15T17:15:44.981674+08:00", "event": "rx", "hex": "64004600690072006d00610074"}
+{"time": "2026-11-15T17:15:44.981838+08:00", "event": "rx", "hex": "0061"}
+{"time": "2026-11-15T17:15:44.982208+08:00", "event": "rx", "hex": "002e"}
+{"time": "2026-11-15T17:15:44.982529+08:00", "event": "rx", "hex": "00"}
+{"time": "2026-11-15T17:15:44.982670+08:00", "event": "rx", "hex": "6900"}
+{"time": "2026-11-15T17:15:44.982844+08:00", "event": "rx", "hex": "6e"}
+{"time": "2026-11-15T17:15:44.983043+08:00", "event": "rx", "hex": "00"}
+{"time": "2026-11-15T17:15:44.983231+08:00", "event": "rx", "hex": "6f"}
+{"time": "2026-11-15T17:15:44.983879+08:00", "event": "rx", "hex": "00f7"}
+{"time": "2026-11-15T17:15:45.026992+08:00", "event": "firmware_verified", "name": "StandardFirmata.ino", "major": 2, "minor": 5}
+{"time": "2026-11-15T17:15:45.027411+08:00", "event": "query", "hex": "f06d03f7", "written": 4}
+{"time": "2026-11-15T17:15:45.028666+08:00", "event": "rx", "hex": "f0"}
+{"time": "2026-11-15T17:15:45.029223+08:00", "event": "rx", "hex": "6e0301"}
+{"time": "2026-11-15T17:15:45.029605+08:00", "event": "rx", "hex": "00f7"}
+{"time": "2026-11-15T17:15:45.078893+08:00", "event": "query", "hex": "f06d04f7", "written": 4}
+{"time": "2026-11-15T17:15:45.080191+08:00", "event": "rx", "hex": "f06e"}
+{"time": "2026-11-15T17:15:45.080603+08:00", "event": "rx", "hex": "0401"}
+{"time": "2026-11-15T17:15:45.082925+08:00", "event": "rx", "hex": "00f7"}
+{"time": "2026-11-15T17:15:45.134664+08:00", "event": "query", "hex": "f06d05f7", "written": 4}
+{"time": "2026-11-15T17:15:45.136522+08:00", "event": "rx", "hex": "f06e050100f7"}
+{"time": "2026-11-15T17:15:45.188411+08:00", "event": "query", "hex": "f06d06f7", "written": 4}
+{"time": "2026-11-15T17:15:45.189701+08:00", "event": "rx", "hex": "f0"}
+{"time": "2026-11-15T17:15:45.189997+08:00", "event": "rx", "hex": "6e06"}
+{"time": "2026-11-15T17:15:45.190284+08:00", "event": "rx", "hex": "0100"}
+{"time": "2026-11-15T17:15:45.190537+08:00", "event": "rx", "hex": "f7"}
+{"time": "2026-11-15T17:15:45.242395+08:00", "event": "query", "hex": "f06d07f7", "written": 4}
+{"time": "2026-11-15T17:15:45.243906+08:00", "event": "rx", "hex": "f06e"}
+{"time": "2026-11-15T17:15:45.244616+08:00", "event": "rx", "hex": "070100f7"}
+{"time": "2026-11-15T17:15:45.296007+08:00", "event": "query", "hex": "f06d08f7", "written": 4}
+{"time": "2026-11-15T17:15:45.297219+08:00", "event": "rx", "hex": "f0"}
+{"time": "2026-11-15T17:15:45.297421+08:00", "event": "rx", "hex": "6e"}
+{"time": "2026-11-15T17:15:45.297754+08:00", "event": "rx", "hex": "0801"}
+{"time": "2026-11-15T17:15:45.298060+08:00", "event": "rx", "hex": "00f7"}
+{"time": "2026-11-15T17:15:45.347527+08:00", "event": "query", "hex": "f06d0af7", "written": 4}
+{"time": "2026-11-15T17:15:45.348615+08:00", "event": "rx", "hex": "f0"}
+{"time": "2026-11-15T17:15:45.348909+08:00", "event": "rx", "hex": "6e0a"}
+{"time": "2026-11-15T17:15:45.349413+08:00", "event": "rx", "hex": "0100f7"}
+{"time": "2026-11-15T17:15:45.401746+08:00", "event": "query", "hex": "f06d0bf7", "written": 4}
+{"time": "2026-11-15T17:15:45.402917+08:00", "event": "rx", "hex": "f0"}
+{"time": "2026-11-15T17:15:45.402997+08:00", "event": "rx", "hex": "6e"}
+{"time": "2026-11-15T17:15:45.403177+08:00", "event": "rx", "hex": "0b"}
+{"time": "2026-11-15T17:15:45.403398+08:00", "event": "rx", "hex": "01"}
+{"time": "2026-11-15T17:15:45.403505+08:00", "event": "rx", "hex": "00"}
+{"time": "2026-11-15T17:15:45.403698+08:00", "event": "rx", "hex": "f7"}
+{"time": "2026-11-15T17:15:45.456515+08:00", "event": "query", "hex": "f06d0cf7", "written": 4}
+{"time": "2026-11-15T17:15:45.457701+08:00", "event": "rx", "hex": "f0"}
+{"time": "2026-11-15T17:15:45.457815+08:00", "event": "rx", "hex": "6e"}
+{"time": "2026-11-15T17:15:45.457979+08:00", "event": "rx", "hex": "0c"}
+{"time": "2026-11-15T17:15:45.458134+08:00", "event": "rx", "hex": "01"}
+{"time": "2026-11-15T17:15:45.458319+08:00", "event": "rx", "hex": "00"}
+{"time": "2026-11-15T17:15:45.458458+08:00", "event": "rx", "hex": "f7"}
+{"time": "2026-11-15T17:15:45.509554+08:00", "event": "baseline", "states": [{"pin": 3, "mode": 1, "stored_value": 0}, {"pin": 4, "mode": 1, "stored_value": 0}, {"pin": 5, "mode": 1, "stored_value": 0}, {"pin": 6, "mode": 1, "stored_value": 0}, {"pin": 7, "mode": 1, "stored_value": 0}, {"pin": 8, "mode": 1, "stored_value": 0}, {"pin": 10, "mode": 1, "stored_value": 0}, {"pin": 11, "mode": 1, "stored_value": 0}, {"pin": 12, "mode": 1, "stored_value": 0}]}
+{"time": "2026-11-15T17:15:45.510063+08:00", "event": "configure_D3_servo_and_candidate_OFF", "hex": "f0700320046012f7e30000", "written": 11}
+{"time": "2026-11-15T17:15:45.765264+08:00", "event": "query", "hex": "f06d03f7", "written": 4}
+{"time": "2026-11-15T17:15:45.766527+08:00", "event": "rx", "hex": "f0"}
+{"time": "2026-11-15T17:15:45.766588+08:00", "event": "rx", "hex": "6e"}
+{"time": "2026-11-15T17:15:45.766770+08:00", "event": "rx", "hex": "03"}
+{"time": "2026-11-15T17:15:45.766939+08:00", "event": "rx", "hex": "04"}
+{"time": "2026-11-15T17:15:45.767067+08:00", "event": "rx", "hex": "00"}
+{"time": "2026-11-15T17:15:45.767248+08:00", "event": "rx", "hex": "f7"}
+{"time": "2026-11-15T17:15:45.820496+08:00", "event": "pulse_starting_now", "target": "B1/D3", "seconds": 3}
+{"time": "2026-11-15T17:15:45.820753+08:00", "event": "candidate_ON", "hex": "e33401", "written": 3}
+{"time": "2026-11-15T17:15:48.821920+08:00", "event": "candidate_OFF", "hex": "e30000", "written": 3}
+{"time": "2026-11-15T17:15:48.822193+08:00", "event": "pulse_commands_complete", "host_interval_ms": 3001.45, "physical_start": "unverified", "physical_stop": "unverified"}
+{"time": "2026-11-15T17:15:48.822645+08:00", "event": "query", "hex": "f06d03f7", "written": 4}
+{"time": "2026-11-15T17:15:48.823823+08:00", "event": "rx", "hex": "f0"}
+{"time": "2026-11-15T17:15:48.824055+08:00", "event": "rx", "hex": "6e03"}
+{"time": "2026-11-15T17:15:48.824213+08:00", "event": "rx", "hex": "04"}
+{"time": "2026-11-15T17:15:48.824603+08:00", "event": "rx", "hex": "00f7"}
+{"time": "2026-11-15T17:15:48.877152+08:00", "event": "after_pulse", "state": {"pin": 3, "mode": 4, "stored_value": 0}}
+{"time": "2026-11-15T17:15:48.877395+08:00", "event": "holding_port", "seconds": 120, "message": "No further ON commands; waiting for operator observation"}
+{"time": "2026-11-15T17:17:48.975343+08:00", "event": "final_candidate_OFF", "hex": "e30000", "written": 3}
+{"time": "2026-11-15T17:17:48.981969+08:00", "event": "serial_closed"}

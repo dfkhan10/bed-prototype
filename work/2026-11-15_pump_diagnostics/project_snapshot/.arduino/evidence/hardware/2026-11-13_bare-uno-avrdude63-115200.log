@@ -1,0 +1,18 @@
+
+avrdude: Version 6.3-20190619
+         Copyright (c) 2000-2005 Brian Dean, http://www.bdmicro.com/
+         Copyright (c) 2007-2014 Joerg Wunsch
+
+         System wide configuration file is "/Users/ivanyalov/Projects/hkust/isdn5230-healthcare/project/bed-prototype/.cache/arduino/avrdude-6.3/avrdude/etc/avrdude.conf"
+         User configuration file is "/Users/ivanyalov/.avrduderc"
+         User configuration file does not exist or is not a regular file, skipping
+
+         Using Port                    : /dev/cu.usbserial-10
+         Using Programmer              : arduino
+         Overriding Baud Rate          : 115200
+avrdude: stk500_recv(): programmer is not responding
+avrdude: stk500_getsync() attempt 1 of 10: not in sync: resp=0x00
+avrdude: stk500_recv(): programmer is not responding
+avrdude: stk500_getsync() attempt 2 of 10: not in sync: resp=0x00
+
+HOST_TIMEOUT_15_SECONDS

@@ -1,0 +1,8 @@
+{
+  "port": "/dev/cu.wchusbserial110",
+  "operation": "read-only TIOCMGET modem-control API check; no UART bytes sent",
+  "supported": true,
+  "value": 6,
+  "dtr": true,
+  "rts": true
+}

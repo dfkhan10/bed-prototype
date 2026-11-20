@@ -1,0 +1,178 @@
+{
+  "port": "/dev/cu.usbserial-10",
+  "driver": "AppleUSBCHCOM",
+  "mode": "bounded_baud_calibration_known_readonly_response",
+  "memory_writes": false,
+  "cyberwave_usbip": "stopped",
+  "expected_sign_on_hex": "144156522049535010",
+  "trials": [
+    {
+      "baud": 57600,
+      "frames": [
+        {
+          "query": "sign_on",
+          "tx_hex": "3120",
+          "rx_hex": "144156522049535010"
+        },
+        {
+          "query": "sign_on",
+          "tx_hex": "3120",
+          "rx_hex": "144156522049535010"
+        },
+        {
+          "query": "sign_on",
+          "tx_hex": "3120",
+          "rx_hex": "144156522049535010"
+        },
+        {
+          "query": "signature",
+          "tx_hex": "7520",
+          "rx_hex": ""
+        }
+      ],
+      "correct_sign_on_frames": 3
+    },
+    {
+      "baud": 54000,
+      "frames": [
+        {
+          "query": "sign_on",
+          "tx_hex": "3120",
+          "rx_hex": ""
+        }
+      ],
+      "correct_sign_on_frames": 0
+    },
+    {
+      "baud": 55200,
+      "frames": [
+        {
+          "query": "sign_on",
+          "tx_hex": "3120",
+          "rx_hex": "84204d052aada0fc"
+        },
+        {
+          "query": "sign_on",
+          "tx_hex": "3120",
+          "rx_hex": "8c284d0122ada0fc"
+        },
+        {
+          "query": "sign_on",
+          "tx_hex": "3120",
+          "rx_hex": "8c284d0522ada8fc"
+        }
+      ],
+      "correct_sign_on_frames": 0
+    },
+    {
+      "baud": 56400,
+      "frames": [
+        {
+          "query": "sign_on",
+          "tx_hex": "3120",
+          "rx_hex": "14a155052aad5080"
+        },
+        {
+          "query": "sign_on",
+          "tx_hex": "3120",
+          "rx_hex": "14a115052aad5080"
+        },
+        {
+          "query": "sign_on",
+          "tx_hex": "3120",
+          "rx_hex": "14a155052aad5080"
+        }
+      ],
+      "correct_sign_on_frames": 0
+    },
+    {
+      "baud": 58823,
+      "frames": [
+        {
+          "query": "sign_on",
+          "tx_hex": "3120",
+          "rx_hex": "144156522049535010"
+        },
+        {
+          "query": "sign_on",
+          "tx_hex": "3120",
+          "rx_hex": "144156522049535010"
+        },
+        {
+          "query": "sign_on",
+          "tx_hex": "3120",
+          "rx_hex": "144156522049535010"
+        },
+        {
+          "query": "signature",
+          "tx_hex": "7520",
+          "rx_hex": ""
+        }
+      ],
+      "correct_sign_on_frames": 3
+    },
+    {
+      "baud": 60000,
+      "frames": [
+        {
+          "query": "sign_on",
+          "tx_hex": "3120",
+          "rx_hex": "144156522049535010"
+        },
+        {
+          "query": "sign_on",
+          "tx_hex": "3120",
+          "rx_hex": "144156522049535010"
+        },
+        {
+          "query": "sign_on",
+          "tx_hex": "3120",
+          "rx_hex": "144156522049535010"
+        },
+        {
+          "query": "signature",
+          "tx_hex": "7520",
+          "rx_hex": ""
+        }
+      ],
+      "correct_sign_on_frames": 3
+    },
+    {
+      "baud": 61200,
+      "frames": [
+        {
+          "query": "sign_on",
+          "tx_hex": "3120",
+          "rx_hex": "144156522049535010"
+        },
+        {
+          "query": "sign_on",
+          "tx_hex": "3120",
+          "rx_hex": "144156522049535010"
+        },
+        {
+          "query": "sign_on",
+          "tx_hex": "3120",
+          "rx_hex": "144156522049535010"
+        },
+        {
+          "query": "signature",
+          "tx_hex": "7520",
+          "rx_hex": ""
+        }
+      ],
+      "correct_sign_on_frames": 3
+    },
+    {
+      "baud": 62400,
+      "frames": [
+        {
+          "query": "sign_on",
+          "tx_hex": "3120",
+          "rx_hex": ""
+        }
+      ],
+      "correct_sign_on_frames": 0
+    }
+  ]
+}

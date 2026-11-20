@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-15",
+  "board_serial": "24238313635351910130",
+  "port": "/dev/cu.usbmodem1201",
+  "operator_setup": "shield fitted; jumper D3 S to D4 S confirmed connected; pumps/drivers and external power disconnected; USB only",
+  "tests": [
+    {
+      "command": "BASELINE",
+      "response": "BASELINE D3=1 D4=1\r\n"
+    },
+    {
+      "command": "TEST",
+      "response": "D3->D4 mismatches=0/20\r\nD4->D3 mismatches=0/20\r\nTOTAL mismatches=0/40; pins_released=1\r\n"
+    }
+  ],
+  "startup": "SHIELD_LOOPBACK 2026-11-15; ready; inputs_only\r\n",
+  "loopback_pass": true
+}

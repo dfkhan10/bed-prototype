@@ -1,0 +1,36 @@
+file,quantity,x_mm,y_mm,z_mm,source,orientation
+02_frame/Service_cover_1_x01.stl,1,168.625,168.625,4.000,current,flat underside down
+02_frame/Frame_1_1_x01.stl,1,171.875,171.875,69.000,current,as assembled - lower face down
+02_frame/Bottom_panel_1_1_x01.stl,1,171.875,171.875,4.000,current,flat underside down
+02_frame/Service_cover_2_x01.stl,1,168.625,168.625,4.000,current,flat underside down
+02_frame/Frame_2_1_x01.stl,1,171.875,171.875,69.000,current,as assembled - lower face down
+02_frame/Bottom_panel_2_1_x01.stl,1,171.875,171.875,4.000,current,flat underside down
+02_frame/Frame_1_2_x01.stl,1,185.875,87.750,69.000,current,as assembled - lower face down
+02_frame/Bottom_panel_1_2_x01.stl,1,171.875,87.750,4.000,current,flat underside down
+02_frame/Frame_2_2_x01.stl,1,185.875,87.750,69.000,current,as assembled - lower face down
+02_frame/Bottom_panel_2_2_x01.stl,1,171.875,87.750,4.000,current,flat underside down
+02_frame/Frame_1_3_x01.stl,1,171.875,83.750,69.000,current,as assembled - lower face down
+02_frame/Bottom_panel_1_3_x01.stl,1,171.875,83.750,4.000,current,flat underside down
+02_frame/Frame_2_3_x01.stl,1,171.875,83.750,69.000,current,as assembled - lower face down
+02_frame/Bottom_panel_2_3_x01.stl,1,171.875,83.750,4.000,current,flat underside down
+02_frame/Frame_1_4_x01.stl,1,185.875,101.875,69.000,current,as assembled - lower face down
+02_frame/Bottom_panel_1_4_x01.stl,1,171.875,87.875,4.000,current,flat underside down
+02_frame/Frame_2_4_x01.stl,1,185.875,101.875,69.000,current,as assembled - lower face down
+02_frame/Bottom_panel_2_4_x01.stl,1,171.875,87.875,4.000,current,flat underside down
+03_mounts_fit_check/Electronics_tray_1_x01.stl,1,136.000,68.000,5.000,current,flat upper face down
+03_mounts_fit_check/Electronics_tray_2_x01.stl,1,136.000,68.000,29.000,current,flat upper face down
+03_mounts_fit_check/Valve_carrier_x01.stl,1,136.000,65.000,5.000,current,as assembled - lower face down
+03_mounts_fit_check/Uno_R3_sliding_adapter_x01.stl,1,69.500,57.000,8.800,current,flat underside down
+03_mounts_fit_check/Tube_clip_G1_R1_x01.stl,1,20.000,10.000,10.733,baseline STEP,as assembled - lower face down
+03_mounts_fit_check/Tube_clip_G1_R2_x01.stl,1,20.000,10.000,10.733,baseline STEP,as assembled - lower face down
+03_mounts_fit_check/Tube_clip_G1_R3_x01.stl,1,20.000,10.000,10.733,baseline STEP,as assembled - lower face down
+03_mounts_fit_check/Tube_clip_G2_R1_x01.stl,1,20.000,10.000,20.733,baseline STEP,as assembled - lower face down
+03_mounts_fit_check/Tube_clip_G2_R2_x01.stl,1,20.000,10.000,20.733,baseline STEP,as assembled - lower face down
+03_mounts_fit_check/Tube_clip_G2_R3_x01.stl,1,20.000,10.000,20.733,baseline STEP,as assembled - lower face down
+01_cells/Clamp_AC_x06.stl,6,83.500,83.500,4.000,current,flat underside down
+01_cells/Clamp_BD_x06.stl,6,83.500,83.500,4.000,current,flat underside down
+01_cells/Cup_AC_x06.stl,6,83.500,83.500,10.000,current,flat upper face down
+01_cells/Cup_BD_x06.stl,6,83.500,83.500,10.000,current,flat upper face down
+03_mounts_fit_check/Pump_cradle_x06.stl,6,78.000,32.000,18.200,baseline STEP,as assembled - lower face down
+04_handles_fit_check/Rounded_handle_x04.stl,4,102.000,73.000,16.500,current,mounting face down; inspect support under grip
+02_frame/Splice_plate_x17.stl,17,18.000,26.000,3.000,baseline STEP,as assembled - lower face down

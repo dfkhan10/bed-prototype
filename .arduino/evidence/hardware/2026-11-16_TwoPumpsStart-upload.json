@@ -1,0 +1,24 @@
+{
+  "ts": "2026-11-16T10:18:45.711160+00:00",
+  "sketch": "build/2026-11-16_two_pumps_start/TwoPumpsStart/TwoPumpsStart.ino",
+  "fqbn": "arduino:avr:uno",
+  "port": "/dev/cu.usbmodem1101",
+  "pins": {
+    "inflate": 8,
+    "deflate": 10
+  },
+  "auto_run": false,
+  "commands": [
+    "GO",
+    "IN",
+    "OUT",
+    "OFF"
+  ],
+  "serial_banner": [
+    "TwoPumpsStart — vendor basic pins",
+    "D8=inflate D10=deflate. GO / IN / OUT / OFF"
+  ],
+  "compile_exit": 0,
+  "upload_exit": 0,
+  "note": "Upload+banner only. Pump motion unverified. No GO sent."
+}

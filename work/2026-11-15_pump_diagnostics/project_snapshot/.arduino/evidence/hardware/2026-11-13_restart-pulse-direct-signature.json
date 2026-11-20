@@ -1,0 +1,30 @@
+{
+  "port": "/dev/cu.wchusbserial10",
+  "baud": 57600,
+  "mode": "upstream_reset_pulse_then_direct_signature",
+  "memory_writes": false,
+  "events": [
+    {
+      "t_ms": 19.55,
+      "kind": "open"
+    },
+    {
+      "t_ms": 275.752,
+      "kind": "reset_asserted"
+    },
+    {
+      "t_ms": 277.576,
+      "kind": "reset_released"
+    },
+    {
+      "t_ms": 402.602,
+      "kind": "tx",
+      "hex": "7520"
+    },
+    {
+      "t_ms": 1925.134,
+      "kind": "closed"
+    }
+  ],
+  "received_hex": ""
+}

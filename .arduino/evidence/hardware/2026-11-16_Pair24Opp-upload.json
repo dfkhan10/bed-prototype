@@ -1,0 +1,17 @@
+{
+  "time": "2026-11-16T15:58:17+08:00",
+  "board_serial": "24238313635351910130",
+  "port": "/dev/cu.usbmodem1101",
+  "source": "build/2026-11-16_pair24/Pair24Opp/Pair24Opp.ino",
+  "source_sha256": "e2bf2c47051b512015de6cb66403ec3f0f44512d55e0a0b97347ada6786a1679",
+  "hex_sha256": "57606e5a358763785c119f0fb8ccdc7caedafb230ab6dd2a7b0cbffd6c376205",
+  "flash_bytes": 2224,
+  "static_ram_bytes": 53,
+  "pins": {"inflate": 2, "deflate": 4},
+  "sequence": "both ON 5s (D2 inflate + D4 deflate), both OFF 3s, two cycles, final OFF",
+  "upload_verified": false,
+  "upload_attempts": 2,
+  "failure": "avrdude not in sync resp=0x00; unable to open port for programmer after 10 attempts",
+  "board_still_enumerated": true,
+  "post_upload_serial_opened": false
+}

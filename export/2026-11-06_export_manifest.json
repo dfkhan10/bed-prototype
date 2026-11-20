@@ -1,0 +1,2653 @@
+{
+  "units": "mm",
+  "parts": [
+    {
+      "name": "BedFrame_CellDeck",
+      "file": "stl/BedFrame_CellDeck.stl",
+      "bbox_mm": [
+        192.0,
+        252.0,
+        36.0
+      ],
+      "volume_mm3": 313476.07665003784
+    },
+    {
+      "name": "BedFrame_ServiceDeck",
+      "file": "stl/BedFrame_ServiceDeck.stl",
+      "bbox_mm": [
+        208.0,
+        136.0,
+        36.0
+      ],
+      "volume_mm3": 222824.5348909877
+    },
+    {
+      "name": "BedFrame_ElectronicsBay",
+      "file": "stl/BedFrame_ElectronicsBay.stl",
+      "bbox_mm": [
+        208.0,
+        136.0,
+        52.0
+      ],
+      "volume_mm3": 154487.99978924484
+    },
+    {
+      "name": "BedFrame_BottomPanel",
+      "file": "stl/BedFrame_BottomPanel.stl",
+      "bbox_mm": [
+        208.0,
+        136.0,
+        4.0000000000000036
+      ],
+      "volume_mm3": 111064.87994397609
+    }
+  ],
+  "references": [
+    {
+      "name": "Reference_Valve_A1",
+      "file": "reference/Reference_Valve_A1.stl",
+      "status": "unmeasured valve envelope"
+    },
+    {
+      "name": "Reference_Valve_B1",
+      "file": "reference/Reference_Valve_B1.stl",
+      "status": "unmeasured valve envelope"
+    },
+    {
+      "name": "Reference_Valve_C1",
+      "file": "reference/Reference_Valve_C1.stl",
+      "status": "unmeasured valve envelope"
+    },
+    {
+      "name": "Reference_Valve_A2",
+      "file": "reference/Reference_Valve_A2.stl",
+      "status": "unmeasured valve envelope"
+    },
+    {
+      "name": "Reference_Valve_B2",
+      "file": "reference/Reference_Valve_B2.stl",
+      "status": "unmeasured valve envelope"
+    },
+    {
+      "name": "Reference_Valve_C2",
+      "file": "reference/Reference_Valve_C2.stl",
+      "status": "unmeasured valve envelope"
+    },
+    {
+      "name": "Reference_Valve_A3",
+      "file": "reference/Reference_Valve_A3.stl",
+      "status": "unmeasured valve envelope"
+    },
+    {
+      "name": "Reference_Valve_B3",
+      "file": "reference/Reference_Valve_B3.stl",
+      "status": "unmeasured valve envelope"
+    },
+    {
+      "name": "Reference_Valve_C3",
+      "file": "reference/Reference_Valve_C3.stl",
+      "status": "unmeasured valve envelope"
+    },
+    {
+      "name": "Reference_Valve_A4",
+      "file": "reference/Reference_Valve_A4.stl",
+      "status": "unmeasured valve envelope"
+    },
+    {
+      "name": "Reference_Valve_B4",
+      "file": "reference/Reference_Valve_B4.stl",
+      "status": "unmeasured valve envelope"
+    },
+    {
+      "name": "Reference_Valve_C4",
+      "file": "reference/Reference_Valve_C4.stl",
+      "status": "unmeasured valve envelope"
+    },
+    {
+      "name": "Reference_ScrewCell_0_0",
+      "file": "reference/Reference_ScrewCell_0_0.stl",
+      "status": "generic M2.5 screw reference"
+    },
+    {
+      "name": "Reference_ScrewCell_0_1",
+      "file": "reference/Reference_ScrewCell_0_1.stl",
+      "status": "generic M2.5 screw reference"
+    },
+    {
+      "name": "Reference_ScrewCell_0_2",
+      "file": "reference/Reference_ScrewCell_0_2.stl",
+      "status": "generic M2.5 screw reference"
+    },
+    {
+      "name": "Reference_ScrewCell_0_3",
+      "file": "reference/Reference_ScrewCell_0_3.stl",
+      "status": "generic M2.5 screw reference"
+    },
+    {
+      "name": "Reference_ScrewRim_0",
+      "file": "reference/Reference_ScrewRim_0.stl",
+      "status": "generic M2.5 screw reference"
+    },
+    {
+      "name": "Reference_ScrewRim_1",
+      "file": "reference/Reference_ScrewRim_1.stl",
+      "status": "generic M2.5 screw reference"
+    },
+    {
+      "name": "Reference_ScrewRim_2",
+      "file": "reference/Reference_ScrewRim_2.stl",
+      "status": "generic M2.5 screw reference"
+    },
+    {
+      "name": "Reference_ScrewRim_3",
+      "file": "reference/Reference_ScrewRim_3.stl",
+      "status": "generic M2.5 screw reference"
+    },
+    {
+      "name": "Reference_ScrewRim_4",
+      "file": "reference/Reference_ScrewRim_4.stl",
+      "status": "generic M2.5 screw reference"
+    },
+    {
+      "name": "Reference_ScrewRim_5",
+      "file": "reference/Reference_ScrewRim_5.stl",
+      "status": "generic M2.5 screw reference"
+    },
+    {
+      "name": "Reference_ScrewRim_6",
+      "file": "reference/Reference_ScrewRim_6.stl",
+      "status": "generic M2.5 screw reference"
+    },
+    {
+      "name": "Reference_ScrewRim_7",
+      "file": "reference/Reference_ScrewRim_7.stl",
+      "status": "generic M2.5 screw reference"
+    },
+    {
+      "name": "Reference_ScrewPanel_0",
+      "file": "reference/Reference_ScrewPanel_0.stl",
+      "status": "generic M2.5 screw reference"
+    },
+    {
+      "name": "Reference_ScrewPanel_1",
+      "file": "reference/Reference_ScrewPanel_1.stl",
+      "status": "generic M2.5 screw reference"
+    },
+    {
+      "name": "Reference_ScrewPanel_2",
+      "file": "reference/Reference_ScrewPanel_2.stl",
+      "status": "generic M2.5 screw reference"
+    },
+    {
+      "name": "Reference_ScrewPanel_3",
+      "file": "reference/Reference_ScrewPanel_3.stl",
+      "status": "generic M2.5 screw reference"
+    },
+    {
+      "name": "Reference_ScrewPanel_4",
+      "file": "reference/Reference_ScrewPanel_4.stl",
+      "status": "generic M2.5 screw reference"
+    },
+    {
+      "name": "Reference_ScrewPanel_5",
+      "file": "reference/Reference_ScrewPanel_5.stl",
+      "status": "generic M2.5 screw reference"
+    },
+    {
+      "name": "Reference_ScrewPanel_6",
+      "file": "reference/Reference_ScrewPanel_6.stl",
+      "status": "generic M2.5 screw reference"
+    },
+    {
+      "name": "Reference_ScrewPanel_7",
+      "file": "reference/Reference_ScrewPanel_7.stl",
+      "status": "generic M2.5 screw reference"
+    }
+  ],
+  "layout": {
+    "width": 192,
+    "length": 252,
+    "roof": 4,
+    "ztop": 36,
+    "tiles": [
+      {
+        "name": "BedFrame_CellDeck",
+        "rows": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "ymin": -126.0,
+        "ymax": 126.0
+      }
+    ],
+    "cells": [
+      {
+        "id": "A1",
+        "x": -60.0,
+        "y": 90.0,
+        "col": 0,
+        "row": 0
+      },
+      {
+        "id": "B1",
+        "x": 0.0,
+        "y": 90.0,
+        "col": 1,
+        "row": 0
+      },
+      {
+        "id": "C1",
+        "x": 60.0,
+        "y": 90.0,
+        "col": 2,
+        "row": 0
+      },
+      {
+        "id": "A2",
+        "x": -60.0,
+        "y": 30.0,
+        "col": 0,
+        "row": 1
+      },
+      {
+        "id": "B2",
+        "x": 0.0,
+        "y": 30.0,
+        "col": 1,
+        "row": 1
+      },
+      {
+        "id": "C2",
+        "x": 60.0,
+        "y": 30.0,
+        "col": 2,
+        "row": 1
+      },
+      {
+        "id": "A3",
+        "x": -60.0,
+        "y": -30.0,
+        "col": 0,
+        "row": 2
+      },
+      {
+        "id": "B3",
+        "x": 0.0,
+        "y": -30.0,
+        "col": 1,
+        "row": 2
+      },
+      {
+        "id": "C3",
+        "x": 60.0,
+        "y": -30.0,
+        "col": 2,
+        "row": 2
+      },
+      {
+        "id": "A4",
+        "x": -60.0,
+        "y": -90.0,
+        "col": 0,
+        "row": 3
+      },
+      {
+        "id": "B4",
+        "x": 0.0,
+        "y": -90.0,
+        "col": 1,
+        "row": 3
+      },
+      {
+        "id": "C4",
+        "x": 60.0,
+        "y": -90.0,
+        "col": 2,
+        "row": 3
+      }
+    ],
+    "valves": [
+      {
+        "id": "A1",
+        "x": -36.0,
+        "y": -162.3
+      },
+      {
+        "id": "B1",
+        "x": -12.0,
+        "y": -162.3
+      },
+      {
+        "id": "C1",
+        "x": 12.0,
+        "y": -162.3
+      },
+      {
+        "id": "A2",
+        "x": 36.0,
+        "y": -162.3
+      },
+      {
+        "id": "B2",
+        "x": -36.0,
+        "y": -194.3
+      },
+      {
+        "id": "C2",
+        "x": -12.0,
+        "y": -194.3
+      },
+      {
+        "id": "A3",
+        "x": 12.0,
+        "y": -194.3
+      },
+      {
+        "id": "B3",
+        "x": 36.0,
+        "y": -194.3
+      },
+      {
+        "id": "C3",
+        "x": -36.0,
+        "y": -226.3
+      },
+      {
+        "id": "A4",
+        "x": -12.0,
+        "y": -226.3
+      },
+      {
+        "id": "B4",
+        "x": 12.0,
+        "y": -226.3
+      },
+      {
+        "id": "C4",
+        "x": 36.0,
+        "y": -226.3
+      }
+    ],
+    "service_x": 208,
+    "service_y": 136,
+    "service_cy": -194.3,
+    "service_front": -126.3,
+    "mate_y": -126.0,
+    "screw_points": [
+      [
+        -97.0,
+        -255.3
+      ],
+      [
+        0,
+        -255.3
+      ],
+      [
+        97.0,
+        -255.3
+      ],
+      [
+        -97.0,
+        -194.3
+      ],
+      [
+        97.0,
+        -194.3
+      ],
+      [
+        -97.0,
+        -133.3
+      ],
+      [
+        0,
+        -133.3
+      ],
+      [
+        97.0,
+        -133.3
+      ]
+    ],
+    "joint_xs": [
+      -84,
+      -22,
+      22,
+      84
+    ],
+    "screw_engagement_mm": 6
+  },
+  "params": {
+    "_comment": "Single source of truth \u2014 edit here, then rebuild Fusion + export STL",
+    "grid_n_x": 3,
+    "grid_n_y": 4,
+    "cell_pitch": 60,
+    "well_open": 56,
+    "cell_seat_depth": 2,
+    "cell_floor_t": 2,
+    "wall_t": 3,
+    "cavity_h": 32,
+    "deck_rim": 8,
+    "corner_r": 6,
+    "e_bay_x": 200,
+    "e_bay_y": 128,
+    "e_bay_cavity_h": 52,
+    "panel_t": 4,
+    "valve_l": 22,
+    "valve_w": 12,
+    "valve_h": 30,
+    "valve_cols": 4,
+    "tube_od": 6,
+    "port_d": 6.5,
+    "fasteners": {
+      "_comment": "M2.5 thread-forming screws into 2.1 mm pilots. Heat-set pockets require actual insert OD/length, not this pilot.",
+      "primary": "M2.5",
+      "screw_length_mm": 10,
+      "clearance_d": 2.7,
+      "pilot_d": 2.1,
+      "boss_od": 5.5,
+      "boss_h": 8,
+      "head_clearance_d": 5,
+      "perimeter_inset": 7,
+      "joint_screw_count": 4,
+      "mode": "thread_forming",
+      "rim_screw_count": 8,
+      "panel_screw_count": 8,
+      "boss_web_t": 2,
+      "head_h": 2,
+      "joint_receiver_w": 10,
+      "joint_receiver_h": 10
+    },
+    "print_max_mm": 252,
+    "joint_gap": 0.3,
+    "joint_axis_z": 26,
+    "rib_t": 4,
+    "tube_bundle_w": 34,
+    "tube_route_z": 16,
+    "tube_bundle_h": 12,
+    "valve_pitch_x": 24,
+    "valve_pitch_y": 32,
+    "valve_fit_clearance": 1,
+    "valve_mount_rail_t": 2,
+    "valve_mount_rail_h": 10,
+    "valve_mount_rail_l": 26,
+    "electronics_wall_t": 4,
+    "rim_flange_w": 10,
+    "edge_break_r": 0.6,
+    "seat_corner_r": 3,
+    "vent_slot_w": 3,
+    "vent_slot_l": 18,
+    "pneumatics": {
+      "architecture": "shared_supply_individual_cell_valves",
+      "groups": "software_selectable",
+      "pump_count": null,
+      "pump_mounts_enabled": false,
+      "valve_type": "unconfirmed",
+      "target_pressure_kpa": null,
+      "cell_inflated_volume_ml": null,
+      "max_simultaneous_cells": null,
+      "inflate_time_s": null,
+      "pump_flow_at_pressure_l_min": null,
+      "note": "Pump count and mounts await actual pump/valve construction and pressure-flow data; envelopes are provisional.",
+      "pump_reference_envelope_mm": {
+        "axis_length": 68,
+        "head_diameter": 31,
+        "measured": false
+      }
+    },
+    "exploded": {
+      "cell_lift_mm": 100,
+      "service_lift_mm": 48,
+      "bay_drop_mm": 30,
+      "panel_drop_mm": 100,
+      "valve_drop_mm": 15,
+      "service_shift_y_mm": -20,
+      "screw_withdrawal_mm": 20
+    },
+    "joint_screw_x": [
+      -84,
+      -22,
+      22,
+      84
+    ],
+    "vent_count": 8,
+    "vent_pitch": 8,
+    "controller_reference": {
+      "length_mm": 69,
+      "width_mm": 54,
+      "mounting_confirmed": false
+    }
+  },
+  "hole_axes": [
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 1.2,
+      "origin_mm": [
+        -95.39999999999999,
+        63.0,
+        35.4
+      ],
+      "axis": [
+        0.0,
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 1.2,
+      "origin_mm": [
+        -48.0,
+        -125.39999999999999,
+        35.4
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        -0.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 1.2,
+      "origin_mm": [
+        95.39999999999999,
+        -63.0,
+        35.4
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 1.2,
+      "origin_mm": [
+        48.0,
+        125.39999999999999,
+        35.4
+      ],
+      "axis": [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 12.000000000000004,
+      "origin_mm": [
+        90.0,
+        -120.0,
+        0.0
+      ],
+      "axis": [
+        -0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 12.000000000000004,
+      "origin_mm": [
+        -90.0,
+        -120.0,
+        0.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000002,
+      "origin_mm": [
+        -85.0,
+        115.0,
+        36.0
+      ],
+      "axis": [
+        -0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000001,
+      "origin_mm": [
+        -35.0,
+        115.0,
+        36.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000002,
+      "origin_mm": [
+        -85.0,
+        65.0,
+        36.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000001,
+      "origin_mm": [
+        -35.0,
+        65.0,
+        36.0
+      ],
+      "axis": [
+        -0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000001,
+      "origin_mm": [
+        -25.0,
+        115.0,
+        36.0
+      ],
+      "axis": [
+        -0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000001,
+      "origin_mm": [
+        25.0,
+        115.0,
+        36.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000001,
+      "origin_mm": [
+        -25.0,
+        65.0,
+        36.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000001,
+      "origin_mm": [
+        25.0,
+        65.0,
+        36.0
+      ],
+      "axis": [
+        -0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000001,
+      "origin_mm": [
+        35.0,
+        115.0,
+        36.0
+      ],
+      "axis": [
+        -0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000002,
+      "origin_mm": [
+        85.0,
+        115.0,
+        36.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000001,
+      "origin_mm": [
+        35.0,
+        65.0,
+        36.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000002,
+      "origin_mm": [
+        85.0,
+        65.0,
+        36.0
+      ],
+      "axis": [
+        -0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000002,
+      "origin_mm": [
+        -85.0,
+        55.0,
+        36.0
+      ],
+      "axis": [
+        -0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000001,
+      "origin_mm": [
+        -35.0,
+        55.0,
+        36.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000001,
+      "origin_mm": [
+        -85.0,
+        5.0,
+        36.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000001,
+      "origin_mm": [
+        -35.0,
+        5.0,
+        36.0
+      ],
+      "axis": [
+        -0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000001,
+      "origin_mm": [
+        -25.0,
+        55.0,
+        36.0
+      ],
+      "axis": [
+        -0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000001,
+      "origin_mm": [
+        25.0,
+        55.0,
+        36.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000001,
+      "origin_mm": [
+        -25.0,
+        5.0,
+        36.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000001,
+      "origin_mm": [
+        25.0,
+        5.0,
+        36.0
+      ],
+      "axis": [
+        -0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000001,
+      "origin_mm": [
+        35.0,
+        55.0,
+        36.0
+      ],
+      "axis": [
+        -0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000002,
+      "origin_mm": [
+        85.0,
+        55.0,
+        36.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000001,
+      "origin_mm": [
+        35.0,
+        5.0,
+        36.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000001,
+      "origin_mm": [
+        85.0,
+        5.0,
+        36.0
+      ],
+      "axis": [
+        -0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000001,
+      "origin_mm": [
+        -85.0,
+        -5.0,
+        36.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000001,
+      "origin_mm": [
+        -35.0,
+        -5.0,
+        36.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000002,
+      "origin_mm": [
+        -85.0,
+        -55.0,
+        36.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000001,
+      "origin_mm": [
+        -35.0,
+        -55.0,
+        36.0
+      ],
+      "axis": [
+        -0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000001,
+      "origin_mm": [
+        -25.0,
+        -5.0,
+        36.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000001,
+      "origin_mm": [
+        25.0,
+        -5.0,
+        36.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000001,
+      "origin_mm": [
+        -25.0,
+        -55.0,
+        36.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000001,
+      "origin_mm": [
+        25.0,
+        -55.0,
+        36.0
+      ],
+      "axis": [
+        -0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000001,
+      "origin_mm": [
+        35.0,
+        -5.0,
+        36.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000001,
+      "origin_mm": [
+        85.0,
+        -5.0,
+        36.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000001,
+      "origin_mm": [
+        35.0,
+        -55.0,
+        36.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000002,
+      "origin_mm": [
+        85.0,
+        -55.0,
+        36.0
+      ],
+      "axis": [
+        -0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000002,
+      "origin_mm": [
+        -85.0,
+        -65.0,
+        36.0
+      ],
+      "axis": [
+        -0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000001,
+      "origin_mm": [
+        -35.0,
+        -65.0,
+        36.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000002,
+      "origin_mm": [
+        -85.0,
+        -115.0,
+        36.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000001,
+      "origin_mm": [
+        -35.0,
+        -115.0,
+        36.0
+      ],
+      "axis": [
+        -0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000001,
+      "origin_mm": [
+        -25.0,
+        -65.0,
+        36.0
+      ],
+      "axis": [
+        -0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000001,
+      "origin_mm": [
+        25.0,
+        -65.0,
+        36.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000001,
+      "origin_mm": [
+        -25.0,
+        -115.0,
+        36.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000001,
+      "origin_mm": [
+        25.0,
+        -115.0,
+        36.0
+      ],
+      "axis": [
+        -0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000001,
+      "origin_mm": [
+        35.0,
+        -65.0,
+        36.0
+      ],
+      "axis": [
+        -0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000002,
+      "origin_mm": [
+        85.0,
+        -65.0,
+        36.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000001,
+      "origin_mm": [
+        35.0,
+        -115.0,
+        36.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.000000000000002,
+      "origin_mm": [
+        85.0,
+        -115.0,
+        36.0
+      ],
+      "axis": [
+        -0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 2.6999999999999957,
+      "origin_mm": [
+        84.0,
+        -126.1,
+        26.0
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 2.6999999999999957,
+      "origin_mm": [
+        22.0,
+        -126.1,
+        26.0
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 2.6999999999999957,
+      "origin_mm": [
+        -22.0,
+        -126.1,
+        26.0
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 2.6999999999999957,
+      "origin_mm": [
+        -84.0,
+        -126.1,
+        26.0
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.5000000000000036,
+      "origin_mm": [
+        60.0,
+        -90.0,
+        34.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.5,
+      "origin_mm": [
+        0.0,
+        -90.0,
+        34.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.5000000000000036,
+      "origin_mm": [
+        -60.0,
+        -90.0,
+        34.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.5000000000000036,
+      "origin_mm": [
+        60.0,
+        -30.0,
+        34.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.5,
+      "origin_mm": [
+        0.0,
+        -30.0,
+        34.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.5000000000000036,
+      "origin_mm": [
+        -60.0,
+        -30.0,
+        34.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.5000000000000036,
+      "origin_mm": [
+        60.0,
+        30.0,
+        34.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.5,
+      "origin_mm": [
+        0.0,
+        30.0,
+        34.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.5000000000000036,
+      "origin_mm": [
+        -60.0,
+        30.0,
+        34.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.5000000000000036,
+      "origin_mm": [
+        60.0,
+        90.0,
+        34.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.5,
+      "origin_mm": [
+        0.0,
+        90.0,
+        34.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 6.5000000000000036,
+      "origin_mm": [
+        -60.0,
+        90.0,
+        34.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 12.000000000000004,
+      "origin_mm": [
+        90.0,
+        120.0,
+        0.0
+      ],
+      "axis": [
+        -0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_CellDeck",
+      "diameter_mm": 12.000000000000004,
+      "origin_mm": [
+        -90.0,
+        120.0,
+        0.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ServiceDeck",
+      "diameter_mm": 1.2,
+      "origin_mm": [
+        103.4,
+        -228.29999999999998,
+        35.4
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "part": "BedFrame_ServiceDeck",
+      "diameter_mm": 1.2,
+      "origin_mm": [
+        -52.0,
+        -261.70000000000005,
+        35.4
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        -0.0
+      ]
+    },
+    {
+      "part": "BedFrame_ServiceDeck",
+      "diameter_mm": 1.2,
+      "origin_mm": [
+        -103.4,
+        -160.3,
+        35.4
+      ],
+      "axis": [
+        0.0,
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "part": "BedFrame_ServiceDeck",
+      "diameter_mm": 1.2,
+      "origin_mm": [
+        52.0,
+        -126.9,
+        35.4
+      ],
+      "axis": [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "part": "BedFrame_ServiceDeck",
+      "diameter_mm": 12.000000000000004,
+      "origin_mm": [
+        98.0,
+        -132.3,
+        0.0
+      ],
+      "axis": [
+        -0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ServiceDeck",
+      "diameter_mm": 12.000000000000004,
+      "origin_mm": [
+        98.0,
+        -256.3,
+        0.0
+      ],
+      "axis": [
+        -0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ServiceDeck",
+      "diameter_mm": 2.1000000000000085,
+      "origin_mm": [
+        97.0,
+        -133.3,
+        -0.1
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ServiceDeck",
+      "diameter_mm": 5.500000000000007,
+      "origin_mm": [
+        97.0,
+        -133.3,
+        0.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ServiceDeck",
+      "diameter_mm": 2.1,
+      "origin_mm": [
+        0.0,
+        -133.3,
+        -0.1
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ServiceDeck",
+      "diameter_mm": 5.5,
+      "origin_mm": [
+        0.0,
+        -133.3,
+        0.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ServiceDeck",
+      "diameter_mm": 2.1000000000000085,
+      "origin_mm": [
+        -97.0,
+        -133.3,
+        -0.1
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ServiceDeck",
+      "diameter_mm": 5.500000000000007,
+      "origin_mm": [
+        -97.0,
+        -133.3,
+        0.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ServiceDeck",
+      "diameter_mm": 2.1000000000000085,
+      "origin_mm": [
+        97.0,
+        -194.3,
+        -0.1
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ServiceDeck",
+      "diameter_mm": 5.500000000000007,
+      "origin_mm": [
+        97.0,
+        -194.3,
+        0.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ServiceDeck",
+      "diameter_mm": 2.1000000000000085,
+      "origin_mm": [
+        -97.0,
+        -194.3,
+        -0.1
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ServiceDeck",
+      "diameter_mm": 5.500000000000007,
+      "origin_mm": [
+        -97.0,
+        -194.3,
+        0.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ServiceDeck",
+      "diameter_mm": 2.1000000000000085,
+      "origin_mm": [
+        97.0,
+        -255.3,
+        -0.1
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ServiceDeck",
+      "diameter_mm": 5.500000000000007,
+      "origin_mm": [
+        97.0,
+        -255.3,
+        0.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ServiceDeck",
+      "diameter_mm": 2.1,
+      "origin_mm": [
+        0.0,
+        -255.3,
+        -0.1
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ServiceDeck",
+      "diameter_mm": 5.5,
+      "origin_mm": [
+        0.0,
+        -255.3,
+        0.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ServiceDeck",
+      "diameter_mm": 2.1000000000000085,
+      "origin_mm": [
+        -97.0,
+        -255.3,
+        -0.1
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ServiceDeck",
+      "diameter_mm": 5.500000000000007,
+      "origin_mm": [
+        -97.0,
+        -255.3,
+        0.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ServiceDeck",
+      "diameter_mm": 2.1000000000000085,
+      "origin_mm": [
+        84.0,
+        -126.20000000000002,
+        26.0
+      ],
+      "axis": [
+        0.0,
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "part": "BedFrame_ServiceDeck",
+      "diameter_mm": 2.0999999999999996,
+      "origin_mm": [
+        22.0,
+        -126.20000000000002,
+        26.0
+      ],
+      "axis": [
+        0.0,
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "part": "BedFrame_ServiceDeck",
+      "diameter_mm": 2.0999999999999996,
+      "origin_mm": [
+        -22.0,
+        -126.20000000000002,
+        26.0
+      ],
+      "axis": [
+        0.0,
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "part": "BedFrame_ServiceDeck",
+      "diameter_mm": 2.1000000000000085,
+      "origin_mm": [
+        -84.0,
+        -126.20000000000002,
+        26.0
+      ],
+      "axis": [
+        0.0,
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "part": "BedFrame_ServiceDeck",
+      "diameter_mm": 12.000000000000004,
+      "origin_mm": [
+        -98.0,
+        -132.3,
+        0.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ServiceDeck",
+      "diameter_mm": 12.000000000000004,
+      "origin_mm": [
+        -98.0,
+        -256.3,
+        0.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ElectronicsBay",
+      "diameter_mm": 1.2000000000000002,
+      "origin_mm": [
+        -103.4,
+        -160.3,
+        -0.5999999999999961
+      ],
+      "axis": [
+        0.0,
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "part": "BedFrame_ElectronicsBay",
+      "diameter_mm": 1.2000000000000002,
+      "origin_mm": [
+        -52.0,
+        -261.70000000000005,
+        -0.5999999999999961
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        -0.0
+      ]
+    },
+    {
+      "part": "BedFrame_ElectronicsBay",
+      "diameter_mm": 1.2000000000000002,
+      "origin_mm": [
+        103.4,
+        -228.29999999999998,
+        -0.5999999999999961
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "part": "BedFrame_ElectronicsBay",
+      "diameter_mm": 1.2000000000000002,
+      "origin_mm": [
+        52.0,
+        -126.9,
+        -0.5999999999999961
+      ],
+      "axis": [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "part": "BedFrame_ElectronicsBay",
+      "diameter_mm": 12.000000000000004,
+      "origin_mm": [
+        98.0,
+        -256.3,
+        -52.0
+      ],
+      "axis": [
+        -0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ElectronicsBay",
+      "diameter_mm": 12.000000000000004,
+      "origin_mm": [
+        -98.0,
+        -256.3,
+        -52.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ElectronicsBay",
+      "diameter_mm": 2.1000000000000085,
+      "origin_mm": [
+        97.0,
+        -133.3,
+        -52.1
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ElectronicsBay",
+      "diameter_mm": 5.500000000000007,
+      "origin_mm": [
+        97.0,
+        -133.3,
+        -52.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ElectronicsBay",
+      "diameter_mm": 5.500000000000007,
+      "origin_mm": [
+        97.0,
+        -133.3,
+        -52.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ElectronicsBay",
+      "diameter_mm": 2.6999999999999957,
+      "origin_mm": [
+        97.0,
+        -133.3,
+        -4.1
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ElectronicsBay",
+      "diameter_mm": 2.1,
+      "origin_mm": [
+        0.0,
+        -133.3,
+        -52.1
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ElectronicsBay",
+      "diameter_mm": 5.5,
+      "origin_mm": [
+        0.0,
+        -133.3,
+        -52.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ElectronicsBay",
+      "diameter_mm": 2.7,
+      "origin_mm": [
+        0.0,
+        -133.3,
+        -4.1
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ElectronicsBay",
+      "diameter_mm": 2.1000000000000085,
+      "origin_mm": [
+        -97.0,
+        -133.3,
+        -52.1
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ElectronicsBay",
+      "diameter_mm": 5.500000000000007,
+      "origin_mm": [
+        -97.0,
+        -133.3,
+        -52.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ElectronicsBay",
+      "diameter_mm": 5.500000000000007,
+      "origin_mm": [
+        -97.0,
+        -133.3,
+        -52.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ElectronicsBay",
+      "diameter_mm": 2.6999999999999957,
+      "origin_mm": [
+        -97.0,
+        -133.3,
+        -4.1
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ElectronicsBay",
+      "diameter_mm": 2.1000000000000085,
+      "origin_mm": [
+        97.0,
+        -194.3,
+        -52.1
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ElectronicsBay",
+      "diameter_mm": 5.500000000000007,
+      "origin_mm": [
+        97.0,
+        -194.3,
+        -52.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ElectronicsBay",
+      "diameter_mm": 2.6999999999999957,
+      "origin_mm": [
+        97.0,
+        -194.3,
+        -4.1
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ElectronicsBay",
+      "diameter_mm": 2.1000000000000085,
+      "origin_mm": [
+        -97.0,
+        -194.3,
+        -52.1
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ElectronicsBay",
+      "diameter_mm": 5.500000000000007,
+      "origin_mm": [
+        -97.0,
+        -194.3,
+        -52.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ElectronicsBay",
+      "diameter_mm": 2.6999999999999957,
+      "origin_mm": [
+        -97.0,
+        -194.3,
+        -4.1
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ElectronicsBay",
+      "diameter_mm": 2.1000000000000085,
+      "origin_mm": [
+        97.0,
+        -255.3,
+        -52.1
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ElectronicsBay",
+      "diameter_mm": 5.500000000000007,
+      "origin_mm": [
+        97.0,
+        -255.3,
+        -52.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ElectronicsBay",
+      "diameter_mm": 5.500000000000007,
+      "origin_mm": [
+        97.0,
+        -255.3,
+        -52.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ElectronicsBay",
+      "diameter_mm": 2.6999999999999957,
+      "origin_mm": [
+        97.0,
+        -255.3,
+        -4.1
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ElectronicsBay",
+      "diameter_mm": 2.1,
+      "origin_mm": [
+        0.0,
+        -255.3,
+        -52.1
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ElectronicsBay",
+      "diameter_mm": 5.5,
+      "origin_mm": [
+        0.0,
+        -255.3,
+        -52.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ElectronicsBay",
+      "diameter_mm": 2.7,
+      "origin_mm": [
+        0.0,
+        -255.3,
+        -4.1
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ElectronicsBay",
+      "diameter_mm": 2.1000000000000085,
+      "origin_mm": [
+        -97.0,
+        -255.3,
+        -52.1
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ElectronicsBay",
+      "diameter_mm": 5.500000000000007,
+      "origin_mm": [
+        -97.0,
+        -255.3,
+        -52.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ElectronicsBay",
+      "diameter_mm": 5.500000000000007,
+      "origin_mm": [
+        -97.0,
+        -255.3,
+        -52.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ElectronicsBay",
+      "diameter_mm": 2.6999999999999957,
+      "origin_mm": [
+        -97.0,
+        -255.3,
+        -4.1
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ElectronicsBay",
+      "diameter_mm": 12.000000000000004,
+      "origin_mm": [
+        98.0,
+        -132.3,
+        -52.0
+      ],
+      "axis": [
+        -0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_ElectronicsBay",
+      "diameter_mm": 12.000000000000004,
+      "origin_mm": [
+        -98.0,
+        -132.3,
+        -52.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_BottomPanel",
+      "diameter_mm": 1.2,
+      "origin_mm": [
+        -103.4,
+        -160.3,
+        -52.599999999999994
+      ],
+      "axis": [
+        0.0,
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "part": "BedFrame_BottomPanel",
+      "diameter_mm": 1.2,
+      "origin_mm": [
+        -52.0,
+        -261.70000000000005,
+        -52.599999999999994
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        -0.0
+      ]
+    },
+    {
+      "part": "BedFrame_BottomPanel",
+      "diameter_mm": 1.2,
+      "origin_mm": [
+        103.4,
+        -228.29999999999998,
+        -52.599999999999994
+      ],
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "part": "BedFrame_BottomPanel",
+      "diameter_mm": 1.2,
+      "origin_mm": [
+        52.0,
+        -126.9,
+        -52.599999999999994
+      ],
+      "axis": [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "part": "BedFrame_BottomPanel",
+      "diameter_mm": 12.000000000000004,
+      "origin_mm": [
+        98.0,
+        -256.3,
+        -56.0
+      ],
+      "axis": [
+        -0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_BottomPanel",
+      "diameter_mm": 12.000000000000004,
+      "origin_mm": [
+        -98.0,
+        -256.3,
+        -56.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_BottomPanel",
+      "diameter_mm": 2.6999999999999957,
+      "origin_mm": [
+        97.0,
+        -133.3,
+        -56.1
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_BottomPanel",
+      "diameter_mm": 2.7,
+      "origin_mm": [
+        0.0,
+        -133.3,
+        -56.1
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_BottomPanel",
+      "diameter_mm": 2.6999999999999957,
+      "origin_mm": [
+        -97.0,
+        -133.3,
+        -56.1
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_BottomPanel",
+      "diameter_mm": 2.6999999999999957,
+      "origin_mm": [
+        97.0,
+        -194.3,
+        -56.1
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_BottomPanel",
+      "diameter_mm": 2.6999999999999957,
+      "origin_mm": [
+        -97.0,
+        -194.3,
+        -56.1
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_BottomPanel",
+      "diameter_mm": 2.6999999999999957,
+      "origin_mm": [
+        97.0,
+        -255.3,
+        -56.1
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_BottomPanel",
+      "diameter_mm": 2.7,
+      "origin_mm": [
+        0.0,
+        -255.3,
+        -56.1
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_BottomPanel",
+      "diameter_mm": 2.6999999999999957,
+      "origin_mm": [
+        -97.0,
+        -255.3,
+        -56.1
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_BottomPanel",
+      "diameter_mm": 12.000000000000004,
+      "origin_mm": [
+        98.0,
+        -132.3,
+        -56.0
+      ],
+      "axis": [
+        -0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "part": "BedFrame_BottomPanel",
+      "diameter_mm": 12.000000000000004,
+      "origin_mm": [
+        -98.0,
+        -132.3,
+        -56.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  ],
+  "interferences": [],
+  "feature_issues": []
+}

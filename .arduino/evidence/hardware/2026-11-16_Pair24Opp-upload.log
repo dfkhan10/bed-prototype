@@ -1,0 +1,34 @@
+"/Users/ivanyalov/Library/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/avrdude" "-C/Users/ivanyalov/Library/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/etc/avrdude.conf" -v  -patmega328p -carduino "-P/dev/cu.usbmodem1101" -b115200 -D "-Uflash:w:/Users/ivanyalov/Desktop/bed-prototype/.cache/2026-11-16_pair24/Pair24Opp.ino.hex:i"
+Avrdude version 8.0-arduino.1
+Copyright see https://github.com/avrdudes/avrdude/blob/main/AUTHORS
+
+System wide configuration file is /Users/ivanyalov/Library/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/etc/avrdude.conf
+User configuration file /Users/ivanyalov/.avrduderc does not exist
+
+Using port            : /dev/cu.usbmodem1101
+Using programmer      : arduino
+Setting baud rate     : 115200
+Error: programmer is not responding
+Warning: attempt 1 of 10: not in sync: resp=0x00
+Error: programmer is not responding
+Warning: attempt 2 of 10: not in sync: resp=0x00
+Error: programmer is not responding
+Warning: attempt 3 of 10: not in sync: resp=0x00
+Error: programmer is not responding
+Warning: attempt 4 of 10: not in sync: resp=0x00
+Error: programmer is not responding
+Warning: attempt 5 of 10: not in sync: resp=0x00
+Error: programmer is not responding
+Warning: attempt 6 of 10: not in sync: resp=0x00
+Error: programmer is not responding
+Warning: attempt 7 of 10: not in sync: resp=0x00
+Error: programmer is not responding
+Warning: attempt 8 of 10: not in sync: resp=0x00
+Error: programmer is not responding
+Warning: attempt 9 of 10: not in sync: resp=0x00
+Error: programmer is not responding
+Warning: attempt 10 of 10: not in sync: resp=0x00
+Error: unable to open port /dev/cu.usbmodem1101 for programmer arduino
+
+Avrdude done.  Thank you.
+Failed uploading: uploading error: exit status 1

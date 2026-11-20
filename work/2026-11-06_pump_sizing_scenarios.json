@@ -1,0 +1,302 @@
+{
+  "status": "analysis scenarios; exact kit not identified; no pump count selected",
+  "confirmed": {
+    "cells": 12,
+    "cell_rise_mm": [
+      20,
+      30
+    ],
+    "bladder": "heat-welded TPU film",
+    "simultaneous_inflate_deflate": true,
+    "controllers": 1
+  },
+  "assumptions": {
+    "opening_from_current_master_mm": 56,
+    "pressure_scenario_kpa_gauge": 10,
+    "initial_cell_volume_ml": 0,
+    "reserve_factor": 1.5,
+    "tube_id_mm": 4,
+    "tube_length_mm": 600,
+    "shape_factor_range": [
+      0.5,
+      1.0
+    ],
+    "nominal_shape_factor": 0.7,
+    "nominal_rise_mm": 25,
+    "ambient_pressure_kpa": 101.325
+  },
+  "volume_scenarios_ml": {
+    "low": 31.36,
+    "nominal": 54.88,
+    "upper": 94.08
+  },
+  "tube_volume_ml": 7.5398223686155035,
+  "fill_cases": [
+    {
+      "simultaneous_inflating_cells": 3,
+      "fill_time_s": 10,
+      "flow_l_min_ambient": {
+        "low": 0.9504,
+        "nominal": 1.6481,
+        "upper": 2.8109
+      }
+    },
+    {
+      "simultaneous_inflating_cells": 3,
+      "fill_time_s": 20,
+      "flow_l_min_ambient": {
+        "low": 0.4752,
+        "nominal": 0.824,
+        "upper": 1.4055
+      }
+    },
+    {
+      "simultaneous_inflating_cells": 3,
+      "fill_time_s": 30,
+      "flow_l_min_ambient": {
+        "low": 0.3168,
+        "nominal": 0.5494,
+        "upper": 0.937
+      }
+    },
+    {
+      "simultaneous_inflating_cells": 6,
+      "fill_time_s": 10,
+      "flow_l_min_ambient": {
+        "low": 1.9008,
+        "nominal": 3.2962,
+        "upper": 5.6219
+      }
+    },
+    {
+      "simultaneous_inflating_cells": 6,
+      "fill_time_s": 20,
+      "flow_l_min_ambient": {
+        "low": 0.9504,
+        "nominal": 1.6481,
+        "upper": 2.8109
+      }
+    },
+    {
+      "simultaneous_inflating_cells": 6,
+      "fill_time_s": 30,
+      "flow_l_min_ambient": {
+        "low": 0.6336,
+        "nominal": 1.0987,
+        "upper": 1.874
+      }
+    },
+    {
+      "simultaneous_inflating_cells": 12,
+      "fill_time_s": 10,
+      "flow_l_min_ambient": {
+        "low": 3.8015,
+        "nominal": 6.5924,
+        "upper": 11.2438
+      }
+    },
+    {
+      "simultaneous_inflating_cells": 12,
+      "fill_time_s": 20,
+      "flow_l_min_ambient": {
+        "low": 1.9008,
+        "nominal": 3.2962,
+        "upper": 5.6219
+      }
+    },
+    {
+      "simultaneous_inflating_cells": 12,
+      "fill_time_s": 30,
+      "flow_l_min_ambient": {
+        "low": 1.2672,
+        "nominal": 2.1975,
+        "upper": 3.7479
+      }
+    }
+  ],
+  "hypothetical_pump_count_examples": [
+    {
+      "inflating": 3,
+      "deflating": 3,
+      "seconds": 10,
+      "hypothetical_effective_flow_per_pump_l_min_ambient": 0.5,
+      "pressure_pumps": 4,
+      "vacuum_pumps": 4,
+      "total_pumps": 8
+    },
+    {
+      "inflating": 3,
+      "deflating": 3,
+      "seconds": 10,
+      "hypothetical_effective_flow_per_pump_l_min_ambient": 1.0,
+      "pressure_pumps": 2,
+      "vacuum_pumps": 2,
+      "total_pumps": 4
+    },
+    {
+      "inflating": 3,
+      "deflating": 3,
+      "seconds": 10,
+      "hypothetical_effective_flow_per_pump_l_min_ambient": 2.0,
+      "pressure_pumps": 1,
+      "vacuum_pumps": 1,
+      "total_pumps": 2
+    },
+    {
+      "inflating": 3,
+      "deflating": 3,
+      "seconds": 20,
+      "hypothetical_effective_flow_per_pump_l_min_ambient": 0.5,
+      "pressure_pumps": 2,
+      "vacuum_pumps": 2,
+      "total_pumps": 4
+    },
+    {
+      "inflating": 3,
+      "deflating": 3,
+      "seconds": 20,
+      "hypothetical_effective_flow_per_pump_l_min_ambient": 1.0,
+      "pressure_pumps": 1,
+      "vacuum_pumps": 1,
+      "total_pumps": 2
+    },
+    {
+      "inflating": 3,
+      "deflating": 3,
+      "seconds": 20,
+      "hypothetical_effective_flow_per_pump_l_min_ambient": 2.0,
+      "pressure_pumps": 1,
+      "vacuum_pumps": 1,
+      "total_pumps": 2
+    },
+    {
+      "inflating": 6,
+      "deflating": 6,
+      "seconds": 10,
+      "hypothetical_effective_flow_per_pump_l_min_ambient": 0.5,
+      "pressure_pumps": 7,
+      "vacuum_pumps": 7,
+      "total_pumps": 14
+    },
+    {
+      "inflating": 6,
+      "deflating": 6,
+      "seconds": 10,
+      "hypothetical_effective_flow_per_pump_l_min_ambient": 1.0,
+      "pressure_pumps": 4,
+      "vacuum_pumps": 4,
+      "total_pumps": 8
+    },
+    {
+      "inflating": 6,
+      "deflating": 6,
+      "seconds": 10,
+      "hypothetical_effective_flow_per_pump_l_min_ambient": 2.0,
+      "pressure_pumps": 2,
+      "vacuum_pumps": 2,
+      "total_pumps": 4
+    },
+    {
+      "inflating": 6,
+      "deflating": 6,
+      "seconds": 20,
+      "hypothetical_effective_flow_per_pump_l_min_ambient": 0.5,
+      "pressure_pumps": 4,
+      "vacuum_pumps": 4,
+      "total_pumps": 8
+    },
+    {
+      "inflating": 6,
+      "deflating": 6,
+      "seconds": 20,
+      "hypothetical_effective_flow_per_pump_l_min_ambient": 1.0,
+      "pressure_pumps": 2,
+      "vacuum_pumps": 2,
+      "total_pumps": 4
+    },
+    {
+      "inflating": 6,
+      "deflating": 6,
+      "seconds": 20,
+      "hypothetical_effective_flow_per_pump_l_min_ambient": 2.0,
+      "pressure_pumps": 1,
+      "vacuum_pumps": 1,
+      "total_pumps": 2
+    },
+    {
+      "inflating": 12,
+      "deflating": 0,
+      "seconds": 10,
+      "hypothetical_effective_flow_per_pump_l_min_ambient": 0.5,
+      "pressure_pumps": 14,
+      "vacuum_pumps": 0,
+      "total_pumps": 14
+    },
+    {
+      "inflating": 12,
+      "deflating": 0,
+      "seconds": 10,
+      "hypothetical_effective_flow_per_pump_l_min_ambient": 1.0,
+      "pressure_pumps": 7,
+      "vacuum_pumps": 0,
+      "total_pumps": 7
+    },
+    {
+      "inflating": 12,
+      "deflating": 0,
+      "seconds": 10,
+      "hypothetical_effective_flow_per_pump_l_min_ambient": 2.0,
+      "pressure_pumps": 4,
+      "vacuum_pumps": 0,
+      "total_pumps": 4
+    },
+    {
+      "inflating": 12,
+      "deflating": 0,
+      "seconds": 20,
+      "hypothetical_effective_flow_per_pump_l_min_ambient": 0.5,
+      "pressure_pumps": 7,
+      "vacuum_pumps": 0,
+      "total_pumps": 7
+    },
+    {
+      "inflating": 12,
+      "deflating": 0,
+      "seconds": 20,
+      "hypothetical_effective_flow_per_pump_l_min_ambient": 1.0,
+      "pressure_pumps": 4,
+      "vacuum_pumps": 0,
+      "total_pumps": 4
+    },
+    {
+      "inflating": 12,
+      "deflating": 0,
+      "seconds": 20,
+      "hypothetical_effective_flow_per_pump_l_min_ambient": 2.0,
+      "pressure_pumps": 2,
+      "vacuum_pumps": 0,
+      "total_pumps": 2
+    }
+  ],
+  "ideal_force_scale_not_load_rating": [
+    {
+      "gauge_kpa": 5,
+      "ideal_force_n_per_cell": 15.680000000000001
+    },
+    {
+      "gauge_kpa": 10,
+      "ideal_force_n_per_cell": 31.360000000000003
+    },
+    {
+      "gauge_kpa": 20,
+      "ideal_force_n_per_cell": 62.720000000000006
+    }
+  ],
+  "limitations": [
+    "A pillow is not a rectangular piston; shape factors are unmeasured.",
+    "Gussets/preforming/film stretch affect volume and force.",
+    "Pump flow is required at the operating pressure/vacuum after tubing/valves, with flow-reference conversion.",
+    "Reserve factor is provisional; leakage was not measured.",
+    "Vacuum count examples use a placeholder equal air-demand budget, not a measured vacuum fill model."
+  ]
+}

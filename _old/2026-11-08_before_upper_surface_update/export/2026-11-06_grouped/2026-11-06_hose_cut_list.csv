@@ -1,0 +1,39 @@
+route,network_or_group,model_centreline_length_mm,status
+G1 trunk,1,168.0,geometric length only; add fitting insertion/service allowance after trial
+A1,1,147.7,geometric length only; add fitting insertion/service allowance after trial
+C1,1,103.7,geometric length only; add fitting insertion/service allowance after trial
+B2,1,63.7,geometric length only; add fitting insertion/service allowance after trial
+D2,1,187.7,geometric length only; add fitting insertion/service allowance after trial
+A3,1,147.7,geometric length only; add fitting insertion/service allowance after trial
+C3,1,103.7,geometric length only; add fitting insertion/service allowance after trial
+G2 trunk,2,168.0,geometric length only; add fitting insertion/service allowance after trial
+B1,2,93.7,geometric length only; add fitting insertion/service allowance after trial
+D1,2,137.7,geometric length only; add fitting insertion/service allowance after trial
+A2,2,177.7,geometric length only; add fitting insertion/service allowance after trial
+C2,2,53.7,geometric length only; add fitting insertion/service allowance after trial
+B3,2,93.7,geometric length only; add fitting insertion/service allowance after trial
+D3,2,137.7,geometric length only; add fitting insertion/service allowance after trial
+Ref_pressure_PumpHeader,see route name,119.0,geometric length only; add fitting insertion/service allowance after trial
+Ref_pressure_PumpBranch_1,see route name,36.6,geometric length only; add fitting insertion/service allowance after trial
+Ref_pressure_PumpBranch_2,see route name,36.6,geometric length only; add fitting insertion/service allowance after trial
+Ref_pressure_PumpBranch_3,see route name,36.6,geometric length only; add fitting insertion/service allowance after trial
+Ref_pressure_PumpBranch_4,see route name,36.6,geometric length only; add fitting insertion/service allowance after trial
+Ref_extraction_PumpHeader,see route name,119.0,geometric length only; add fitting insertion/service allowance after trial
+Ref_extraction_PumpBranch_1,see route name,43.6,geometric length only; add fitting insertion/service allowance after trial
+Ref_extraction_PumpBranch_2,see route name,43.6,geometric length only; add fitting insertion/service allowance after trial
+Ref_extraction_PumpBranch_3,see route name,43.6,geometric length only; add fitting insertion/service allowance after trial
+Ref_extraction_PumpBranch_4,see route name,43.6,geometric length only; add fitting insertion/service allowance after trial
+Ref_PressureBus,see route name,82.0,geometric length only; add fitting insertion/service allowance after trial
+Ref_PressureValveHeader,see route name,62.0,geometric length only; add fitting insertion/service allowance after trial
+Ref_SuctionBus,see route name,118.0,geometric length only; add fitting insertion/service allowance after trial
+Ref_SuctionValveHeader,see route name,62.0,geometric length only; add fitting insertion/service allowance after trial
+Ref_G1_FillBusConnection,see route name,44.8,geometric length only; add fitting insertion/service allowance after trial
+Ref_G1_ExtractBusConnection,see route name,33.8,geometric length only; add fitting insertion/service allowance after trial
+Ref_G1_FillToTee,see route name,24.0,geometric length only; add fitting insertion/service allowance after trial
+Ref_G1_TeeToExtract,see route name,24.0,geometric length only; add fitting insertion/service allowance after trial
+Ref_G1_ServiceRoute,see route name,228.2,geometric length only; add fitting insertion/service allowance after trial
+Ref_G2_FillBusConnection,see route name,44.8,geometric length only; add fitting insertion/service allowance after trial
+Ref_G2_ExtractBusConnection,see route name,33.8,geometric length only; add fitting insertion/service allowance after trial
+Ref_G2_FillToTee,see route name,24.0,geometric length only; add fitting insertion/service allowance after trial
+Ref_G2_TeeToExtract,see route name,24.0,geometric length only; add fitting insertion/service allowance after trial
+Ref_G2_ServiceRoute,see route name,193.2,geometric length only; add fitting insertion/service allowance after trial

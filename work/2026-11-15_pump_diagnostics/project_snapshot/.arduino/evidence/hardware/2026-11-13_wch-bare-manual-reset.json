@@ -1,0 +1,10 @@
+{
+  "port": "/dev/cu.wchusbserial110",
+  "mode": "manual_reset_readonly",
+  "window_seconds": 120,
+  "valid_signature": false,
+  "sync_count": 0,
+  "observations": [],
+  "memory_writes": false,
+  "elapsed_s": 120.046
+}

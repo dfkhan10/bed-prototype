@@ -1,0 +1,73 @@
+COMMAND ["/Users/ivanyalov/Library/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/avrdude", "-C", "/Users/ivanyalov/Library/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/etc/avrdude.conf", "-p", "m328p", "-c", "arduino", "-P", "/dev/cu.wchusbserial10", "-b", "57600", "-n", "-D", "-x", "attempts=3", "-v", "-v", "-v", "-v"]
+$ /Users/ivanyalov/Library/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/avrdude -C /Users/ivanyalov/Library/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/etc/avrdude.conf -p m328p -c arduino -P /dev/cu.wchusbserial10 -b 57600 -n -D -x attempts=3 -v -v -v -v
+Avrdude version 8.0-arduino.1
+Copyright see https://github.com/avrdudes/avrdude/blob/main/AUTHORS
+
+System wide configuration file is /Users/ivanyalov/Library/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/etc/avrdude.conf
+User configuration file /Users/ivanyalov/.avrduderc does not exist
+
+Setting number of retry attempts to 3
+Using port            : /dev/cu.wchusbserial10
+Using programmer      : arduino
+Setting baud rate     : 57600
+Ser_send: 0 [30]   [20]
+Ser_send: 0 [30]   [20]
+Ser_send: 0 [30]   [20]
+Ser_recv: . [14]
+Ser_recv: . [10]
+AVR part              : ATmega328P
+Programming modes     : SPM, ISP, HVPP, debugWIRE
+
+Memory           Size  Pg size
+------------------------------
+eeprom           1024        4
+flash           32768      128
+lfuse               1        1
+hfuse               1        1
+efuse               1        1
+lock                1        1
+prodsig/sigrow     24        1
+sernum             10        1
+io                224        1
+sram             2048        1
+signature           3        1
+calibration         1        1
+
+Variants         Package  F max   T range         V range       
+----------------------------------------------------------------
+ATmega328P       N/A      20 MHz  [-40 C,   N/A]  [1.8 V, 5.5 V]
+ATmega328P-15MZ  MLF32    20 MHz  [-40 C,  85 C]  [1.8 V, 5.5 V]
+ATmega328P-AN    TQFP32   20 MHz  [-40 C, 105 C]  [1.8 V, 5.5 V]
+ATmega328P-ANR   TQFP32   20 MHz  [-40 C, 105 C]  [1.8 V, 5.5 V]
+ATmega328P-AU    TQFP32   20 MHz  [-40 C,  85 C]  [1.8 V, 5.5 V]
+ATmega328P-AUR   TQFP32   20 MHz  [-40 C,  85 C]  [1.8 V, 5.5 V]
+ATmega328P-MMH   MLF28    20 MHz  [-40 C,  85 C]  [1.8 V, 5.5 V]
+ATmega328P-MMHR  MLF28    20 MHz  [-40 C,  85 C]  [1.8 V, 5.5 V]
+ATmega328P-MN    QFN32    20 MHz  [-40 C, 105 C]  [1.8 V, 5.5 V]
+ATmega328P-MNR   MLF32    20 MHz  [-40 C, 105 C]  [1.8 V, 5.5 V]
+ATmega328P-MU    MLF32    20 MHz  [-40 C,  85 C]  [1.8 V, 5.5 V]
+ATmega328P-MUR   MLF32    20 MHz  [-40 C,  85 C]  [1.8 V, 5.5 V]
+ATmega328P-PN    PDIP28   20 MHz  [-40 C, 105 C]  [1.8 V, 5.5 V]
+ATmega328P-PU    PDIP28   20 MHz  [-40 C,  85 C]  [1.8 V, 5.5 V]
+
+Programmer type       : Arduino
+Description           : Arduino bootloader using STK500 v1 protocol
+Ser_send: A [41] . [80]   [20]
+Ser_recv: . [14]
+Ser_recv: . [02]
+Ser_recv: . [10]
+Ser_send: A [41] . [81]   [20]
+Ser_recv(): programmer is not responding
+Error stk500_recv() stk500.c 79: programmer is not responding
+Ser_send: A [41] . [82]   [20]
+Ser_recv(): programmer is not responding
+Error stk500_recv() stk500.c 79: programmer is not responding
+Ser_send: A [41] . [98]   [20]
+Ser_recv(): programmer is not responding
+Error stk500_recv() stk500.c 79: programmer is not responding
+HW Version            : 2
+FW Version            : 0.0
+Topcard               : Unknown
+Ser_send: A [41] . [81]   [20]
+
+HOST_TIMEOUT_18_SECONDS

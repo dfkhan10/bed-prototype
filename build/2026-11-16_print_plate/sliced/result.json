@@ -1,0 +1,156 @@
+{
+    "error_string": "Success.",
+    "export_time": 1083,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 0,
+    "prepare_time": 98,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 765.1705932617188,
+                "Bridge": 1096.6494140625,
+                "Brim": 127.1082534790039,
+                "Custom": 400.4219665527344,
+                "Flush": 26.0,
+                "Gap infill": 42.56977081298828,
+                "Inner wall": 1767.59326171875,
+                "Internal solid infill": 2654.912109375,
+                "Outer wall": 2284.9521484375,
+                "Overhang wall": 184.5746612548828,
+                "Sparse infill": 3191.391357421875,
+                "Support": 2333.503662109375,
+                "Support interface": 303.0422058105469,
+                "Support transition": 101.54022979736328,
+                "Top surface": 497.6982116699219,
+                "Travel": 2571.75390625,
+                "Undefined": 2567.43798828125
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFL99",
+                    "id": 1,
+                    "main_used_g": 158.8597412109375,
+                    "total_used_g": 158.8597412109375
+                }
+            ],
+            "generate_support_material_time": 543,
+            "id": 1,
+            "infill_time": 1292,
+            "layer_filament_change": 0,
+            "main_predication": 17895.939453125,
+            "make_perimeters_time": 1166,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 68.0,
+                        "height": 29.0,
+                        "width": 136.0,
+                        "x": 15.0,
+                        "y": 15.0,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "Electronics_tray_2",
+                    "triangle_count": 4162
+                },
+                {
+                    "bbox": {
+                        "depth": 68.0,
+                        "height": 5.0,
+                        "width": 136.0,
+                        "x": 15.0,
+                        "y": 95.0,
+                        "z": 0.0
+                    },
+                    "id": 9,
+                    "name": "Electronics_tray_1",
+                    "triangle_count": 5598
+                },
+                {
+                    "bbox": {
+                        "depth": 83.5,
+                        "height": 4.0,
+                        "width": 83.5,
+                        "x": 164.0,
+                        "y": 55.0,
+                        "z": 0.0
+                    },
+                    "id": 13,
+                    "name": "Clamp_AC 01",
+                    "triangle_count": 3392
+                },
+                {
+                    "bbox": {
+                        "depth": 16.49881362915039,
+                        "height": 72.99525451660156,
+                        "width": 101.99433898925781,
+                        "x": 15.0,
+                        "y": 193.0,
+                        "z": 4.1699216524193616e-08
+                    },
+                    "id": 17,
+                    "name": "Rounded_handle 01",
+                    "triangle_count": 8580
+                },
+                {
+                    "bbox": {
+                        "depth": 16.49881362915039,
+                        "height": 72.99525451660156,
+                        "width": 101.99433898925781,
+                        "x": 139.0,
+                        "y": 193.0,
+                        "z": 4.1699216524193616e-08
+                    },
+                    "id": 21,
+                    "name": "Rounded_handle 02",
+                    "triangle_count": 8580
+                },
+                {
+                    "bbox": {
+                        "depth": 16.49881362915039,
+                        "height": 72.99525451660156,
+                        "width": 101.99433898925781,
+                        "x": 15.0,
+                        "y": 228.0,
+                        "z": 4.1699216524193616e-08
+                    },
+                    "id": 25,
+                    "name": "Rounded_handle 03",
+                    "triangle_count": 8580
+                },
+                {
+                    "bbox": {
+                        "depth": 16.49881362915039,
+                        "height": 72.99525451660156,
+                        "width": 101.99433898925781,
+                        "x": 139.0,
+                        "y": 228.0,
+                        "z": 4.1699216524193616e-08
+                    },
+                    "id": 29,
+                    "name": "Rounded_handle 04",
+                    "triangle_count": 8580
+                }
+            ],
+            "sliced_time": 6141,
+            "sliced_time_with_cache": 2262,
+            "total_predication": 18344.044921875,
+            "triangle_count": 47472,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 15.0,
+    "upward_compatible_machine": [
+        "Bambu Lab A1 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 2
+}

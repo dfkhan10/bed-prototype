@@ -1,0 +1,35 @@
+{
+  "port": "/dev/cu.wchusbserial10",
+  "baud": 57600,
+  "memory_writes": false,
+  "mode": "fresh_reset_first_query_matrix",
+  "startup_wait_ms": 700,
+  "cases": [
+    {
+      "query": "hardware_version",
+      "tx_hex": "418020",
+      "events": [
+        {
+          "t_ms": 1001.907,
+          "rx_hex": "140210"
+        }
+      ],
+      "tx_ms": 978.386,
+      "rx_hex": "140210"
+    },
+    {
+      "query": "software_version",
+      "tx_hex": "418120",
+      "events": [],
+      "tx_ms": 978.718,
+      "rx_hex": ""
+    },
+    {
+      "query": "signature",
+      "tx_hex": "7520",
+      "events": [],
+      "tx_ms": 981.581,
+      "rx_hex": ""
+    }
+  ]
+}

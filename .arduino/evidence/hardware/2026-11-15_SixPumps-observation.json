@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-15",
+  "source": "operator reports in chat",
+  "firmware_upload_evidence": ".arduino/evidence/hardware/2026-11-15_SixPumps-upload.json",
+  "power_during_test": "Operator explicitly confirmed USB disconnected, external adapter only.",
+  "operator_text": "1 работа и пауза корочке 8 секунд; 2 работает все тот же Б1 а не ве 6 сразу",
+  "observation": {
+    "on_and_off_durations": "Reported shorter than 8 seconds; no measured durations supplied.",
+    "working_pumps": [
+      "B1"
+    ],
+    "other_five": "Reported not operating."
+  },
+  "identity_note": "Earlier original-baseline observation named B2; current observation names B1. Retain both attributions; no physical remapping inferred.",
+  "acceptance": "Six-pump test not demonstrated; actual runtime failure unresolved.",
+  "changes_after_upload": "No further firmware upload, serial opening or commanded test by agent."
+}

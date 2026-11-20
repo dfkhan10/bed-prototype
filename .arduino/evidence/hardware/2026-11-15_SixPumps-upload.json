@@ -1,0 +1,26 @@
+{
+  "time": "2026-11-15T18:35:05.936170+08:00",
+  "command": [
+    "arduino-cli",
+    "upload",
+    "--fqbn",
+    "arduino:avr:uno",
+    "--port",
+    "/dev/cu.usbmodem1101",
+    "--input-dir",
+    "/Users/ivanyalov/Desktop/bed-prototype/.cache/2026-11-15_wnhv_huxi/SixPumps",
+    "--verify",
+    "--verbose"
+  ],
+  "board_serial": "24238313635351910130",
+  "port": "/dev/cu.usbmodem1101",
+  "source": "build/2026-11-15_wnhv_huxi/SixPumps/SixPumps.ino",
+  "source_sha256": "c95e4007ab804ee482f170375e37be70337eb21fc71643aee3efb41204d88174",
+  "hex": ".cache/2026-11-15_wnhv_huxi/SixPumps/SixPumps.ino.hex",
+  "hex_sha256": "45d286a4137845d297a3929b7643f0bef5814b814b0a54ffb3282e48cb4b87e0",
+  "returncode": 0,
+  "log": ".arduino/evidence/hardware/2026-11-15_SixPumps-upload.log",
+  "authorization": "User explicitly instructed: upload code, then I will disconnect USB. Prior discussion established automatic six-pump startup and possible USB load power. Latest reported external adapter state disconnected; no rewiring required by this explicit instruction.",
+  "physical_observation": "Pending; no motor telemetry implemented.",
+  "rollback_hex": ".arduino/evidence/build/2026-11-15_wnhv-multigroup-baseline.hex"
+}

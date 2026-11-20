@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-13",
+  "authorization": "User explicitly said: yes, install and guide.",
+  "application": "/Applications/CH34xVCPDriver.app",
+  "app_version": "2.1",
+  "app_build": "7",
+  "package_sha256": "8fbaa392ab06a1f942f996ec12ab1bf9c5567755ebad3c9db591641aa9b787b8",
+  "signature_after_copy": "verified --deep --strict",
+  "app_launched": true,
+  "extension_bundle_id": "cn.wch.CH34xVCPDriver",
+  "extension_version": "1.0/1",
+  "team_id": "5JZGQTGU4W",
+  "extension_state": "activated enabled",
+  "serial_path": "/dev/cu.usbserial-110",
+  "vendor_transport_verified": false,
+  "firmware_uploaded": false,
+  "next_action": "Await bare lower Uno, then coordinate a precisely timed manual-reset read-only identity test. Latest WCH probes were with both boards reconnected by the user.",
+  "approval_evidence": "User reported approval; screenshot shows WCH toggle on; systemextensionsctl independently confirms activated enabled.",
+  "attached_transport": "CH34xVCPDriver at /dev/cu.wchusbserial110",
+  "vendor_binding_verified": true,
+  "controller_identity_verified": false
+}

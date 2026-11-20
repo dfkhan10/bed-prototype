@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-13",
+  "host": "macOS 26.6.2 arm64",
+  "arduino_cli": "1.5.1",
+  "arduino_avr_core": "1.8.8",
+  "servo_library": "1.3.0",
+  "pyserial": "3.5 in project .venv",
+  "host_compiler": "Apple clang 21.0.0",
+  "builds": [
+    {
+      "path": "/Users/ivanyalov/Projects/hkust/isdn5230-healthcare/project/bed-prototype/.cache/arduino/diagnostics-build/BedUsbDiagnostics.ino.hex",
+      "sha256": "69433459b023b23e23e2e8e654cb203477d12409be515a2fade96dbd354298e6",
+      "program_bytes": 2932,
+      "static_ram_bytes": 262,
+      "target": "arduino:avr:uno",
+      "upload_status": "not attempted"
+    },
+    {
+      "path": "/Users/ivanyalov/Projects/hkust/isdn5230-healthcare/project/bed-prototype/.cache/arduino/bench-build/BedBenchTest.ino.hex",
+      "sha256": "9e9d58b8c5cfa4c18732c7dd2023c22bd6e3751e06ddea09f3d4b47f55cd6fb6",
+      "program_bytes": 4854,
+      "static_ram_bytes": 315,
+      "target": "arduino:avr:uno",
+      "upload_status": "not attempted"
+    }
+  ],
+  "host_tests": {
+    "result": "passed",
+    "scope": [
+      "boot inhibit",
+      "pin allowlist",
+      "proposed-OFF preload before Servo attach",
+      "duration bounds",
+      "one-shot arming",
+      "single selected channel",
+      "timeout",
+      "uint32 millis wrap",
+      "malformed/overflow command rejection",
+      "deadline during input flood",
+      "STOP",
+      "DISABLE"
+    ],
+    "command": "clang++ -std=c++17 -Wall -Wextra -Werror -I build/2026-11-13_arduino/tests/fakes build/2026-11-13_arduino/tests/bench_test.cpp -o .cache/arduino/bench-host-test; .cache/arduino/bench-host-test",
+    "limitations": "Fakes prove command/state logic only; do not reproduce real Servo interrupts, serial blocking, voltage, pulse width or load behavior."
+  },
+  "warnings": "Four unused-parameter warnings in installed Arduino AVR core new.cpp when building bench candidate; no candidate source warnings reported.",
+  "hardware_status": "USB enumeration works; no valid MCU signature; no firmware upload or physical pump test."
+}

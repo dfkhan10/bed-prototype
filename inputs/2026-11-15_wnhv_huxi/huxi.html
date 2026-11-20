@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>arduino模拟呼吸制作教程 - 广州科径辉智能科技有限公司</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20viewBox=%270%200%2064%2064%27%3E%3Crect%20width=%2764%27%20height=%2764%27%20rx=%2714%27%20fill=%27%230888E6%27/%3E%3Ctext%20x=%2732%27%20y=%2744%27%20font-size=%2734%27%20text-anchor=%27middle%27%20fill=%27white%27%20font-family=%27Microsoft%20YaHei,sans-serif%27%3E%E7%A7%91%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+.qbxb-detail{
+  background:#182233;
+  color:#eee;
+  font-family:"Microsoft Yahei",sans-serif;
+  line-height:1.7;
+  padding:30px 12px;
+}
+.qbxb-detail .container{
+  max-width:980px;
+  margin:0 auto;
+}
+.qbxb-detail h1{
+  text-align:center;
+  color:#ffdd33;
+  font-size:2rem;
+  margin-bottom:24px;
+}
+.qbxb-detail .section-title{
+  font-size:1.6rem;
+  color:#ffdd33;
+  margin:32px 0 16px;
+  padding-bottom:8px;
+  border-bottom:2px solid #ff4444;
+}
+.qbxb-detail .preface{
+  background:#4E0738;
+  padding:20px 24px;
+  border-radius:10px;
+  color:#ffdd33;
+  font-size:1.15rem;
+  margin-bottom:24px;
+}
+.qbxb-detail .warn-box{
+  background:#008080;
+  padding:18px 22px;
+  border-radius:10px;
+  margin-bottom:24px;
+}
+.qbxb-detail .warn-box h3{
+  color:#ffdd33;
+  font-size:1.4rem;
+  margin-bottom:10px;
+}
+.qbxb-detail .warn-text{
+  color:#fff;
+  font-size:1.05rem;
+}
+.qbxb-detail .download-wrap{
+  display:grid;
+  gap:14px;
+  margin-bottom:30px;
+}
+.qbxb-detail .download-card{
+  border:3px solid #0066ff;
+  border-radius:10px;
+  padding:18px;
+  background:#202c40;
+}
+.qbxb-detail .download-card h4{
+  color:#ff4444;
+  font-size:1.3rem;
+  margin-bottom:10px;
+}
+.qbxb-detail .download-card a{
+  color:#ff4444;
+  font-weight:bold;
+  font-size:1.15rem;
+  margin-right:20px;
+}
+.qbxb-detail .download-card a:hover{
+  text-decoration:underline;
+}
+.qbxb-detail .video-block{
+  border:3px solid #0066ff;
+  border-radius:10px;
+  padding:14px;
+  background:#202c40;
+  margin-bottom:20px;
+}
+.qbxb-detail .video-backup{
+  font-size:1rem;
+}
+.qbxb-detail .video-backup a{
+  color:#ffdd33;
+}
+.qbxb-detail .img-block{
+  border:3px solid #0066ff;
+  border-radius:10px;
+  padding:14px;
+  background:#202c40;
+  margin-bottom:20px;
+}
+.qbxb-detail .img-block img{
+  max-width:100%;
+  height:auto;
+  display:block;
+}
+.qbxb-detail .hint-yellow{
+  background:#ffff00;
+  color:#000;
+  padding:2px 6px;
+}
+.qbxb-detail .link-more{
+  text-align:center;
+  margin:20px 0;
+  font-size:1.3rem;
+}
+.qbxb-detail .link-more a{
+  color:#44ccff;
+}
+/* 视频卡片：自定义封面图，点击跳转抖音 */
+.video-card {
+    display: block;
+    background: #101442;
+    border-radius: 14px;
+    overflow: hidden;
+    text-decoration: none;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+    border: 1px solid rgba(66,216,255,0.35);
+    margin-bottom: 12px;
+}
+.video-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(66,216,255,0.8);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+}
+.video-card-top {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 16px;
+}
+.video-num {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #ff2222, #d41a1a);
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.video-card-top h3 {
+    font-size: 1.05rem;
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.3;
+    margin: 0;
+}
+.video-cover {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+    background: #000;
+}
+.video-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background: rgba(0,0,0,0.6);
+    backdrop-filter: blur(4px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.25s ease, transform 0.25s ease;
+}
+.video-card:hover .play-btn {
+    background: rgba(255,34,34,0.85);
+    transform: translate(-50%, -50%) scale(1.1);
+}
+.video-card-bottom {
+    padding: 12px 16px 16px;
+}
+.video-card-bottom p {
+    color: rgba(255,255,255,0.75);
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+.play-tip {
+    color: #42d8ff;
+    font-size: 0.85rem;
+}
+.video-card:hover .play-tip {
+    text-decoration: underline;
+}
+/* 移动端导航适配 */
+@media (max-width: 768px) {
+    .nav-menu {
+        position: static !important;
+        left: 0 !important;
+        width: 100% !important;
+        flex-direction: row !important;
+        flex-wrap: wrap !important;
+        padding: 8px 0 !important;
+        box-shadow: none !important;
+        background: transparent !important;
+    }
+    .nav-container {
+        flex-wrap: wrap;
+    }
+    .hamburger {
+        display: none !important;
+    }
+    .qbxb-detail h1 {
+        font-size: 1.6rem;
+    }
+}
+</style> </head>
+  <body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+      <div class="container nav-container">
+        <div class="logo">
+          <div class="logo-icon">
+            <svg viewBox="0 0 40 40" width="36" height="36">
+              <polygon points="20,2 36,11 36,29 20,38 4,29 4,11" fill="none" stroke="currentColor"
+                stroke-width="2"></polygon>
+              <circle cx="20" cy="20" r="6" fill="currentColor"></circle> </svg>
+          </div>
+          <div class="logo-text"> <span class="logo-title">科径辉智能</span> <span
+              class="logo-sub">KEJINGHUI INTELLIGENT</span> </div>
+        </div>
+        <ul class="nav-menu">
+          <li><a class="nav-link" href="../../index.html">首页</a></li>
+          <li><a href="../../products.html" class="nav-link">产品中心</a></li>
+          <li><a href="../../downloads.html" class="nav-link active">资料下载</a></li>
+          <li><a href="../../tutorials.html" class="nav-link">视频教程</a></li>
+          <li><a href="../../products.html" class="nav-link">使用说明</a></li>
+          <li><a href="../../about.html" class="nav-link">关于我们</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="qbxb-detail">
+      <div class="container">
+        <h1>arduino模拟呼吸制作教程</h1>
+        <div class="section-title">前&nbsp;&nbsp;言</div>
+        <div class="preface">
+          <p>亲爱同学们，当你打开这个教程视频资料时，请您花几十分钟耐心认真完整看完教程基本都能解决所有问题，与其去问等待不专业客服回复不如自己认认
+            真真看完并学会。教程只适合0基础的朋友，如果您是编程高手可以忽略，按照你更好的方法去设置。</p>
+        </div>
+        <div class="warn-box">
+          <h3>下面信息一定要看</h3>
+          <div class="warn-text">
+            请注意。如果控制板外接电源不得超过7.4v。否则电子开关会烧毁。控制板连接电脑usb时不要外接电源，以免电流回流电脑导致电脑黑屏。严重甚至烧毁电脑主板。人为操作
+            失误导致元器件损坏不在保修范围。不承担任何产品带来额外风险和损失。 </div>
+        </div>
+        <div class="link-more"> <a href="../../huxi/huxi.html">一板多球设置及代码：点击进入</a>
+        </div>
+        <div class="section-title">资料下载</div>
+        <div class="download-wrap">
+          <div class="download-card">
+            <h4>Arduino 演示代码下载</h4>
+            <a href="arduino.zip">Arduino 演示代码下载</a> <a target="_blank" href="https://www.arduino.cc/en/software">IDE
+              软件官网下载</a> </div>
+          <div class="download-card">
+            <h4>Mind+演示代码下载</h4>
+            <a href="mind.zip">Mind+演示代码下载</a> <a target="_blank" href="https://mindplus.cc/download.html">Mind+
+              软件官网下载&nbsp;</a> </div>
+          <div class="download-card">
+            <h4>ch340驱动下载</h4>
+            <a href="../../16/CH340.zip">ch340驱动下载</a> </div>
+        </div>
+        <div class="video-block">
+          <h4 style="color:#ff4444;font-size:1.2rem;margin-bottom:10px;">1‑2号套餐
+            （带电子开关和无电子开关）请看此教程说明<br>
+            <span class="hint-yellow">（带控制板以上套餐可以直接跳过看下面2个教程即可）</span> </h4>
+          <!-- 视频1卡片：自定义封面图，点击跳转抖音 --> <a class="video-card" target="_blank" href="https://www.douyin.com/video/7372424914348805426">
+            <div class="video-card-top"> <span class="video-num">01</span>
+              <h3>1‑2号套餐（带电子开关和无电子开关）教程</h3>
+            </div>
+            <div class="video-cover"> <img src="v1.png" alt="1‑2号套餐教程封面">
+              <div class="play-btn">
+                <svg viewBox="0 0 24 24" width="48" height="48">
+                  <polygon points="8,5 20,12 8,19" fill="#fff"></polygon> </svg>
+              </div>
+            </div>
+            <div class="video-card-bottom">
+              <p>点击视频卡片即可在抖音高清播放，完整讲解1‑2号套餐的接线与使用</p>
+              <span class="play-tip">点击在抖音中高清播放 →</span> </div>
+          </a>
+          <div class="video-backup"> <span class="hint-yellow">无法观看请点此处去原地址观看：</span>
+            <a target="_blank" href="https://www.douyin.com/video/7372424914348805426">点
+              击看高清原始视频</a> </div>
+        </div>
+        <div class="video-block">
+          <h4 style="color:#ff4444;font-size:1.2rem;margin-bottom:10px;">3‑4号套餐接
+            线气管链接教程</h4>
+          <!-- 视频2卡片：自定义封面图，点击跳转抖音 --> <a class="video-card" target="_blank" href="https://www.douyin.com/video/7678960369645194536">
+            <div class="video-card-top"> <span class="video-num">02</span>
+              <h3>3‑4号套餐接线气管链接教程</h3>
+            </div>
+            <div class="video-cover"> <img src="v2.png" alt="3‑4号套餐接线气管教程封面">
+              <div class="play-btn">
+                <svg viewBox="0 0 24 24" width="48" height="48">
+                  <polygon points="8,5 20,12 8,19" fill="#fff"></polygon> </svg>
+              </div>
+            </div>
+            <div class="video-card-bottom">
+              <p>点击视频卡片即可在抖音高清播放，完整讲解3‑4号套餐接线与气管连接</p>
+              <span class="play-tip">点击在抖音中高清播放 →</span> </div>
+          </a>
+          <div class="video-backup"> <span class="hint-yellow">无法观看请点此处去原地址观看：</span>
+            <a target="_blank" href="https://www.douyin.com/video/7678960369645194536">点
+              击看高清原始视频</a> </div>
+        </div>
+        <div class="video-block">
+          <h4 style="color:#ff4444;font-size:1.2rem;margin-bottom:10px;">Arduino
+            软件安装及代码下载教程</h4>
+          <!-- 视频3卡片：自定义封面图，点击跳转抖音 --> <a class="video-card" target="_blank" href="https://www.douyin.com/video/7678729972294503716">
+            <div class="video-card-top"> <span class="video-num">03</span>
+              <h3>Arduino软件安装及代码下载教程</h3>
+            </div>
+            <div class="video-cover"> <img src="v3.png" alt="Arduino软件安装教程封面">
+              <div class="play-btn">
+                <svg viewBox="0 0 24 24" width="48" height="48">
+                  <polygon points="8,5 20,12 8,19" fill="#fff"></polygon> </svg>
+              </div>
+            </div>
+            <div class="video-card-bottom">
+              <p>点击视频卡片即可在抖音高清播放，从软件安装到代码烧录完整教程</p>
+              <span class="play-tip">点击在抖音中高清播放 →&nbsp;</span> </div>
+          </a>
+          <div class="video-backup"> <span class="hint-yellow">无法正常观看视频点此链接进入:</span>
+            <a target="_blank" href="https://www.douyin.com/video/7678729972294503716">点
+              击看高清原始视频</a> </div>
+        </div>
+        <div class="img-block">
+          <h4 style="color:#ff4444;font-size:1.4rem;margin-bottom:12px;background:#000080;color:#ffdd33;padding:4px 8px;text-align:center;">Arduino
+            无扩展板外接电源方法</h4>
+          <img src="tu/ljt.jpg" alt="接线图">
+          <div class="video-backup" style="margin-top:12px;"> <span class="hint-yellow">无
+              法正常观看视频点此链接进入:</span> <a target="_blank" href="https://www.ixigua.com/7169569427036471842">https://www.ixigua.com/7169569427036471842</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 页脚 -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <div class="footer-logo"> <span class="footer-title">科径辉智能</span> <span
+                class="footer-sub">KEJINGHUI INTELLIGENT</span> </div>
+            <p class="footer-desc">智能机械臂 · 开源硬件 · 创客教育</p>
+          </div>
+          <div class="footer-links">
+            <h4>快速链接</h4>
+            <ul>
+              <li><a href="../../products.html">产品中心</a></li>
+              <li><a href="../../downloads.html">资料下载</a></li>
+              <li><a href="../../tutorials.html">视频教程</a></li>
+              <li><a href="../../products.html">使用说明</a></li>
+            </ul>
+          </div>
+          <div class="footer-contact">
+            <h4>联系我们</h4>
+            <ul>
+              <li>官网：www.wnhv.com</li>
+              <li>抖音：科径辉智能</li>
+              <li>地址：广州</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2020 广州科径辉智能科技有限公司 版权所有 | 专利号：ZL202530446127.5</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

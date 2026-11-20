@@ -1,0 +1,57 @@
+{
+  "time": "2026-11-15T18:48:24.282597+08:00",
+  "proof_stage": "live bootloader read of actual UNO flash, compared against retained compiled images; no rewrite",
+  "board_serial": "24238313635351910130",
+  "port": "/dev/cu.usbmodem1101",
+  "operator_power_state": "Adapter disconnected, USB connected; operator explicitly confirmed",
+  "command": [
+    "/Users/ivanyalov/Library/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/avrdude",
+    "-C/Users/ivanyalov/Library/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/etc/avrdude.conf",
+    "-p",
+    "atmega328p",
+    "-c",
+    "arduino",
+    "-P",
+    "/dev/cu.usbmodem1101",
+    "-b",
+    "115200",
+    "-n",
+    "-U",
+    "flash:r:/Users/ivanyalov/Desktop/bed-prototype/.arduino/evidence/hardware/2026-11-15_SixPumps-flash-readback_184819.hex:i"
+  ],
+  "returncode": 0,
+  "flash_bytes_read": 32768,
+  "snapshot": ".arduino/evidence/hardware/2026-11-15_SixPumps-flash-readback_184819.hex",
+  "snapshot_sha256": "7b1f4a0565254237ffb108570a278dfc5e9c1561cba0ec0cca31b29f73fb0ed0",
+  "log": ".arduino/evidence/hardware/2026-11-15_SixPumps-flash-readback_184819.log",
+  "comparisons": {
+    "SixPumps": {
+      "bytes_compared": 2126,
+      "mismatches": 0,
+      "first_mismatches": [],
+      "match": true,
+      "expected_sha256": "45d286a4137845d297a3929b7643f0bef5814b814b0a54ffb3282e48cb4b87e0"
+    },
+    "seller_baseline": {
+      "bytes_compared": 2696,
+      "mismatches": 1413,
+      "first_mismatches": [
+        46,
+        47,
+        66,
+        67,
+        184,
+        185,
+        205,
+        206,
+        214,
+        222,
+        230,
+        231
+      ],
+      "match": false,
+      "expected_sha256": "b8cfb5ad2bd2014fb4f72cf878c674c9bb4d7bd025cbf40ae69adef0d65e7c6c"
+    }
+  },
+  "pump_response": "Not inferred from flash; no telemetry protocol present."
+}

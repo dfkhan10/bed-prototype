@@ -1,0 +1,37 @@
+{
+  "installed": false,
+  "apps": [
+    {
+      "app": "CH34xVCPDriver.app",
+      "bundle_id": "cn.wch.CH34xVCPDriver",
+      "version": "2.1",
+      "build": "7",
+      "minimum_os": "11.0",
+      "assessments": {
+        "architectures": {
+          "exit_code": 0,
+          "output": "/Volumes/CH34xVCPDriver/CH34xVCPDriver.app/Contents/MacOS/CH34xVCPDriver: Mach-O universal binary with 2 architectures: [x86_64:Mach-O 64-bit executable x86_64] [arm64:Mach-O 64-bit executable arm64]\n/Volumes/CH34xVCPDriver/CH34xVCPDriver.app/Contents/MacOS/CH34xVCPDriver (for architecture x86_64):\tMach-O 64-bit executable x86_64\n/Volumes/CH34xVCPDriver/CH34xVCPDriver.app/Contents/MacOS/CH34xVCPDriver (for architecture arm64):\tMach-O 64-bit executable arm64"
+        },
+        "signature_verify": {
+          "exit_code": 0,
+          "output": "/Volumes/CH34xVCPDriver/CH34xVCPDriver.app: valid on disk\n/Volumes/CH34xVCPDriver/CH34xVCPDriver.app: satisfies its Designated Requirement"
+        },
+        "signing_identity": {
+          "exit_code": 0,
+          "output": "Executable=/Volumes/CH34xVCPDriver/CH34xVCPDriver.app/Contents/MacOS/CH34xVCPDriver\nIdentifier=cn.wch.CH34xVCPDriver\nFormat=app bundle with Mach-O universal (x86_64 arm64)\nCodeDirectory v=20500 size=513 flags=0x10000(runtime) hashes=5+7 location=embedded\nVersionPlatform=1\nVersionMin=720896\nVersionSDK=1705216\nHash type=sha256 size=32\nCandidateCDHash sha256=d9048a0ccfaad611634cd577bb44d8f13cb10435\nCandidateCDHashFull sha256=d9048a0ccfaad611634cd577bb44d8f13cb10435eccff2ee3d33000a3f2218ea\nHash choices=sha256\nCMSDigest=d9048a0ccfaad611634cd577bb44d8f13cb10435eccff2ee3d33000a3f2218ea\nCMSDigestType=2\nExecutable Segment base=0\nExecutable Segment limit=32768\nExecutable Segment flags=0x1\nPage size=16384\nCDHash=d9048a0ccfaad611634cd577bb44d8f13cb10435\nSignature size=9125\nAuthority=Developer ID Application: Nanjing Qinheng Microelectronics Co., Ltd. (5JZGQTGU4W)\nAuthority=Developer ID Certification Authority\nAuthority=Apple Root CA\nTimestamp=Aug 24, 2026 at 2:00:43\u202fPM\nNotarization Ticket=stapled\nInfo.plist entries=26\nTeamIdentifier=5JZGQTGU4W\nRuntime Version=26.5.0\nSealed Resources version=2 rules=13 files=11\nInternal requirements count=1 size=216"
+        },
+        "gatekeeper": {
+          "exit_code": 0,
+          "output": "/Volumes/CH34xVCPDriver/CH34xVCPDriver.app: accepted\nsource=Notarized Developer ID"
+        }
+      },
+      "system_extensions": [
+        {
+          "bundle_id": "cn.wch.CH34xVCPDriver",
+          "version": "1.0",
+          "minimum_os": null
+        }
+      ]
+    }
+  ]
+}

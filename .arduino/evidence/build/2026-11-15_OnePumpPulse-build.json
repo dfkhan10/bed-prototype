@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-15",
+  "source": "build/2026-11-15_pump/OnePumpPulse/OnePumpPulse.ino",
+  "source_sha256": "d988baf7f9909ea800b2bd94acba387a43a8e406f98dc2ff5e770089a828a910",
+  "hex_sha256": "dec0c4a62aa76ec21dcb7b529074d6ff6896acfaef013f447e5f267d6f6b0f9d",
+  "fqbn": "arduino:avr:uno",
+  "core": "1.8.8",
+  "library": "Servo 1.3.0",
+  "stage": "compiled only; not uploaded or run",
+  "protocol_hypothesis": "servo style, proposed OFF 544 us, proposed ON 2400 us",
+  "behavior": "each boot/reset: proposed OFF 3 s, proposed ON 300 ms, proposed OFF continuously; physical stop unverified",
+  "planned_power": "external 5V only; USB disconnected during actuation"
+}

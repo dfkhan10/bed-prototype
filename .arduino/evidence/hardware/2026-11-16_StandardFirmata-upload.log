@@ -1,0 +1,28 @@
+"/Users/ivanyalov/Library/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/avrdude" "-C/Users/ivanyalov/Library/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/etc/avrdude.conf" -v  -patmega328p -carduino "-P/dev/cu.usbmodem1101" -b115200 -D "-Uflash:w:/Users/ivanyalov/Desktop/bed-prototype/.cache/2026-11-16_firmata/StandardFirmata.ino.hex:i"
+Avrdude version 8.0-arduino.1
+Copyright see https://github.com/avrdudes/avrdude/blob/main/AUTHORS
+
+System wide configuration file is /Users/ivanyalov/Library/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/etc/avrdude.conf
+User configuration file /Users/ivanyalov/.avrduderc does not exist
+
+Using port            : /dev/cu.usbmodem1101
+Using programmer      : arduino
+Setting baud rate     : 115200
+AVR part              : ATmega328P
+Programming modes     : SPM, ISP, HVPP, debugWIRE
+Programmer type       : Arduino
+Description           : Arduino bootloader using STK500 v1 protocol
+HW Version            : 3
+FW Version            : 4.4
+
+AVR device initialized and ready to accept instructions
+Device signature = 1E 95 0F (ATmega328P, ATA6614Q, LGT8F328P)
+Reading 13184 bytes for flash from input file StandardFirmata.ino.hex
+in 1 section [0, 0x337f]: 103 pages and 0 pad bytes
+Writing 13184 bytes to flash
+Writing | ################################################## | 100% 1.77s
+Reading | ################################################## | 100% 1.27s
+13184 bytes of flash verified
+
+Avrdude done.  Thank you.
+New upload port: /dev/cu.usbmodem1101 (serial)

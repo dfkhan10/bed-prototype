@@ -1,0 +1,391 @@
+{
+  "proof_stage": "OFFLINE AVR INSTRUCTION SIMULATION. Uses exact saved HEX from upload verification; no current flash readback, physical voltage, oscillator, wiring, driver or pump observation.",
+  "hex_sha256": "28c7de2c4967304bafe1dbbb953d9c14c995d0d07906ad0a2226cfbd6dce19ef",
+  "clock_hz": 16000000,
+  "simulated_seconds": 50,
+  "wall_ms": 27771,
+  "channels": {
+    "2": {
+      "lastState": "off",
+      "transitions": [
+        {
+          "state": "on",
+          "seconds": 0.052862375
+        },
+        {
+          "state": "off",
+          "seconds": 8.0141049375
+        },
+        {
+          "state": "on",
+          "seconds": 16.0153366875
+        },
+        {
+          "state": "off",
+          "seconds": 24.0165885
+        },
+        {
+          "state": "on",
+          "seconds": 32.017834375
+        },
+        {
+          "state": "off",
+          "seconds": 40.0190766875
+        }
+      ],
+      "on": {
+        "count": 1198,
+        "minUs": 2399.4375,
+        "maxUs": 2405.4375
+      },
+      "off": {
+        "count": 1299,
+        "minUs": 543.4375,
+        "maxUs": 550
+      },
+      "invalidAfterStartup": 0,
+      "pass": true
+    },
+    "3": {
+      "lastState": "off",
+      "transitions": [
+        {
+          "state": "on",
+          "seconds": 0.0328686875
+        },
+        {
+          "state": "off",
+          "seconds": 8.0146580625
+        },
+        {
+          "state": "on",
+          "seconds": 16.0177456875
+        },
+        {
+          "state": "off",
+          "seconds": 24.017141625
+        },
+        {
+          "state": "on",
+          "seconds": 32.0202435625
+        },
+        {
+          "state": "off",
+          "seconds": 40.0196295625
+        }
+      ],
+      "on": {
+        "count": 1199,
+        "minUs": 2399.4375,
+        "maxUs": 2404.5625
+      },
+      "off": {
+        "count": 1299,
+        "minUs": 543.4375,
+        "maxUs": 549.5625
+      },
+      "invalidAfterStartup": 0,
+      "pass": true
+    },
+    "4": {
+      "lastState": "off",
+      "transitions": [
+        {
+          "state": "off",
+          "seconds": 0.0352770625
+        },
+        {
+          "state": "on",
+          "seconds": 8.0152100625
+        },
+        {
+          "state": "off",
+          "seconds": 16.0201535625
+        },
+        {
+          "state": "on",
+          "seconds": 24.0176935625
+        },
+        {
+          "state": "off",
+          "seconds": 32.0226515625
+        },
+        {
+          "state": "on",
+          "seconds": 40.0038909375
+        },
+        {
+          "state": "off",
+          "seconds": 48.0214370625
+        }
+      ],
+      "on": {
+        "count": 1201,
+        "minUs": 2399.4375,
+        "maxUs": 2405.8125
+      },
+      "off": {
+        "count": 1297,
+        "minUs": 543.4375,
+        "maxUs": 549.5
+      },
+      "invalidAfterStartup": 0,
+      "pass": true
+    },
+    "5": {
+      "lastState": "off",
+      "transitions": [
+        {
+          "state": "on",
+          "seconds": 0.035829875
+        },
+        {
+          "state": "off",
+          "seconds": 8.0176191875
+        },
+        {
+          "state": "on",
+          "seconds": 16.0207065625
+        },
+        {
+          "state": "off",
+          "seconds": 24.0201024375
+        },
+        {
+          "state": "on",
+          "seconds": 32.0232050625
+        },
+        {
+          "state": "off",
+          "seconds": 40.0062999375
+        }
+      ],
+      "on": {
+        "count": 1198,
+        "minUs": 2399.4375,
+        "maxUs": 2405.5
+      },
+      "off": {
+        "count": 1300,
+        "minUs": 543.4375,
+        "maxUs": 549.1875
+      },
+      "invalidAfterStartup": 0,
+      "pass": true
+    },
+    "6": {
+      "lastState": "off",
+      "transitions": [
+        {
+          "state": "on",
+          "seconds": 0.0382385
+        },
+        {
+          "state": "off",
+          "seconds": 8.00188
+        },
+        {
+          "state": "on",
+          "seconds": 16.023115
+        },
+        {
+          "state": "off",
+          "seconds": 24.004363
+        },
+        {
+          "state": "on",
+          "seconds": 32.0256139375
+        },
+        {
+          "state": "off",
+          "seconds": 40.0068525
+        }
+      ],
+      "on": {
+        "count": 1196,
+        "minUs": 2399.4375,
+        "maxUs": 2404.625
+      },
+      "off": {
+        "count": 1302,
+        "minUs": 543.4375,
+        "maxUs": 547.75
+      },
+      "invalidAfterStartup": 0,
+      "pass": true
+    },
+    "7": {
+      "lastState": "off",
+      "transitions": [
+        {
+          "state": "off",
+          "seconds": 0.040647125
+        },
+        {
+          "state": "on",
+          "seconds": 8.002432125
+        },
+        {
+          "state": "off",
+          "seconds": 16.02552325
+        },
+        {
+          "state": "on",
+          "seconds": 24.004915125
+        },
+        {
+          "state": "off",
+          "seconds": 32.0280221875
+        },
+        {
+          "state": "on",
+          "seconds": 40.007404875
+        },
+        {
+          "state": "off",
+          "seconds": 48.004948125
+        }
+      ],
+      "on": {
+        "count": 1202,
+        "minUs": 2399.4375,
+        "maxUs": 2405.25
+      },
+      "off": {
+        "count": 1296,
+        "minUs": 543.4375,
+        "maxUs": 549.5
+      },
+      "invalidAfterStartup": 0,
+      "pass": true
+    },
+    "9": {
+      "lastState": "off",
+      "transitions": [
+        {
+          "state": "on",
+          "seconds": 0.0411995625
+        },
+        {
+          "state": "off",
+          "seconds": 8.0048405625
+        },
+        {
+          "state": "on",
+          "seconds": 16.002360875
+        },
+        {
+          "state": "off",
+          "seconds": 24.007323625
+        },
+        {
+          "state": "on",
+          "seconds": 32.0048590625
+        },
+        {
+          "state": "off",
+          "seconds": 40.00981375
+        }
+      ],
+      "on": {
+        "count": 1198,
+        "minUs": 2399.4375,
+        "maxUs": 2403.25
+      },
+      "off": {
+        "count": 1300,
+        "minUs": 543.4375,
+        "maxUs": 545.6875
+      },
+      "invalidAfterStartup": 0,
+      "pass": true
+    },
+    "10": {
+      "lastState": "off",
+      "transitions": [
+        {
+          "state": "on",
+          "seconds": 0.0436086875
+        },
+        {
+          "state": "off",
+          "seconds": 8.0053936875
+        },
+        {
+          "state": "on",
+          "seconds": 16.0047701875
+        },
+        {
+          "state": "off",
+          "seconds": 24.0078766875
+        },
+        {
+          "state": "on",
+          "seconds": 32.0072685625
+        },
+        {
+          "state": "off",
+          "seconds": 40.010366875
+        }
+      ],
+      "on": {
+        "count": 1198,
+        "minUs": 2399.4375,
+        "maxUs": 2405.5
+      },
+      "off": {
+        "count": 1300,
+        "minUs": 543.4375,
+        "maxUs": 549.625
+      },
+      "invalidAfterStartup": 0,
+      "pass": true
+    },
+    "11": {
+      "lastState": "off",
+      "transitions": [
+        {
+          "state": "off",
+          "seconds": 0.0460175625
+        },
+        {
+          "state": "on",
+          "seconds": 8.0059465
+        },
+        {
+          "state": "off",
+          "seconds": 16.0071789375
+        },
+        {
+          "state": "on",
+          "seconds": 24.0084294375
+        },
+        {
+          "state": "off",
+          "seconds": 32.0096781875
+        },
+        {
+          "state": "on",
+          "seconds": 40.0109201875
+        },
+        {
+          "state": "off",
+          "seconds": 48.0066064375
+        }
+      ],
+      "on": {
+        "count": 1200,
+        "minUs": 2399.4375,
+        "maxUs": 2405.4375
+      },
+      "off": {
+        "count": 1298,
+        "minUs": 543.4375,
+        "maxUs": 545
+      },
+      "invalidAfterStartup": 0,
+      "pass": true
+    }
+  },
+  "pass": true
+}

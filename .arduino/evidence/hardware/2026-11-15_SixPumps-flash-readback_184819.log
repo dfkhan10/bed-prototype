@@ -1,0 +1,5 @@
+Reading flash memory ...
+Reading | ################################################## | 100% 3.15s
+Writing 32768 bytes to output file 2026-11-15_SixPumps-flash-readback_184819.hex
+
+Avrdude done.  Thank you.

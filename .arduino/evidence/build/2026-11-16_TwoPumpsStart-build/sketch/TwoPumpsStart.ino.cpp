@@ -1,0 +1,133 @@
+#include <Arduino.h>
+#line 1 "/Users/ivanyalov/Desktop/bed-prototype/build/2026-11-16_two_pumps_start/TwoPumpsStart/TwoPumpsStart.ino"
+#include <Servo.h>
+// Restart from vendor basic tutorial (wnhv.com/zl/huxi/ -> arduino.zip / qiqiu.ino).
+// Two pumps only, no 3-way valve:
+//   D8  = inflate / intake  (充气泵)
+//   D10 = deflate / exhaust (抽气泵)
+// ON=180, OFF=0, same as seller.
+// No auto-run on power/reset. Serial 9600:
+//   GO  -> 3s inflate, OFF, 3s deflate, hard OFF
+//   IN  -> 3s inflate only
+//   OUT -> 3s deflate only
+//   OFF -> hard OFF now
+
+Servo servo_8;
+Servo servo_10;
+bool attached = false;
+
+static const unsigned PHASE_MS = 3000;
+
+#line 19 "/Users/ivanyalov/Desktop/bed-prototype/build/2026-11-16_two_pumps_start/TwoPumpsStart/TwoPumpsStart.ino"
+static void hardOff();
+#line 37 "/Users/ivanyalov/Desktop/bed-prototype/build/2026-11-16_two_pumps_start/TwoPumpsStart/TwoPumpsStart.ino"
+static void ensureAttached();
+#line 48 "/Users/ivanyalov/Desktop/bed-prototype/build/2026-11-16_two_pumps_start/TwoPumpsStart/TwoPumpsStart.ino"
+static void inflateOn();
+#line 54 "/Users/ivanyalov/Desktop/bed-prototype/build/2026-11-16_two_pumps_start/TwoPumpsStart/TwoPumpsStart.ino"
+static void deflateOn();
+#line 60 "/Users/ivanyalov/Desktop/bed-prototype/build/2026-11-16_two_pumps_start/TwoPumpsStart/TwoPumpsStart.ino"
+void setup();
+#line 67 "/Users/ivanyalov/Desktop/bed-prototype/build/2026-11-16_two_pumps_start/TwoPumpsStart/TwoPumpsStart.ino"
+void loop();
+#line 19 "/Users/ivanyalov/Desktop/bed-prototype/build/2026-11-16_two_pumps_start/TwoPumpsStart/TwoPumpsStart.ino"
+static void hardOff() {
+  if (attached) {
+    servo_8.write(0);
+    servo_10.write(0);
+    delay(50);
+    servo_8.write(0);
+    servo_10.write(0);
+    delay(50);
+    servo_8.detach();
+    servo_10.detach();
+    attached = false;
+  }
+  pinMode(8, OUTPUT);
+  pinMode(10, OUTPUT);
+  digitalWrite(8, LOW);
+  digitalWrite(10, LOW);
+}
+
+static void ensureAttached() {
+  if (!attached) {
+    servo_8.attach(8);
+    servo_10.attach(10);
+    attached = true;
+    servo_8.write(0);
+    servo_10.write(0);
+    delay(100);
+  }
+}
+
+static void inflateOn() {
+  ensureAttached();
+  servo_8.write(180);
+  servo_10.write(0);
+}
+
+static void deflateOn() {
+  ensureAttached();
+  servo_8.write(0);
+  servo_10.write(180);
+}
+
+void setup() {
+  Serial.begin(9600);
+  hardOff();
+  Serial.println(F("TwoPumpsStart — vendor basic pins"));
+  Serial.println(F("D8=inflate D10=deflate. GO / IN / OUT / OFF"));
+}
+
+void loop() {
+  if (!Serial.available()) return;
+
+  String line = Serial.readStringUntil('\n');
+  line.trim();
+  line.toUpperCase();
+  if (line.length() == 0) return;
+
+  if (line == "OFF" || line == "0") {
+    hardOff();
+    Serial.println(F("ALL OFF"));
+    return;
+  }
+
+  if (line == "IN") {
+    Serial.println(F("INFLATE 3s"));
+    hardOff();
+    inflateOn();
+    delay(PHASE_MS);
+    hardOff();
+    Serial.println(F("OFF"));
+    return;
+  }
+
+  if (line == "OUT") {
+    Serial.println(F("DEFLATE 3s"));
+    hardOff();
+    deflateOn();
+    delay(PHASE_MS);
+    hardOff();
+    Serial.println(F("OFF"));
+    return;
+  }
+
+  if (line == "GO" || line == "START") {
+    Serial.println(F("GO inflate 3s"));
+    hardOff();
+    inflateOn();
+    delay(PHASE_MS);
+    hardOff();
+    delay(200);
+    Serial.println(F("GO deflate 3s"));
+    deflateOn();
+    delay(PHASE_MS);
+    hardOff();
+    Serial.println(F("GO done OFF"));
+    return;
+  }
+
+  Serial.println(F("Unknown. Use GO IN OUT OFF"));
+}
+

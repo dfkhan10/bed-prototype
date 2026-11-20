@@ -1,0 +1,26 @@
+{
+  "time": "2026-11-15T17:37:36.630506+08:00",
+  "proof_scope": "read-only flash comparison; not driver feedback",
+  "command": [
+    "/Users/ivanyalov/Library/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/avrdude",
+    "-C",
+    "/Users/ivanyalov/Library/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/etc/avrdude.conf",
+    "-p",
+    "atmega328p",
+    "-c",
+    "arduino",
+    "-P",
+    "/dev/cu.usbmodem1201",
+    "-b",
+    "115200",
+    "-D",
+    "-n",
+    "-U",
+    "flash:v:/Users/ivanyalov/Desktop/bed-prototype/.arduino/evidence/build/2026-11-15_StandardFirmata-uploaded.hex:i"
+  ],
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "Verifying 13184 bytes of flash against input file 2026-11-15_StandardFirmata-uploaded.hex\nReading | ################################################## | 100% 1.27s\n13184 bytes of flash verified\n\nAvrdude done.  Thank you.\n",
+  "expected_hex_sha256": "78085a703776b87603bb9f4cb26945c50a9441c4e781f50efcb0ed1d834aabcc",
+  "writes_requested": false
+}

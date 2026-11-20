@@ -1,0 +1,11 @@
+native POSIX port=/dev/cu.wchusbserial10 baud=57600 actual_ispeed=57600 actual_ospeed=57600 cflag=cb00 iflag=1 memory_writes=false
+  330.508 ms TX 30 20
+TIMEOUT received=0 expected=2
+  712.990 ms TX 30 20
+  714.717 ms RX 14 10
+  714.737 ms TX 75 20
+TIMEOUT received=0 expected=5
+No valid signature after synchronization
+PORT_CLOSED
+
+EXIT 2

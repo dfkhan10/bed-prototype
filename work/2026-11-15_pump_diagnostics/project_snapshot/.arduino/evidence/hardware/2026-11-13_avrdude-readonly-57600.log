@@ -1,0 +1,26 @@
+Avrdude version 8.0-arduino.1
+Copyright see https://github.com/avrdudes/avrdude/blob/main/AUTHORS
+
+System wide configuration file is /Users/ivanyalov/Library/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/etc/avrdude.conf
+
+Using port            : /dev/cu.usbserial-10
+Using programmer      : arduino
+Setting baud rate     : 57600
+AVR part              : ATmega328P
+Programming modes     : SPM, ISP, HVPP, debugWIRE
+Programmer type       : Arduino
+Description           : Arduino bootloader using STK500 v1 protocol
+Error: programmer is not responding
+Error: programmer is not responding
+Error: programmer is not responding
+HW Version            : 2
+FW Version            : 0.0
+Topcard               : Unknown
+Error: programmer is not responding
+Error: cannot obtain SW version
+Error: initialization failed  (rc = -1)
+ - double check the connections and try again
+ - use -B to set lower the bit clock frequency, e.g. -B 125kHz
+ - use -F to override this check
+
+HOST_TIMEOUT_22_SECONDS

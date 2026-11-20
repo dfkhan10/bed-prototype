@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-11-16T17:31:54.746188+08:00",
+  "sketch": "/Users/ivanyalov/Desktop/bed-prototype/build/2026-11-16_pair24_serial/Pair24Serial/Pair24Serial.ino",
+  "port": "/dev/cu.usbmodem1101",
+  "exit_code": 0,
+  "verify": true,
+  "src_sha256": "5e072f230dc76ef31a2500c05d4275ff024142c17370e946684d0b4e37a5c5ff",
+  "hex_sha256": "10de049bfd3e9b71b0d1a22d9e11896bdb3d7020c6aaa9ec10c624c527f1a20c"
+}

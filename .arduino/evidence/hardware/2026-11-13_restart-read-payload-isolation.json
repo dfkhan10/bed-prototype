@@ -1,0 +1,83 @@
+{
+  "port": "/dev/cu.wchusbserial10",
+  "baud": 57600,
+  "memory_writes": false,
+  "mode": "isolate_flash_read_payload",
+  "cases": [
+    {
+      "name": "zero_flash",
+      "frames": [
+        {
+          "query": "hardware_control",
+          "tx_hex": "418020",
+          "rx_hex": "140210"
+        },
+        {
+          "query": "set_read_address",
+          "tx_hex": "55000020",
+          "rx_hex": "1410"
+        },
+        {
+          "query": "read_memory",
+          "tx_hex": "7400004620",
+          "rx_hex": "1410"
+        },
+        {
+          "query": "hardware_after",
+          "tx_hex": "418020",
+          "rx_hex": "140210"
+        }
+      ]
+    },
+    {
+      "name": "boot_flash_16",
+      "frames": [
+        {
+          "query": "hardware_control",
+          "tx_hex": "418020",
+          "rx_hex": "140210"
+        },
+        {
+          "query": "set_read_address",
+          "tx_hex": "55003f20",
+          "rx_hex": "1410"
+        },
+        {
+          "query": "read_memory",
+          "tx_hex": "7400104620",
+          "rx_hex": "14"
+        },
+        {
+          "query": "hardware_after",
+          "tx_hex": "418020",
+          "rx_hex": "140210"
+        }
+      ]
+    },
+    {
+      "name": "eeprom_one",
+      "frames": [
+        {
+          "query": "hardware_control",
+          "tx_hex": "418020",
+          "rx_hex": "140210"
+        },
+        {
+          "query": "set_read_address",
+          "tx_hex": "55000020",
+          "rx_hex": "1410"
+        },
+        {
+          "query": "read_memory",
+          "tx_hex": "7400014520",
+          "rx_hex": ""
+        },
+        {
+          "query": "hardware_after",
+          "tx_hex": "418020",
+          "rx_hex": ""
+        }
+      ]
+    }
+  ]
+}

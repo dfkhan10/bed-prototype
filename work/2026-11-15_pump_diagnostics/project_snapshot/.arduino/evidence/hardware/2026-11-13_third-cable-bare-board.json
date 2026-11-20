@@ -1,0 +1,21 @@
+{
+  "port": "/dev/cu.wchusbserial10",
+  "baud": 57600,
+  "operator_setup": "new cable; lower board only, user confirmed",
+  "memory_writes": false,
+  "initial_probe": {
+    "115200": "no reply",
+    "57600": {
+      "sync": "1410",
+      "parameter_0x80": "140210",
+      "signature": "no reply"
+    }
+  },
+  "direct_signature_probe": [
+    {
+      "attempt": 3,
+      "sync_hex": "1410",
+      "signature_frame_hex": ""
+    }
+  ]
+}

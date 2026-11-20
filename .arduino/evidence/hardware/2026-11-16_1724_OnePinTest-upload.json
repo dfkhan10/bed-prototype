@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-11-16T17:23:52.034460+08:00",
+  "sketch": "/Users/ivanyalov/Desktop/bed-prototype/build/2026-11-16_one_pin/OnePinTest/OnePinTest.ino",
+  "port": "/dev/cu.usbmodem1101",
+  "serial": "24238313635351910130",
+  "exit_code": 0,
+  "verify": true,
+  "uploaded": true,
+  "src_sha256": "ed0bc8cf0141db77a6e9d2ca79dd224826211659e34828ae52a86b5270205966",
+  "hex_sha256": "8be95e9f91b68ba4390b5cb3c82f788ea8677799b63abfa7df43226d7bafc5ea"
+}

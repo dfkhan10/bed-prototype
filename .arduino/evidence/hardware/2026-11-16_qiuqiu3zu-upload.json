@@ -1,0 +1,29 @@
+{
+  "ts": "2026-11-16T11:06:48.760232+00:00",
+  "sketch": "/Users/ivanyalov/Desktop/bed-prototype/build/2026-11-16_vendor_3zu/qiuqiu3zu/qiuqiu3zu.ino",
+  "source": "vendor qiuqiu4zu first 3 groups only; group 4 omitted",
+  "sha256_ino": "f4f8f7a605f4d8e052a4cf0e861d1058e1f53f784a06d9e49bdd659835275198",
+  "sha256_hex": "e91eadf2b777c986d9c40afe70650ffc281d6e36d99e2dd5d8e9bba5d4d9f202",
+  "fqbn": "arduino:avr:uno",
+  "port": "/dev/cu.usbmodem1101",
+  "groups": {
+    "1": {
+      "inflate": 2,
+      "valve": 3,
+      "deflate": 4
+    },
+    "2": {
+      "inflate": 5,
+      "valve": 6,
+      "deflate": 7
+    },
+    "3": {
+      "inflate": 8,
+      "valve": 9,
+      "deflate": 10
+    }
+  },
+  "auto_run": true,
+  "board_to_board_gnd": "leave out per operator",
+  "note": "Upload --verify. Cycle starts on upload/reset if loads connected."
+}
